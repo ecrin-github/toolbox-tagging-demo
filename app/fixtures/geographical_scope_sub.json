@@ -1,0 +1,10 @@
+[
+    {
+        "model": "app.CountryGrouping",
+        "pk": 1,
+        "fields": {
+            "name": "Not applicable",
+            "geographical_scope_id": 1
+        }
+    }
+]

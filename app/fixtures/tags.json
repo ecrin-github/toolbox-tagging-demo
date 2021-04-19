@@ -1,0 +1,34 @@
+[
+  {
+      "model": "app.Tag",
+      "pk": 1,
+      "fields": {
+         "name": "Tag 1",
+         "description": "Tag 1 description"
+      }
+  },
+  {
+      "model": "app.Tag",
+      "pk": 2,
+      "fields": {
+         "name": "Tag 2",
+         "description": "Tag 2 description"
+      }
+  },
+  {
+      "model": "app.Tag",
+      "pk": 3,
+      "fields": {
+         "name": "Tag 3",
+         "description": "Tag 3 description"
+      }
+  },
+  {
+      "model": "app.Tag",
+      "pk": 4,
+      "fields": {
+         "name": "Tag 4",
+         "description": "Tag 4 description"
+      }
+  }
+]

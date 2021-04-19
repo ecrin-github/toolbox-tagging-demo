@@ -1,0 +1,82 @@
+[
+  {
+      "model": "app.ResearchField",
+      "pk": 1,
+      "fields": {
+         "name": "Clinical research",
+         "description": "Clinical research"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 2,
+      "fields": {
+         "name": "Biomedical research",
+         "description": "Biomedical research"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 3,
+      "fields": {
+         "name": "Cell biology, molecular biology, and biochemistry",
+         "description": "Cell biology, molecular biology, and biochemistry"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 4,
+      "fields": {
+         "name": "Plant and mycological sciences",
+         "description": "Plant and mycological sciences"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 5,
+      "fields": {
+         "name": "Zoology",
+         "description": "Zoology"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 6,
+      "fields": {
+         "name": "Marine/water biology",
+         "description": "Marine/water biology"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 7,
+      "fields": {
+         "name": "Microbiology",
+         "description": "Microbiology"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 8,
+      "fields": {
+         "name": "Ecology and environmental sciencies",
+         "description": "Ecology and environmental sciencies"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 9,
+      "fields": {
+         "name": "Life science - other topics",
+         "description": "Life science - other topics"
+      }
+  },
+  {
+      "model": "app.ResearchField",
+      "pk": 10,
+      "fields": {
+         "name": "Social sciences, legal or ethical research",
+         "description": "Social sciences, legal or ethical research"
+      }
+  }
+]

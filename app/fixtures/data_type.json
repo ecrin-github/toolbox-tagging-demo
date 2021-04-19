@@ -1,0 +1,23 @@
+[
+    {
+        "model": "app.DataType",
+        "pk": 1,
+        "fields": {
+            "name": "Any type of data"
+        }
+    },
+    {
+        "model": "app.DataType",
+        "pk": 2,
+        "fields": {
+            "name": "Specific data type"
+        }
+    },
+    {
+        "model": "app.DataType",
+        "pk": 3,
+        "fields": {
+            "name": "Data not derived from living humans"
+        }
+    }
+]

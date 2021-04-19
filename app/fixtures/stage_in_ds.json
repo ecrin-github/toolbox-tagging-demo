@@ -1,0 +1,50 @@
+[
+    {
+        "model": "app.StageInDS",
+        "pk": 1,
+        "fields": {
+            "name": "Not applicable",
+            "description": "Not applicable"
+        }
+    },
+    {
+        "model": "app.StageInDS",
+        "pk": 2,
+        "fields": {
+            "name": "Whole cycle",
+            "description": "Whole cycle"
+        }
+    },
+    {
+        "model": "app.StageInDS",
+        "pk": 3,
+        "fields": {
+            "name": "Preparation and planning for data sharing",
+            "description": "Preparation and planning for data sharing"
+        }
+    },
+    {
+        "model": "app.StageInDS",
+        "pk": 4,
+        "fields": {
+            "name": "Actions at the end of a study",
+            "description": "Actions at the end of a study"
+        }
+    },
+    {
+        "model": "app.StageInDS",
+        "pk": 5,
+        "fields": {
+            "name": "Managing data access and requests for data re-use",
+            "description": "Managing data access and requests for data re-use"
+        }
+    },
+    {
+        "model": "app.StageInDS",
+        "pk": 6,
+        "fields": {
+            "name": "Usage, scientific output and impact of DS",
+            "description": "Usage, scientific output and impact of DS"
+        }
+    }
+]
