@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'categories.apps.CategoriesConfig',
     'tagging.apps.TaggingConfig',
     'resources.apps.ResourcesConfig',
-    'users_management.apps.UsersManagementConfig'
+    'users_management.apps.UsersManagementConfig',
+    'waiting_area.apps.WaitingAreaConfig',
 ]
 
 MIDDLEWARE = [

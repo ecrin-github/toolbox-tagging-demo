@@ -59,7 +59,7 @@
         "model": "categories.DataTypeSub",
         "pk": 8,
         "fields": {
-            "name": "Biobank and sample data",
+            "name": "Data with images of humans",
             "data_type_id": 2
         }
     },
@@ -67,7 +67,7 @@
         "model": "categories.DataTypeSub",
         "pk": 9,
         "fields": {
-            "name": "Data with images of humans",
+            "name": "Qualitative research data",
             "data_type_id": 2
         }
     },
@@ -75,7 +75,7 @@
         "model": "categories.DataTypeSub",
         "pk": 10,
         "fields": {
-            "name": "Biobank and sample data",
+            "name": "Omic and related data (from living humans)",
             "data_type_id": 2
         }
     },
@@ -83,7 +83,7 @@
         "model": "categories.DataTypeSub",
         "pk": 11,
         "fields": {
-            "name": "Qualitative research data",
+            "name": "Other specific data type",
             "data_type_id": 2
         }
     },
@@ -91,29 +91,13 @@
         "model": "categories.DataTypeSub",
         "pk": 12,
         "fields": {
-            "name": "Omic and related data (from living humans)",
-            "data_type_id": 2
-        }
-    },
-    {
-        "model": "categories.DataTypeSub",
-        "pk": 13,
-        "fields": {
-            "name": "Other specific data type",
-            "data_type_id": 2
-        }
-    },
-    {
-        "model": "categories.DataTypeSub",
-        "pk": 14,
-        "fields": {
-            "name": "-omics and related data",
+            "name": "-Omics and related data",
             "data_type_id": 3
         }
     },
     {
         "model": "categories.DataTypeSub",
-        "pk": 15,
+        "pk": 13,
         "fields": {
             "name": "Other or any data type (non-human)",
             "data_type_id": 3

@@ -6,5 +6,77 @@
             "name": "Not applicable",
             "geographical_scope_id": 1
         }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 2,
+        "fields": {
+            "name": "Worldwide",
+            "geographical_scope_id": 2
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 3,
+        "fields": {
+            "name": "Europe",
+            "geographical_scope_id": 3
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 4,
+        "fields": {
+            "name": "Asia",
+            "geographical_scope_id": 3
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 5,
+        "fields": {
+            "name": "North America",
+            "geographical_scope_id": 3
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 6,
+        "fields": {
+            "name": "South America",
+            "geographical_scope_id": 3
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 7,
+        "fields": {
+            "name": "EU",
+            "geographical_scope_id": 4
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 8,
+        "fields": {
+            "name": "America",
+            "geographical_scope_id": 4
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 9,
+        "fields": {
+            "name": "French",
+            "geographical_scope_id": 5
+        }
+    },
+    {
+        "model": "categories.CountryGrouping",
+        "pk": 10,
+        "fields": {
+            "name": "German",
+            "geographical_scope_id": 5
+        }
     }
 ]

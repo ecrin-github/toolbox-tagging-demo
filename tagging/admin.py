@@ -38,7 +38,7 @@ class TagAdmin(admin.ModelAdmin):
     
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_tags')
+        perms = request.user.groups.permissions.filter(codename='view_tags')
         if perms.exists():
             return True
         return False

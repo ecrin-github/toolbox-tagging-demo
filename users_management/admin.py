@@ -11,7 +11,14 @@ csrf_protected_method = method_decorator(csrf_protect)
 # Register your models here.
 @admin.register(User)
 class UserAdmin(admin.ModelAdmin):
-    exclude = ['user_permissions']
+    exclude = [
+        'user_permissions', 
+        'is_staff', 
+        'is_superuser', 
+        'last_login', 
+        'date_joined',
+        'is_active'
+    ]
 
     @csrf_protected_method
     def has_add_permission(self, request):
@@ -39,7 +46,7 @@ class UserAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_users_and_groups')
+        perms = request.user.groups.permissions.filter(codename='view_users')
         if perms.exists():
             return True
         return False
@@ -63,6 +70,9 @@ class UserAdmin(admin.ModelAdmin):
                 obj.set_password(obj.password)
         else:
             obj.set_password(obj.password)
+        obj.is_staff = True
+        obj.is_active = True
+        obj.is_superuser = True
         obj.save()
 
 
@@ -95,7 +105,7 @@ class GroupAdmin(admin.ModelAdmin):
     
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_users_and_groups')
+        perms = request.user.groups.permissions.filter(codename='view_users')
         if perms.exists():
             return True
         return False

@@ -10,12 +10,15 @@ class ExportCsvMixin:
 
         meta = self.model._meta
         field_names = [field for field in meta.fields]
-        many_to_many_field_names = set([many_to_many_field for many_to_many_field in meta.many_to_many])
+        many_to_many_field_names = set([many_to_many_field for many_to_many_field in meta.many_to_many if many_to_many_field.name != 'tagging_persons'])
         response = HttpResponse(content_type='text/csv')
         response['Content-Disposition'] = 'attachment; filename={}.csv'.format(meta)
         writer = csv.writer(response)
 
-        writer.writerow(list(chain([str(field.verbose_name).capitalize() for field in field_names], [str(many_to_many_field.verbose_name).capitalize() for many_to_many_field in many_to_many_field_names])))
+        fields_names_header = [str(field.verbose_name).capitalize() for field in field_names]
+        many_to_many_field_names_header = [str(many_to_many_field.verbose_name).capitalize() for many_to_many_field in many_to_many_field_names]
+
+        writer.writerow(list(chain(fields_names_header, many_to_many_field_names_header)))
         for obj in queryset:
             row = []
             for field in field_names:

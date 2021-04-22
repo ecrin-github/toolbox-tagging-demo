@@ -39,7 +39,7 @@ class ResourceTypeAdmin(admin.ModelAdmin):
     
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False
@@ -85,7 +85,7 @@ class ResearchFieldAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False
@@ -138,7 +138,7 @@ class GeographicalScopeAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False
@@ -184,7 +184,7 @@ class CountryGroupingAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False
@@ -237,7 +237,7 @@ class DataTypeAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False
@@ -283,7 +283,7 @@ class DataTypeSubAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False
@@ -329,7 +329,7 @@ class SpecificTopicAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False
@@ -375,7 +375,7 @@ class StageInDSAdmin(admin.ModelAdmin):
 
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
-        perms = request.user.groups.permissions.filter(codename='access_to_categories')
+        perms = request.user.groups.permissions.filter(codename='view_categories')
         if perms.exists():
             return True
         return False

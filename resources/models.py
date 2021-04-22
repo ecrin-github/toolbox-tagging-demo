@@ -5,6 +5,7 @@ from smart_selects.db_fields import ChainedManyToManyField, ChainedForeignKey
 from tagging.models import Tag
 from categories.models import ResourceType, ResearchField, SpecificTopic, \
     GeographicalScope, CountryGrouping, DataType, DataTypeSub, StageInDS
+from users_management.models import User
 
 
 # Create your models here.
@@ -30,14 +31,14 @@ class Resource(models.Model):
         horizontal=True,
         verbose_name="Data type subgroups"
     )
-    stage_in_ds = models.ManyToManyField(StageInDS, unique=False)
-    tags = models.ManyToManyField(Tag, unique=False)
+    stage_in_ds = models.ForeignKey(StageInDS, unique=False, verbose_name='Stage in data sharing life cycle', on_delete=models.SET_NULL, null=True)
     url = models.TextField(null=True, blank=True)
     file = models.FileField(upload_to='uploads/', max_length=350, null=True, blank=True)
-    added_by = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL, unique=False)
+    added_by = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL, unique=False, related_name='added_by')
     creation_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
-    
+    tagging_persons = models.ManyToManyField(User, unique=False, blank=False, related_name='tagging_persons')
+
     def __str__(self):
         return self.title
 
