@@ -1,0 +1,122 @@
+[
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 1,
+        "fields": {
+            "name": "Sensitive",
+            "data_type_id": 1
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 2,
+        "fields": {
+            "name": "Personal",
+            "data_type_id": 1
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 3,
+        "fields": {
+            "name": "Population level health/or socio-economic data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 4,
+        "fields": {
+            "name": "Real world or routine health data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 5,
+        "fields": {
+            "name": "Clinical research data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 6,
+        "fields": {
+            "name": "Public health emergency data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 7,
+        "fields": {
+            "name": "Biobank and sample data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 8,
+        "fields": {
+            "name": "Biobank and sample data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 9,
+        "fields": {
+            "name": "Data with images of humans",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 10,
+        "fields": {
+            "name": "Biobank and sample data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 11,
+        "fields": {
+            "name": "Qualitative research data",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 12,
+        "fields": {
+            "name": "Omic and related data (from living humans)",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 13,
+        "fields": {
+            "name": "Other specific data type",
+            "data_type_id": 2
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 14,
+        "fields": {
+            "name": "-omics and related data",
+            "data_type_id": 3
+        }
+    },
+    {
+        "model": "categories.DataTypeSub",
+        "pk": 15,
+        "fields": {
+            "name": "Other or any data type (non-human)",
+            "data_type_id": 3
+        }
+    }
+]

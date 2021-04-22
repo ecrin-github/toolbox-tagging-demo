@@ -1,0 +1,42 @@
+[
+   {
+      "model": "categories.ResourceType",
+      "pk": 1,
+      "fields": {
+         "name": "Legislation and regulations",
+         "description": "Legislation and regulations"
+      }
+   },
+   {
+      "model": "categories.ResourceType",
+      "pk": 2,
+      "fields": {
+         "name": "Guidelines, recommend-dations and policies",
+         "description": "Guidelines, recommend-dations and policies "
+      }
+   },
+   {
+      "model": "categories.ResourceType",
+      "pk": 3,
+      "fields": {
+         "name": "Descriptions of (best) practice",
+         "description": "Descriptions of (best) practice"
+      }
+   },
+   {
+      "model": "categories.ResourceType",
+      "pk": 4,
+      "fields": {
+         "name": "Support systems and tools",
+         "description": "Support systems and tools"
+      }
+   },
+   {
+      "model": "categories.ResourceType",
+      "pk": 5,
+      "fields": {
+         "name": "Other (background) material",
+         "description": "Other (background) material"
+      }
+   }
+]

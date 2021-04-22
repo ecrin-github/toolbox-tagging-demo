@@ -1,0 +1,23 @@
+[
+    {
+        "model": "categories.DataType",
+        "pk": 1,
+        "fields": {
+            "name": "Any type of data"
+        }
+    },
+    {
+        "model": "categories.DataType",
+        "pk": 2,
+        "fields": {
+            "name": "Specific data type"
+        }
+    },
+    {
+        "model": "categories.DataType",
+        "pk": 3,
+        "fields": {
+            "name": "Data not derived from living humans"
+        }
+    }
+]

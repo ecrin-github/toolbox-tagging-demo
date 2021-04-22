@@ -1,0 +1,130 @@
+[
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 1,
+    "fields": {
+       "name": "Agreements",
+       "description": "Agreements"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 2,
+    "fields": {
+       "name": "Attribution and credit",
+       "description": "Attribution and credit"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 3,
+    "fields": {
+       "name": "COVID-19",
+       "description": "COVID-19"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 4,
+    "fields": {
+       "name": "Data Repositories",
+       "description": "Data Repositories"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 5,
+    "fields": {
+       "name": "Data sharing committees",
+       "description": "Data sharing committees"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 6,
+    "fields": {
+       "name": "Dual Use Research of Concern (DURC)",
+       "description": "Dual Use Research of Concern (DURC)"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 7,
+    "fields": {
+       "name": "ELSI (Ethical, legal and social aspects)",
+       "description": "ELSI (Ethical, legal and social aspects)"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 8,
+    "fields": {
+       "name": "FAIR and FAIRification",
+       "description": "FAIR and FAIRification"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 9,
+    "fields": {
+       "name": "GDPR",
+       "description": "GDPR"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 10,
+    "fields": {
+       "name": "IP-aspects/licences",
+       "description": "IP-aspects/licences"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 11,
+    "fields": {
+       "name": "Legal basis for data sharing",
+       "description": "Legal basis for data sharing"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 12,
+    "fields": {
+       "name": "Interventional studies (including clinical trials)",
+       "description": "Interventional studies (including clinical trials)"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 13,
+    "fields": {
+       "name": "Metadata supporting data sharing",
+       "description": "Metadata supporting data sharing"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 14,
+    "fields": {
+       "name": "Access and Benefit-Sharing and the Nagoya protocol",
+       "description": "Access and Benefit-Sharing and the Nagoya protocol"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 15,
+    "fields": {
+       "name": "Privacy protection",
+       "description": "Privacy protection"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 16,
+    "fields": {
+       "name": "Research participants involvement",
+       "description": "Research participants involvement"
+    }
+  }
+]

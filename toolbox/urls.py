@@ -15,17 +15,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include, re_path
-from django.contrib.auth.models import User, Group
+from django.conf import settings
+from django.conf.urls.static import static
+from django.contrib.auth.models import Group
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^chaining/', include('smart_selects.urls'))
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
-admin.site.site_header = "The WP4 Toolbox CMS - Demo"
-admin.site.site_title = "The WP4 Toolbox CMS - Demo"
-admin.site.index_title = "The WP4 Toolbox CMS - Demo"
 
-admin.site.unregister(User)
+admin.site.site_header = "The WP4 Toolbox CMS - Demo (v.0.2)"
+admin.site.site_title = "The WP4 Toolbox CMS - Demo (v.0.2)"
+admin.site.index_title = "Sections"
+
 admin.site.unregister(Group)
-
