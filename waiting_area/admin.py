@@ -17,7 +17,7 @@ class WaitingResourceAdmin(admin.ModelAdmin):
     def has_module_permission(self, request):
         try:
             perms = request.user.groups.permissions.filter(codename='access_to_waiting_area')
-            if perms.exists():
+            if perms.exists() and (request.user.groups.name == 'Tagging group' or request.user.groups.name == 'Administrators'):
                 return True
             return False
         except:
@@ -26,7 +26,11 @@ class WaitingResourceAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):        
         qs = super().get_queryset(request)
-        return qs.filter(resource__tagging_persons=request.user)
+        display_data = qs.filter(resource__tagging_persons=request.user)
+        if request.user.groups.name == 'Tagging group':
+            return display_data
+        else:
+            return qs
 
 
     @csrf_protected_method
@@ -48,7 +52,7 @@ class WaitingResourceAdmin(admin.ModelAdmin):
     @csrf_protected_method
     def has_change_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='edit_waitings')
-        if perms.exists():
+        if perms.exists() and request.user.groups.name == 'Tagging group':
             return True
         return False
 

@@ -32,14 +32,17 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
 
 
     def render_change_form(self, request, context, add=False, change=False, form_url='', obj=None):
-        model_obj = self.model.objects.get(id=obj.id)
-        if model_obj.added_by == request.user:
-            context['adminform'].form.fields['tagging_persons'].queryset = User.objects.filter(groups__name='Tagging group')
-            return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
-        else:
-            return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
+        if obj is not None:
+            model_obj = self.model.objects.get(id=obj.id)
+            if model_obj.added_by == request.user:
+                context['adminform'].form.fields['tagging_persons'].queryset = User.objects.filter(groups__name='Tagging group')
+                return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
+            else:
+                return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
+        context['adminform'].form.fields['tagging_persons'].queryset = User.objects.filter(groups__name='Tagging group')
+        return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
 
-        
+
 
     @csrf_protected_method
     def has_module_permission(self, request):
