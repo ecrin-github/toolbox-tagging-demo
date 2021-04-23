@@ -20,6 +20,8 @@ class UserAdmin(admin.ModelAdmin):
         'is_active'
     ]
 
+    fields = ('username', 'password', 'first_name', 'last_name', 'email', 'groups',)
+
     @csrf_protected_method
     def has_add_permission(self, request):
         perms = request.user.groups.permissions.filter(codename='add_users')

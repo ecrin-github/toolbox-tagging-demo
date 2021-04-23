@@ -1,6 +1,7 @@
 from django.contrib import admin
-import csv
 from django.http import HttpResponse
+
+import csv
 import datetime
 from itertools import chain
 
