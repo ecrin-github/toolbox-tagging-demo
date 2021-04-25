@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'tagging.apps.TaggingConfig',
     'resources.apps.ResourcesConfig',
     'users_management.apps.UsersManagementConfig',
-    'waiting_area.apps.WaitingAreaConfig',
 ]
 
 MIDDLEWARE = [
