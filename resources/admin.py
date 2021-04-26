@@ -3,7 +3,6 @@ from django.views.decorators.csrf import csrf_protect
 from django.utils.decorators import method_decorator
 
 from resources.models import *
-from waiting_area.models import WaitingResource
 from app.admin import ExportCsvMixin
 
 
@@ -15,20 +14,8 @@ csrf_protected_method = method_decorator(csrf_protect)
 class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
     exclude = ['added_by',]
     list_display = ("title", "creation_date", "update_date", "added_by")
-    readonly_fields = ('tags_list',)
+    # readonly_fields = ('tags_list',)
     actions = ["export_as_csv"]
-
-
-    def tags_list(self, obj):
-        tags_ = ''
-        tags_qs = WaitingResource.objects.filter(resource=obj)
-        if tags_qs.exists():
-            resource_tags = WaitingResource.objects.get(resource=obj)
-            for tag_ in resource_tags.tags.all():
-                tags_ += str(tag_) + ';\n'
-            return tags_
-        else:
-            return None
 
 
     def render_change_form(self, request, context, add=False, change=False, form_url='', obj=None):
@@ -41,7 +28,6 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
                 return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
         context['adminform'].form.fields['tagging_persons'].queryset = User.objects.filter(groups__name='Tagging group')
         return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
-
 
 
     @csrf_protected_method
@@ -104,5 +90,3 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
     def save_model(self, request, obj, form, change):
         obj.added_by = request.user
         super().save_model(request, obj, form, change)
-        resource = Resource.objects.get(id=obj.pk)
-        WaitingResource(resource=resource).save()
