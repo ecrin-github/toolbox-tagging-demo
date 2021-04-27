@@ -10,7 +10,7 @@ from resources.models import Resource
 
 # Create your models here.
 class TaggingResource(models.Model):
-    resource = models.ForeignKey(Resource, unique=False, null=False, default=0, on_delete=models.CASCADE)
+    resource = models.ForeignKey(Resource, unique=False, null=False, default=1, on_delete=models.CASCADE)
     resource_type = models.ManyToManyField(ResourceType, unique=False)
     research_field = models.ManyToManyField(ResearchField, unique=False)
     geographical_scope = models.ForeignKey(GeographicalScope, default=1, on_delete=models.SET_NULL, null=True)
@@ -31,7 +31,7 @@ class TaggingResource(models.Model):
         verbose_name="Data type subgroups"
     )
     stage_in_ds = models.ForeignKey(StageInDS, unique=False, verbose_name='Stage in data sharing life cycle', on_delete=models.SET_NULL, null=True)
-    
+
 
     def __str__(self):
         return self.resource.title

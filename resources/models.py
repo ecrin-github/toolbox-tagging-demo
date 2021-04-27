@@ -13,7 +13,6 @@ class Resource(models.Model):
     creation_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
     tagging_persons = models.ManyToManyField(User, unique=False, blank=False, related_name='tagging_persons')
-    is_approved = models.BooleanField(default=False)
     added_by = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL, unique=False, related_name='added_by')
 
     def __str__(self):

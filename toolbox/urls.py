@@ -26,8 +26,8 @@ urlpatterns = [
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
-admin.site.site_header = "The WP4 Toolbox CMS - Demo (v.0.2)"
-admin.site.site_title = "The WP4 Toolbox CMS - Demo (v.0.2)"
+admin.site.site_header = "The WP4 Toolbox Tagging system (v.0.3.1)"
+admin.site.site_title = "The WP4 Toolbox Tagging system (v.0.3.1)"
 admin.site.index_title = "Sections"
 
 admin.site.unregister(Group)

@@ -1,0 +1,1702 @@
+[{
+    "model": "categories.CountryGrouping",
+    "pk": 15,
+    "fields": {
+        "name": "Afghanistan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 16,
+    "fields": {
+        "name": "Åland Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 17,
+    "fields": {
+        "name": "Albania",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 18,
+    "fields": {
+        "name": "Algeria",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 19,
+    "fields": {
+        "name": "American Samoa",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 20,
+    "fields": {
+        "name": "AndorrA",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 21,
+    "fields": {
+        "name": "Angola",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 22,
+    "fields": {
+        "name": "Anguilla",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 23,
+    "fields": {
+        "name": "Antarctica",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 24,
+    "fields": {
+        "name": "Antigua and Barbuda",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 25,
+    "fields": {
+        "name": "Argentina",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 26,
+    "fields": {
+        "name": "Armenia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 27,
+    "fields": {
+        "name": "Aruba",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 28,
+    "fields": {
+        "name": "Australia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 29,
+    "fields": {
+        "name": "Austria",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 30,
+    "fields": {
+        "name": "Azerbaijan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 31,
+    "fields": {
+        "name": "Bahamas",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 32,
+    "fields": {
+        "name": "Bahrain",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 33,
+    "fields": {
+        "name": "Bangladesh",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 34,
+    "fields": {
+        "name": "Barbados",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 35,
+    "fields": {
+        "name": "Belarus",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 36,
+    "fields": {
+        "name": "Belgium",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 37,
+    "fields": {
+        "name": "Belize",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 38,
+    "fields": {
+        "name": "Benin",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 39,
+    "fields": {
+        "name": "Bermuda",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 40,
+    "fields": {
+        "name": "Bhutan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 41,
+    "fields": {
+        "name": "Bolivia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 42,
+    "fields": {
+        "name": "Bosnia and Herzegovina",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 43,
+    "fields": {
+        "name": "Botswana",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 44,
+    "fields": {
+        "name": "Bouvet Island",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 45,
+    "fields": {
+        "name": "Brazil",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 46,
+    "fields": {
+        "name": "British Indian Ocean Territory",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 47,
+    "fields": {
+        "name": "Brunei Darussalam",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 48,
+    "fields": {
+        "name": "Bulgaria",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 49,
+    "fields": {
+        "name": "Burkina Faso",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 50,
+    "fields": {
+        "name": "Burundi",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 51,
+    "fields": {
+        "name": "Cambodia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 52,
+    "fields": {
+        "name": "Cameroon",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 53,
+    "fields": {
+        "name": "Canada",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 54,
+    "fields": {
+        "name": "Cape Verde",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 55,
+    "fields": {
+        "name": "Cayman Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 56,
+    "fields": {
+        "name": "Central African Republic",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 57,
+    "fields": {
+        "name": "Chad",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 58,
+    "fields": {
+        "name": "Chile",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 59,
+    "fields": {
+        "name": "China",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 60,
+    "fields": {
+        "name": "Christmas Island",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 61,
+    "fields": {
+        "name": "Cocos (Keeling) Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 62,
+    "fields": {
+        "name": "Colombia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 63,
+    "fields": {
+        "name": "Comoros",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 64,
+    "fields": {
+        "name": "Congo",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 65,
+    "fields": {
+        "name": "Congo, The Democratic Republic of the",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 66,
+    "fields": {
+        "name": "Cook Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 67,
+    "fields": {
+        "name": "Costa Rica",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 68,
+    "fields": {
+        "name": "Cote D\"Ivoire",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 69,
+    "fields": {
+        "name": "Croatia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 70,
+    "fields": {
+        "name": "Cuba",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 71,
+    "fields": {
+        "name": "Cyprus",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 72,
+    "fields": {
+        "name": "Czech Republic",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 73,
+    "fields": {
+        "name": "Denmark",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 74,
+    "fields": {
+        "name": "Djibouti",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 75,
+    "fields": {
+        "name": "Dominica",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 76,
+    "fields": {
+        "name": "Dominican Republic",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 77,
+    "fields": {
+        "name": "Ecuador",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 78,
+    "fields": {
+        "name": "Egypt",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 79,
+    "fields": {
+        "name": "El Salvador",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 80,
+    "fields": {
+        "name": "Equatorial Guinea",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 81,
+    "fields": {
+        "name": "Eritrea",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 82,
+    "fields": {
+        "name": "Estonia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 83,
+    "fields": {
+        "name": "Ethiopia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 84,
+    "fields": {
+        "name": "Falkland Islands (Malvinas)",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 85,
+    "fields": {
+        "name": "Faroe Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 86,
+    "fields": {
+        "name": "Fiji",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 87,
+    "fields": {
+        "name": "Finland",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 88,
+    "fields": {
+        "name": "France",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 89,
+    "fields": {
+        "name": "French Guiana",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 90,
+    "fields": {
+        "name": "French Polynesia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 91,
+    "fields": {
+        "name": "French Southern Territories",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 92,
+    "fields": {
+        "name": "Gabon",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 93,
+    "fields": {
+        "name": "Gambia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 94,
+    "fields": {
+        "name": "Georgia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 95,
+    "fields": {
+        "name": "Germany",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 96,
+    "fields": {
+        "name": "Ghana",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 97,
+    "fields": {
+        "name": "Gibraltar",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 98,
+    "fields": {
+        "name": "Greece",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 99,
+    "fields": {
+        "name": "Greenland",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 100,
+    "fields": {
+        "name": "Grenada",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 101,
+    "fields": {
+        "name": "Guadeloupe",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 102,
+    "fields": {
+        "name": "Guam",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 103,
+    "fields": {
+        "name": "Guatemala",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 104,
+    "fields": {
+        "name": "Guernsey",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 105,
+    "fields": {
+        "name": "Guinea",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 106,
+    "fields": {
+        "name": "Guinea-Bissau",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 107,
+    "fields": {
+        "name": "Guyana",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 108,
+    "fields": {
+        "name": "Haiti",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 109,
+    "fields": {
+        "name": "Heard Island and Mcdonald Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 110,
+    "fields": {
+        "name": "Holy See (Vatican City State)",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 111,
+    "fields": {
+        "name": "Honduras",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 112,
+    "fields": {
+        "name": "Hong Kong",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 113,
+    "fields": {
+        "name": "Hungary",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 114,
+    "fields": {
+        "name": "Iceland",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 115,
+    "fields": {
+        "name": "India",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 116,
+    "fields": {
+        "name": "Indonesia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 117,
+    "fields": {
+        "name": "Iran, Islamic Republic Of",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 118,
+    "fields": {
+        "name": "Iraq",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 119,
+    "fields": {
+        "name": "Ireland",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 120,
+    "fields": {
+        "name": "Isle of Man",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 121,
+    "fields": {
+        "name": "Israel",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 122,
+    "fields": {
+        "name": "Italy",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 123,
+    "fields": {
+        "name": "Jamaica",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 124,
+    "fields": {
+        "name": "Japan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 125,
+    "fields": {
+        "name": "Jersey",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 126,
+    "fields": {
+        "name": "Jordan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 127,
+    "fields": {
+        "name": "Kazakhstan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 128,
+    "fields": {
+        "name": "Kenya",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 129,
+    "fields": {
+        "name": "Kiribati",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 130,
+    "fields": {
+        "name": "Korea, Democratic People\"S Republic of",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 131,
+    "fields": {
+        "name": "Korea, Republic of",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 132,
+    "fields": {
+        "name": "Kuwait",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 133,
+    "fields": {
+        "name": "Kyrgyzstan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 134,
+    "fields": {
+        "name": "Lao People\"S Democratic Republic",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 135,
+    "fields": {
+        "name": "Latvia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 136,
+    "fields": {
+        "name": "Lebanon",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 137,
+    "fields": {
+        "name": "Lesotho",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 138,
+    "fields": {
+        "name": "Liberia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 139,
+    "fields": {
+        "name": "Libyan Arab Jamahiriya",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 140,
+    "fields": {
+        "name": "Liechtenstein",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 141,
+    "fields": {
+        "name": "Lithuania",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 142,
+    "fields": {
+        "name": "Luxembourg",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 143,
+    "fields": {
+        "name": "Macao",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 144,
+    "fields": {
+        "name": "Macedonia, The Former Yugoslav Republic of",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 145,
+    "fields": {
+        "name": "Madagascar",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 146,
+    "fields": {
+        "name": "Malawi",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 147,
+    "fields": {
+        "name": "Malaysia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 148,
+    "fields": {
+        "name": "Maldives",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 149,
+    "fields": {
+        "name": "Mali",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 150,
+    "fields": {
+        "name": "Malta",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 151,
+    "fields": {
+        "name": "Marshall Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 152,
+    "fields": {
+        "name": "Martinique",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 153,
+    "fields": {
+        "name": "Mauritania",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 154,
+    "fields": {
+        "name": "Mauritius",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 155,
+    "fields": {
+        "name": "Mayotte",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 156,
+    "fields": {
+        "name": "Mexico",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 157,
+    "fields": {
+        "name": "Micronesia, Federated States of",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 158,
+    "fields": {
+        "name": "Moldova, Republic of",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 159,
+    "fields": {
+        "name": "Monaco",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 160,
+    "fields": {
+        "name": "Mongolia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 161,
+    "fields": {
+        "name": "Montserrat",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 162,
+    "fields": {
+        "name": "Morocco",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 163,
+    "fields": {
+        "name": "Mozambique",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 164,
+    "fields": {
+        "name": "Myanmar",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 165,
+    "fields": {
+        "name": "Namibia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 166,
+    "fields": {
+        "name": "Nauru",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 167,
+    "fields": {
+        "name": "Nepal",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 168,
+    "fields": {
+        "name": "Netherlands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 169,
+    "fields": {
+        "name": "Netherlands Antilles",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 170,
+    "fields": {
+        "name": "New Caledonia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 171,
+    "fields": {
+        "name": "New Zealand",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 172,
+    "fields": {
+        "name": "Nicaragua",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 173,
+    "fields": {
+        "name": "Niger",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 174,
+    "fields": {
+        "name": "Nigeria",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 175,
+    "fields": {
+        "name": "Niue",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 176,
+    "fields": {
+        "name": "Norfolk Island",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 177,
+    "fields": {
+        "name": "Northern Mariana Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 178,
+    "fields": {
+        "name": "Norway",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 179,
+    "fields": {
+        "name": "Oman",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 180,
+    "fields": {
+        "name": "Pakistan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 181,
+    "fields": {
+        "name": "Palau",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 182,
+    "fields": {
+        "name": "Palestinian Territory, Occupied",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 183,
+    "fields": {
+        "name": "Panama",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 184,
+    "fields": {
+        "name": "Papua New Guinea",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 185,
+    "fields": {
+        "name": "Paraguay",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 186,
+    "fields": {
+        "name": "Peru",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 187,
+    "fields": {
+        "name": "Philippines",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 188,
+    "fields": {
+        "name": "Pitcairn",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 189,
+    "fields": {
+        "name": "Poland",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 190,
+    "fields": {
+        "name": "Portugal",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 191,
+    "fields": {
+        "name": "Puerto Rico",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 192,
+    "fields": {
+        "name": "Qatar",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 193,
+    "fields": {
+        "name": "Reunion",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 194,
+    "fields": {
+        "name": "Romania",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 195,
+    "fields": {
+        "name": "Russian Federation",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 196,
+    "fields": {
+        "name": "RWANDA",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 197,
+    "fields": {
+        "name": "Saint Helena",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 198,
+    "fields": {
+        "name": "Saint Kitts and Nevis",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 199,
+    "fields": {
+        "name": "Saint Lucia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 200,
+    "fields": {
+        "name": "Saint Pierre and Miquelon",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 201,
+    "fields": {
+        "name": "Saint Vincent and the Grenadines",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 202,
+    "fields": {
+        "name": "Samoa",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 203,
+    "fields": {
+        "name": "San Marino",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 204,
+    "fields": {
+        "name": "Sao Tome and Principe",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 205,
+    "fields": {
+        "name": "Saudi Arabia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 206,
+    "fields": {
+        "name": "Senegal",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 207,
+    "fields": {
+        "name": "Serbia and Montenegro",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 208,
+    "fields": {
+        "name": "Seychelles",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 209,
+    "fields": {
+        "name": "Sierra Leone",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 210,
+    "fields": {
+        "name": "Singapore",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 211,
+    "fields": {
+        "name": "Slovakia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 212,
+    "fields": {
+        "name": "Slovenia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 213,
+    "fields": {
+        "name": "Solomon Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 214,
+    "fields": {
+        "name": "Somalia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 215,
+    "fields": {
+        "name": "South Africa",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 216,
+    "fields": {
+        "name": "South Georgia and the South Sandwich Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 217,
+    "fields": {
+        "name": "Spain",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 218,
+    "fields": {
+        "name": "Sri Lanka",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 219,
+    "fields": {
+        "name": "Sudan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 220,
+    "fields": {
+        "name": "Suriname",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 221,
+    "fields": {
+        "name": "Svalbard and Jan Mayen",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 222,
+    "fields": {
+        "name": "Swaziland",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 223,
+    "fields": {
+        "name": "Sweden",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 224,
+    "fields": {
+        "name": "Switzerland",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 225,
+    "fields": {
+        "name": "Syrian Arab Republic",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 226,
+    "fields": {
+        "name": "Taiwan, Province of China",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 227,
+    "fields": {
+        "name": "Tajikistan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 228,
+    "fields": {
+        "name": "Tanzania, United Republic of",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 229,
+    "fields": {
+        "name": "Thailand",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 230,
+    "fields": {
+        "name": "Timor-Leste",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 231,
+    "fields": {
+        "name": "Togo",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 232,
+    "fields": {
+        "name": "Tokelau",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 233,
+    "fields": {
+        "name": "Tonga",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 234,
+    "fields": {
+        "name": "Trinidad and Tobago",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 235,
+    "fields": {
+        "name": "Tunisia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 236,
+    "fields": {
+        "name": "Turkey",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 237,
+    "fields": {
+        "name": "Turkmenistan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 238,
+    "fields": {
+        "name": "Turks and Caicos Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 239,
+    "fields": {
+        "name": "Tuvalu",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 240,
+    "fields": {
+        "name": "Uganda",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 241,
+    "fields": {
+        "name": "Ukraine",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 242,
+    "fields": {
+        "name": "United Arab Emirates",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 243,
+    "fields": {
+        "name": "United Kingdom",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 244,
+    "fields": {
+        "name": "United States",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 245,
+    "fields": {
+        "name": "United States Minor Outlying Islands",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 246,
+    "fields": {
+        "name": "Uruguay",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 247,
+    "fields": {
+        "name": "Uzbekistan",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 248,
+    "fields": {
+        "name": "Vanuatu",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 249,
+    "fields": {
+        "name": "Venezuela",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 250,
+    "fields": {
+        "name": "Viet Nam",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 251,
+    "fields": {
+        "name": "Virgin Islands, British",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 252,
+    "fields": {
+        "name": "Virgin Islands, U.S.",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 253,
+    "fields": {
+        "name": "Wallis and Futuna",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 254,
+    "fields": {
+        "name": "Western Sahara",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 255,
+    "fields": {
+        "name": "Yemen",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 256,
+    "fields": {
+        "name": "Zambia",
+        "geographical_scope_id": 5
+    }
+}, {
+    "model": "categories.CountryGrouping",
+    "pk": 257,
+    "fields": {
+        "name": "Zimbabwe",
+        "geographical_scope_id": 5
+    }
+}]
