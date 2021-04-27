@@ -9,7 +9,7 @@ class ResourceType(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "Resource types"
+        verbose_name_plural = "1. Resource types"
 
 
 class ResearchField(models.Model):
@@ -20,7 +20,7 @@ class ResearchField(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "Research fields"
+        verbose_name_plural = "2. Research fields"
 
 
 class SpecificTopic(models.Model):
@@ -31,7 +31,7 @@ class SpecificTopic(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "Specific topics"
+        verbose_name_plural = "6. Specific topics"
 
 
 class GeographicalScope(models.Model):
@@ -41,7 +41,7 @@ class GeographicalScope(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "Geographical scope"
+        verbose_name_plural = "5. Geographical scope"
 
 
 class CountryGrouping(models.Model):
@@ -62,7 +62,7 @@ class DataType(models.Model):
         return self.name
     
     class Meta:
-        verbose_name_plural = "Data Types"
+        verbose_name_plural = "3. Data types"
 
 
 class DataTypeSub(models.Model):
@@ -84,4 +84,4 @@ class StageInDS(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "Stage in data sharing life cycle"
+        verbose_name_plural = "4. Stage in data sharing life cycle"
