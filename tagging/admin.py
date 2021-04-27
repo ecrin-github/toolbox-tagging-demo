@@ -12,23 +12,35 @@ csrf_protected_method = method_decorator(csrf_protect)
 @admin.register(TaggingResource)
 class TaggingResourceAdmin(admin.ModelAdmin):
 
-    fields = [
-        'resource',
-        'description',
-        'url',
-        'attached_file',
-        'creation_date',
-        'update_date',
-        'added_by',
-        'resource_type',
-        'research_field',
-        'specific_topic',
-        'data_type',
-        'data_type_sub',
-        'geographical_scope',
-        'country_grouping',
-        'stage_in_ds'
-    ]
+    fieldsets = (
+        ('Bibliographic data', {
+            "fields": (
+                'resource',
+                'description',
+                'url',
+                'attached_file',
+            ),
+        }),
+        ('Additional data', {
+            "fields": (
+                'creation_date',
+                'update_date',
+                'added_by',
+            ),
+        }),
+        ('Tagging data', {
+            "fields": (
+                'resource_type',
+                'research_field',
+                'data_type',
+                'data_type_subs',
+                'stage_in_ds',
+                'geographical_scope',
+                'countries_grouping',
+                'specific_topics',
+            ),
+        }),
+    )
 
     readonly_fields = (
         'resource',

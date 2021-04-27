@@ -12,7 +12,12 @@ csrf_protected_method = method_decorator(csrf_protect)
 # Register your models here.
 @admin.register(ResourceType)
 class ResourceTypeAdmin(admin.ModelAdmin):
+
+    def get_queryset(self, request):
+        qs = ResourceType.objects.all().order_by('id')
+        return qs
     
+
     @csrf_protected_method
     def has_add_permission(self, request):
         perms = request.user.groups.permissions.filter(codename='add_categories')
@@ -58,6 +63,11 @@ class ResourceTypeAdmin(admin.ModelAdmin):
 
 @admin.register(ResearchField)
 class ResearchFieldAdmin(admin.ModelAdmin):
+
+    def get_queryset(self, request):
+        qs = ResearchField.objects.all().order_by('id')
+        return qs
+
     
     @csrf_protected_method
     def has_add_permission(self, request):
@@ -112,6 +122,12 @@ class GeographicalScopeAdmin(admin.ModelAdmin):
         CountryGroupingInline
     ]
 
+
+    def get_queryset(self, request):
+        qs = GeographicalScope.objects.all().order_by('id')
+        return qs
+
+
     @csrf_protected_method
     def has_add_permission(self, request):
         perms = request.user.groups.permissions.filter(codename='add_categories')
@@ -165,6 +181,12 @@ class DataTypeAdmin(admin.ModelAdmin):
         DataTypeSubInline
     ]
 
+
+    def get_queryset(self, request):
+        qs = DataType.objects.all().order_by('id')
+        return qs
+
+
     @csrf_protected_method
     def has_add_permission(self, request):
         perms = request.user.groups.permissions.filter(codename='add_categories')
@@ -210,6 +232,11 @@ class DataTypeAdmin(admin.ModelAdmin):
 
 @admin.register(SpecificTopic)
 class SpecificTopicAdmin(admin.ModelAdmin):
+
+    def get_queryset(self, request):
+        qs = SpecificTopic.objects.all().order_by('id')
+        return qs
+
     
     @csrf_protected_method
     def has_add_permission(self, request):
@@ -256,6 +283,11 @@ class SpecificTopicAdmin(admin.ModelAdmin):
 
 @admin.register(StageInDS)
 class StageInDSAdmin(admin.ModelAdmin):
+
+    def get_queryset(self, request):
+        qs = StageInDS.objects.all().order_by('id')
+        return qs
+
     
     @csrf_protected_method
     def has_add_permission(self, request):

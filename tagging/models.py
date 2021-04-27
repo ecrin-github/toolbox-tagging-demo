@@ -14,16 +14,16 @@ class TaggingResource(models.Model):
     resource_type = models.ManyToManyField(ResourceType, unique=False)
     research_field = models.ManyToManyField(ResearchField, unique=False)
     geographical_scope = models.ForeignKey(GeographicalScope, default=1, on_delete=models.SET_NULL, null=True)
-    country_grouping = ChainedManyToManyField(
+    countries_grouping = ChainedManyToManyField(
         CountryGrouping,
         chained_field="geographical_scope",
         chained_model_field="geographical_scope",
         horizontal=True,
         verbose_name="Countries grouping"
     )
-    specific_topic = models.ManyToManyField(SpecificTopic, unique=False)
+    specific_topics = models.ManyToManyField(SpecificTopic, unique=False)
     data_type = models.ForeignKey(DataType, default=1, on_delete=models.SET_NULL, null=True)
-    data_type_sub = ChainedManyToManyField(
+    data_type_subs = ChainedManyToManyField(
         DataTypeSub,
         chained_field="data_type",
         chained_model_field="data_type",

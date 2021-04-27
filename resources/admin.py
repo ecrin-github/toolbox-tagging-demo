@@ -13,27 +13,39 @@ csrf_protected_method = method_decorator(csrf_protect)
 # Register your models here.
 @admin.register(Resource)
 class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
-    exclude = ['added_by',]
+    # exclude = ['added_by',]
     list_display = ("title", "creation_date", "update_date", "added_by")
     
-    fields = [
-        'title',
-        'description',
-        'url',
-        'file',
-        'tagging_persons',
-        'creation_date',
-        'update_date',
-        'added_by',
-        'resource_type',
-        'research_field',
-        'geographical_scope',
-        'countries_grouping',
-        'specific_topics',
-        'data_type',
-        'data_type_subtypes',
-        'stage_in_data_sharing_life_cycle'
-    ]
+    fieldsets = (
+        ('Bibliographic data', {
+            "fields": (
+                'title',
+                'description',
+                'url',
+                'file',
+            ),
+        }),
+        ('Additional data', {
+            "fields": (
+                'tagging_persons',
+                'creation_date',
+                'update_date',
+                'added_by',
+            ),
+        }),
+        ('Tagging data', {
+            "fields": (
+                'resource_type',
+                'research_field',
+                'data_type',
+                'data_type_subtypes',
+                'stage_in_data_sharing_life_cycle',
+                'geographical_scope',
+                'countries_grouping',
+                'specific_topics',
+            ),
+        }),
+    )
 
     readonly_fields = (
         'creation_date',
@@ -96,7 +108,7 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
         if tagging_resource.exists():
             tagged_resource = TaggingResource.objects.get(resource=obj)
             countries_grouping = ''
-            for country in tagged_resource.country_grouping.all():
+            for country in tagged_resource.countries_grouping.all():
                 countries_grouping += country.name + '\n'
             if countries_grouping != '':
                 return countries_grouping
@@ -109,11 +121,11 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
         tagging_resource = TaggingResource.objects.filter(resource=obj)
         if tagging_resource.exists():
             tagged_resource = TaggingResource.objects.get(resource=obj)
-            specific_topic = ''
-            for spec_topic in tagged_resource.specific_topic.all():
-                specific_topic += spec_topic.name + '\n'
-            if specific_topic != '':
-                return specific_topic
+            specific_topics = ''
+            for spec_topic in tagged_resource.specific_topics.all():
+                specific_topics += spec_topic.name + '\n'
+            if specific_topics != '':
+                return specific_topics
             else:
                 return 'None'
         return 'None'
@@ -135,7 +147,7 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
         if tagging_resource.exists():
             tagged_resource = TaggingResource.objects.get(resource=obj)
             data_type_subtypes = ''
-            for data_types in tagged_resource.data_type_sub.all():
+            for data_types in tagged_resource.data_type_subs.all():
                 data_type_subtypes += data_types.name + '\n'
             if data_type_subtypes != '':
                 return data_type_subtypes
