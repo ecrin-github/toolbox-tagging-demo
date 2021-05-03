@@ -3,35 +3,40 @@
         "model": "categories.GeographicalScope",
         "pk": 1,
         "fields": {
-            "name": "Not applicable"
+            "name": "Not applicable",
+            "description": "For resources with no explicit reference to a geographical scope."
         }
     },
     {
         "model": "categories.GeographicalScope",
         "pk": 2,
         "fields": {
-            "name": "Global"
+            "name": "Global",
+            "description": "A resource that has an explicitly global scope (in intent if not always in reality), such as ICH GCP and discussions around it."
         }
     },
     {
         "model": "categories.GeographicalScope",
         "pk": 3,
         "fields": {
-            "name": "Continental"
+            "name": "Continental",
+            "description": "For resources with a continental scope. Should be one of Africa, Asia, Europe, North-America, South-America (excluding Central America and the Caribbean), or Oceania."
         }
     },
     {
         "model": "categories.GeographicalScope",
         "pk": 4,
         "fields": {
-            "name": "Country groupings"
+            "name": "Country groupings",
+            "description": "For a resource that is focused on a named region or other grouping of countries, or a widely recognised area e.g. ‘Middle East’, ‘Caribbean’, ‘Sub-Saharan Africa’, ‘Nordic countries’. An important grouping for many resources is likely to be the EU. A further significant grouping may be LMIC (Low and middle income countries). A list needs to be created of these groupings. A standard list is available from the UN, but experience in using the system may amend  this."
         }
     },
     {
         "model": "categories.GeographicalScope",
         "pk": 5,
         "fields": {
-            "name": "National"
+            "name": "National",
+            "description": "When the scope is purely national, the country name. The name should be taken from the standardised ISO list (https://unstats.un.org/unsd/methodology/m49/, (10)), but should focus on countries likely to be important. The suggestion is all countries in Europe, plus countries elsewhere with a population over a certain size, e.g. 1 or 5 million."
         }
     }
 ]

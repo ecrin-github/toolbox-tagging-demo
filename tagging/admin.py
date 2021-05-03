@@ -2,7 +2,10 @@ from django.contrib import admin
 from django.views.decorators.csrf import csrf_protect
 from django.utils.decorators import method_decorator
 
+from django.utils.safestring import mark_safe
+
 from tagging.models import *
+from general.configs import HOST
 
 
 csrf_protected_method = method_decorator(csrf_protect)
@@ -23,9 +26,10 @@ class TaggingResourceAdmin(admin.ModelAdmin):
         }),
         ('Additional data', {
             "fields": (
-                'creation_date',
-                'update_date',
+                'created',
+                'updated',
                 'added_by',
+                'current_status',
             ),
         }),
         ('Tagging data', {
@@ -47,9 +51,10 @@ class TaggingResourceAdmin(admin.ModelAdmin):
         'description',
         'url',
         'attached_file',
-        'creation_date',
-        'update_date',
+        'created',
+        'updated',
         'added_by',
+        'current_status',
     )
 
 
@@ -61,28 +66,36 @@ class TaggingResourceAdmin(admin.ModelAdmin):
 
     def url(self, obj):
         if obj.resource.url is not None and obj.resource.url != '':
-            return obj.resource.url
+            url = '<a href="{}" target="_blank">{}</a>'.format(obj.resource.url, obj.resource.url)
+            return mark_safe(url)
         return 'None'
 
 
     def attached_file(self, obj):
-        if obj.resource.file is not None and obj.resource.file != '':
-            return obj.resource.file
+        if obj.resource.resource_file is not None and obj.resource.resource_file != '':
+            url = '<a href="{}{}" target="_blank">File</a>'.format(HOST, obj.resource.resource_file)
+            return mark_safe(url)
         return 'None'
 
 
-    def creation_date(self, obj):
-        if obj.resource.creation_date is not None and obj.resource.creation_date != '':
-            return obj.resource.creation_date
+    def created(self, obj):
+        if obj.resource.created is not None and obj.resource.created != '':
+            return obj.resource.created
         return 'None'
 
 
-    def update_date(self, obj):
-        if obj.resource.update_date is not None and obj.resource.update_date != '':
-            return obj.resource.update_date
+    def updated(self, obj):
+        if obj.resource.updated is not None and obj.resource.updated != '':
+            return obj.resource.updated
         return 'None'
 
 
+    def current_status(self, obj):
+        if obj.resource.current_status is not None and obj.resource.current_status != '':
+            return obj.resource.current_status
+        return 'None'
+
+    
     def added_by(self, obj):
         if obj.resource.added_by is not None and obj.resource.added_by != '':
             return obj.resource.added_by

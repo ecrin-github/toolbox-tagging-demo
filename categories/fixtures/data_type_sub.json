@@ -4,6 +4,7 @@
         "pk": 1,
         "fields": {
             "name": "Sensitive",
+            "description": "As stated in the introduction, only resources referring directly or indirectly to sensitive data are included in the toolbox. In the case of “any type of data from living humans” (and only here), we want to know whether the resource is explicitly about sensitive data, which may be an important search criterion. There are different types of sensitive data, such as sensitive personal information or sensitive issues data. Sensitive personal information describes data that can be traced back to an individual and that, if disclosed could result in harm to that person. The following data is considered sensitive personal data and subject to specific processing conditions: personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs; trade-union membership; genetic data, biometric data processed solely to identify a human being; health-related data and data concerning a person’s sex life or sexual orientation. Sensitive issue data Includes – for example – sociological data relating to different social or ethnic groups, e.g. their occupations, income levels, criminality; psychological data, e.g. levels of mental illnesses, measured stress levels, or social psychology experiments.",
             "data_type_id": 1
         }
     },
@@ -12,6 +13,7 @@
         "pk": 2,
         "fields": {
             "name": "Personal",
+            "description": "According to GDPR ‘personal data’ means any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.",
             "data_type_id": 1
         }
     },
@@ -20,6 +22,7 @@
         "pk": 3,
         "fields": {
             "name": "Population level health/or socio-economic data",
+            "description": "Resources dealing with large datasets relating to defined populations, with usually at least several thousand participants, but often tens or hundreds of thousands, for example derived from epidemiological research or census data. This may include sensitive data, e.g. relating to health status.",
             "data_type_id": 2
         }
     },
@@ -28,6 +31,7 @@
         "pk": 4,
         "fields": {
             "name": "Real world or routine health data",
+            "description": "Resources focused mainly on sharing EHR (electronic health record), care episode and insurance data, but may also include lifestyle and wearable derived data.",
             "data_type_id": 2
         }
     },
@@ -36,6 +40,7 @@
         "pk": 5,
         "fields": {
             "name": "Clinical research data",
+            "description": "Resources concerned with sharing data from both interventional and observational clinical studies, based on defined and approved protocols. Also those resources focused on the sharing of datasets relating to populations with specific diseases (registry data).",
             "data_type_id": 2
         }
     },
@@ -44,6 +49,7 @@
         "pk": 6,
         "fields": {
             "name": "Public health emergency data",
+            "description": "For example data relating to COVID-19 patients, or people with Ebola or SARS. A distinct category of data because regulations concerning the re-use of such data, at least during a defined period, may vary from other health related data, and because specialist infrastructures (e.g. COVID-19 data repositories) often exist.",
             "data_type_id": 2
         }
     },
@@ -52,6 +58,7 @@
         "pk": 7,
         "fields": {
             "name": "Biobank and sample data",
+            "description": "Sharing data about samples, usually including associated genomic data and / or phenotypic details.",
             "data_type_id": 2
         }
     },
@@ -60,6 +67,7 @@
         "pk": 8,
         "fields": {
             "name": "Data with images of humans",
+            "description": "Concerned with the sharing of any type of image data, including photographs and videos, as well as X-rays, NMR scans, PET scans, ultrasound scans etc.",
             "data_type_id": 2
         }
     },
@@ -68,6 +76,7 @@
         "pk": 9,
         "fields": {
             "name": "Qualitative research data",
+            "description": "Qualitative research relies on data obtained by the researcher from first-hand observation, interviews, questionnaires, focus groups, participant-observation, recordings made in natural settings, documents, and artifacts. The data are generally non-numerical.",
             "data_type_id": 2
         }
     },
@@ -76,6 +85,7 @@
         "pk": 10,
         "fields": {
             "name": "Omic and related data (from living humans)",
+            "description": "Focused on the sharing of gene sequences and gene expression data, histochemistry and metabolomic data from individuals, usually taken in the context of health or genetic or biochemical research. May or may not include phenotypic data points and indirect identifiers.",
             "data_type_id": 2
         }
     },
@@ -84,6 +94,7 @@
         "pk": 11,
         "fields": {
             "name": "Other specific data type",
+            "description": "If the resource is about a specific data type, but the data type is not listed, this tag should be used.",
             "data_type_id": 2
         }
     },
@@ -92,6 +103,7 @@
         "pk": 12,
         "fields": {
             "name": "-Omics and related data",
+            "description": "Focused on the sharing of gene sequences and gene expression data, and other -omic data from organisms other than humans. This is considered separately from other non-human data because of its association with specialist infrastructures.",
             "data_type_id": 3
         }
     },
@@ -100,6 +112,7 @@
         "pk": 13,
         "fields": {
             "name": "Other or any data type (non-human)",
+            "description": "This tag covers all cases of non-human data not falling under “-omic and related data”. This covers scientific data of any sort, excluding that derived from living humans but not characterised further, and data about specific data types not derived from living humans and not falling under “-omic and related data”.",
             "data_type_id": 3
         }
     }

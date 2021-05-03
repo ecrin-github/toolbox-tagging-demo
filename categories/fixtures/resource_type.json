@@ -4,7 +4,7 @@
       "pk": 1,
       "fields": {
          "name": "Legislation and regulations",
-         "description": "Legislation and regulations"
+         "description": "Includes any legislation and official regulatory documents relevant to data sharing in any domain, (e.g. from national regulatory or data protection bodies), commentaries on and interpretations of those documents, including analysis of the possible impact of legislation / regulations and the perceived need for new or revised legislation / regulations, and accounts and comments on individual judgements (case law)."
       }
    },
    {
@@ -12,7 +12,7 @@
       "pk": 2,
       "fields": {
          "name": "Guidelines, recommend-dations and policies",
-         "description": "Guidelines, recommend-dations and policies "
+         "description": "Includes any statements from organisations (e.g. from research funders, publishers, individual companies, institutions, academic collaborations, and research infrastructures) or from individual researchers / groups of researchers, that propose policies, behaviours, standards, or codes of conduct to be followed on any aspect of data sharing. The policies and principles may be expressed as guidance or in some contexts (e.g. within a particular institution) may be mandated as necessary practice. They may cover all or just specific aspects of data sharing activity. In the majority of cases, the resource’s title or sub-title should include one or other of the terms guideline, recommendations, policy or code of conduct."
       }
    },
    {
@@ -20,7 +20,7 @@
       "pk": 3,
       "fields": {
          "name": "Descriptions of (best) practice",
-         "description": "Descriptions of (best) practice"
+         "description": "Descriptions, comparisons and reviews of concrete instances of data sharing, or of some aspect of data sharing. May include, for example, survey data on the extent of data sharing, descriptions of data sharing initiatives, comparisons of data sharing activity over time or between different research types, and individual case studies and reports. The practices described should be considered ‘best practice’. May focus on the mechanisms of data sharing employed, and / or the scientific impact of the sharing activity."
       }
    },
    {
@@ -28,7 +28,7 @@
       "pk": 4,
       "fields": {
          "name": "Support systems and tools",
-         "description": "Support systems and tools"
+         "description": "Examples, descriptions and reviews of support systems, infrastructures, tools and services that are designed to directly support data sharing activities. May include for example data repositories, data anonymisation tools and algorithms, example SOPs and proformas (e.g. Data Use Agreement templates), websites providing advice and suggestions, or detailed instructions or FAQs for specific tools, software or infrastructures. Training systems and material should also be included under this tag."
       }
    },
    {
@@ -36,7 +36,7 @@
       "pk": 5,
       "fields": {
          "name": "Other (background) material",
-         "description": "Other (background) material"
+         "description": "Any material that does not fit into the categories listed above but which provides useful background material relevant to data sharing. Examples include position papers from influential groups or organisations, discussions of publication bias in journals, descriptions of IT security measures, or discussions over reproducibility in research."
       }
    }
 ]

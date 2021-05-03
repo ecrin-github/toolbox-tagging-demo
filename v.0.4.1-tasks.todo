@@ -1,0 +1,46 @@
+v.0.4.1:
+    
+    ✔ New categories and tags should be able to be added only by the administrator. @done(21-05-01 19:22)
+
+    ✔ Content managers should not be able to add/modify categories & tags. @done(21-05-01 19:22)
+
+    ✔ Content managers can be within RIs to distribute the workload and resources. @done(21-05-01 16:52)
+        (We can envisage one or few content managers for each RI.) 
+        
+    ✔ Consider renaming Administrators into “Project Coordinators”. @done(21-05-03 12:16)
+
+    ☐ Consider adding a contact mechanism so that taggers and content managers can 
+    contact for example the “Project coordinators” when there is a problem with a 
+    specific category or tag or resource.
+
+    ☐ Content managers should also be able to add/remove/modify tags of already
+    tagged resources and act as “supertaggers”. We suggest that content managers 
+    tagging overrules the tagging of taggers in case of disagreement. 
+    This could lead to bias and systematic errors but we can integrate it like 
+    this and modify later if needed.
+
+    ✔ The “Groups” & “Users” on the left part in the list should change to include @done(21-05-03 17:00)
+    the 3 names of groups: “Administrators” (or the new “Project coordinators”), 
+    “content managers”, “taggers” instead of users & groups.
+
+    ✔ For now content managers should be able to add as many resources as they @done(21-05-01 19:28)
+    want without approval.
+    
+    ✔ From bibliographic data url should be made an obligatory field. @done(21-05-01 19:28)
+
+    ✔ For the categories, definitions from the categorisation system document @done(21-05-03 19:11)
+    should go in. There is a field description so we would need content to go in.
+
+    ☐ For taggers: Add 2 options → Save and continue later vs Save and send for approval.
+
+    ✔ For content managers → Content managers should be able to see the status @done(21-05-03 19:11)
+    of the resources (tagged and waiting for approval vs still untagged). 
+    We can add a “Status of resources” in the list for the content managers to 
+    be able to follow that.
+
+    ✔ It would be great if we can see the pdf of the added resources in our browsers by clicking. @done(21-05-03 20:59)
+
+    ✔ Bibliographic data extended. Make url data obligatory. Maybe make a link @done(21-05-01 19:30)
+    to Zotero. 5-6 fields e.g. type of file. Bibliographic data should be a 
+    small coreset. For the first demo bibliographic data should be input manually. 
+    Later steps with Zotero to input metadata or bibliographic data.

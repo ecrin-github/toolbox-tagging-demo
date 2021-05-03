@@ -10,10 +10,10 @@ from resources.models import Resource
 
 # Create your models here.
 class TaggingResource(models.Model):
-    resource = models.ForeignKey(Resource, unique=False, null=False, default=1, on_delete=models.CASCADE)
+    resource = models.OneToOneField(Resource, unique=False, null=True, on_delete=models.CASCADE)
     resource_type = models.ManyToManyField(ResourceType, unique=False)
     research_field = models.ManyToManyField(ResearchField, unique=False)
-    geographical_scope = models.ForeignKey(GeographicalScope, default=1, on_delete=models.SET_NULL, null=True)
+    geographical_scope = models.ForeignKey(GeographicalScope, on_delete=models.SET_NULL, null=True)
     countries_grouping = ChainedManyToManyField(
         CountryGrouping,
         chained_field="geographical_scope",
@@ -22,7 +22,7 @@ class TaggingResource(models.Model):
         verbose_name="Countries grouping"
     )
     specific_topics = models.ManyToManyField(SpecificTopic, unique=False)
-    data_type = models.ForeignKey(DataType, default=1, on_delete=models.SET_NULL, null=True)
+    data_type = models.ForeignKey(DataType, on_delete=models.SET_NULL, null=True)
     data_type_subs = ChainedManyToManyField(
         DataTypeSub,
         chained_field="data_type",

@@ -1,6 +1,7 @@
 import os
 import sys
 
+
 if __name__ == '__main__':
     # Setup environ
     dir_path = '/Users/iproger/Projects/ecrin-mdr/toolbox'
@@ -12,13 +13,13 @@ if __name__ == '__main__':
     import django
     django.setup()
 
-    from users_management.models import Group, Permission
+    from django.contrib.auth.models import Group, Permission
     from django.contrib.contenttypes.models import ContentType
     from users_management.models import User
 
 
     # Groups creation
-    admin_group, created = Group.objects.get_or_create(name='Administrators')
+    project_coordinators_group, created = Group.objects.get_or_create(name='Project coordinators')
     content_managers_group, created = Group.objects.get_or_create(name='Content managers')
     tagging_group, created = Group.objects.get_or_create(name='Tagging group')
 
@@ -65,54 +66,52 @@ if __name__ == '__main__':
 
 
     # Assing permissions to the groups
-    # Admin
+    # Project coordinators
     # Categories permissions
-    admin_group.permissions.add(access_to_categories_permission)
-    admin_group.permissions.add(add_categories_permission)
-    admin_group.permissions.add(view_categories_permission)
-    admin_group.permissions.add(edit_categories_permission)
-    admin_group.permissions.add(remove_categories_permission)
-    admin_group.permissions.add(add_categories_comments_permission)
-    admin_group.permissions.add(view_categories_comments_permission)
-    admin_group.permissions.add(edit_categories_comments_permission)
-    admin_group.permissions.add(remove_categories_comments_permission)
-    admin_group.permissions.add(assign_categories_permission)
+    project_coordinators_group.permissions.add(access_to_categories_permission)
+    project_coordinators_group.permissions.add(add_categories_permission)
+    project_coordinators_group.permissions.add(view_categories_permission)
+    project_coordinators_group.permissions.add(edit_categories_permission)
+    project_coordinators_group.permissions.add(remove_categories_permission)
+    project_coordinators_group.permissions.add(add_categories_comments_permission)
+    project_coordinators_group.permissions.add(view_categories_comments_permission)
+    project_coordinators_group.permissions.add(edit_categories_comments_permission)
+    project_coordinators_group.permissions.add(remove_categories_comments_permission)
+    project_coordinators_group.permissions.add(assign_categories_permission)
 
     # Resources permissions
-    admin_group.permissions.add(access_to_resources_permission)
-    admin_group.permissions.add(add_resources_permission)
-    admin_group.permissions.add(view_resources_permission)
-    admin_group.permissions.add(edit_resources_permission)
-    admin_group.permissions.add(remove_resources_permission)
-    admin_group.permissions.add(add_resources_comments_permission)
-    admin_group.permissions.add(edit_resources_comments_permission)
-    admin_group.permissions.add(view_resources_comments_permission)
-    admin_group.permissions.add(remove_resources_comments_permission)
-    admin_group.permissions.add(assign_tagging_user_permission)
-    admin_group.permissions.add(change_tagging_user_permission)
-    admin_group.permissions.add(remove_tagging_user_permission)
-    admin_group.permissions.add(approve_resource_permission)
-    admin_group.permissions.add(decline_resource_permission)
+    project_coordinators_group.permissions.add(access_to_resources_permission)
+    project_coordinators_group.permissions.add(add_resources_permission)
+    project_coordinators_group.permissions.add(view_resources_permission)
+    project_coordinators_group.permissions.add(edit_resources_permission)
+    project_coordinators_group.permissions.add(remove_resources_permission)
+    project_coordinators_group.permissions.add(add_resources_comments_permission)
+    project_coordinators_group.permissions.add(edit_resources_comments_permission)
+    project_coordinators_group.permissions.add(view_resources_comments_permission)
+    project_coordinators_group.permissions.add(remove_resources_comments_permission)
+    project_coordinators_group.permissions.add(assign_tagging_user_permission)
+    project_coordinators_group.permissions.add(change_tagging_user_permission)
+    project_coordinators_group.permissions.add(remove_tagging_user_permission)
+    project_coordinators_group.permissions.add(approve_resource_permission)
+    project_coordinators_group.permissions.add(decline_resource_permission)
 
     # Users and groups permissions
-    admin_group.permissions.add(access_to_users_and_groups_permission)
-    admin_group.permissions.add(add_users_permission)
-    admin_group.permissions.add(view_users_permission)
-    admin_group.permissions.add(edit_users_permission)
-    admin_group.permissions.add(remove_users_permission)
+    project_coordinators_group.permissions.add(access_to_users_and_groups_permission)
+    project_coordinators_group.permissions.add(add_users_permission)
+    project_coordinators_group.permissions.add(view_users_permission)
+    project_coordinators_group.permissions.add(edit_users_permission)
+    project_coordinators_group.permissions.add(remove_users_permission)
 
 
     # Content managers
     # Categories
     content_managers_group.permissions.add(access_to_categories_permission)
-    content_managers_group.permissions.add(add_categories_permission)
     content_managers_group.permissions.add(view_categories_permission)
-    content_managers_group.permissions.add(edit_categories_permission)
-    content_managers_group.permissions.add(remove_categories_permission)
     content_managers_group.permissions.add(add_categories_comments_permission)
     content_managers_group.permissions.add(view_categories_comments_permission)
     content_managers_group.permissions.add(edit_categories_comments_permission)
     content_managers_group.permissions.add(remove_categories_comments_permission)
+    content_managers_group.permissions.add(assign_categories_permission)
 
     # Resources
     content_managers_group.permissions.add(access_to_resources_permission)

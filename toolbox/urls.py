@@ -22,12 +22,15 @@ from django.contrib.auth.models import Group
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^chaining/', include('smart_selects.urls'))
+    re_path(r'^chaining/', include('smart_selects.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
+# Media files URL
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-admin.site.site_header = "The WP4 Toolbox Tagging system (v.0.3.2)"
-admin.site.site_title = "The WP4 Toolbox Tagging system (v.0.3.2)"
+
+admin.site.site_header = "The WP4 Toolbox Tagging system (v.0.4.1)"
+admin.site.site_title = "The WP4 Toolbox Tagging system (v.0.4.1)"
 admin.site.index_title = "Sections"
 
 admin.site.unregister(Group)

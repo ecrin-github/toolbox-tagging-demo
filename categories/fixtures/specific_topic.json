@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
        "name": "Agreements",
-       "description": "Agreements"
+       "description": "Includes as matching search terms Data Use (or Access) Agreements, Data (or Material) Transfer Agreement, Data Storage Agreements and their abbreviations."
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": 2,
     "fields": {
        "name": "Attribution and credit",
-       "description": "Attribution and credit"
+       "description": "Includes as matching search terms Attribution, Citations, Data authorship, Incentives, Credit, (all for data sharing)."
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": 3,
     "fields": {
        "name": "COVID-19",
-       "description": "COVID-19"
+       "description": "Includes as matching terms COVID, SARS-2, Coronavirus."
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": 4,
     "fields": {
        "name": "Data Repositories",
-       "description": "Data Repositories"
+       "description": "Includes as matching terms Repository, Repositories, Long-term Data Storage."
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": 5,
     "fields": {
        "name": "Data sharing committees",
-       "description": "Data sharing committees"
+       "description": "Includes as matching terms Data Access Committee."
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": 6,
     "fields": {
        "name": "Dual Use Research of Concern (DURC)",
-       "description": "Dual Use Research of Concern (DURC)"
+       "description": "Dual Use Research of Concern (DURC) is life sciences research that, based on current understanding, can be reasonably anticipated to provide knowledge, information, products, or technologies that could be directly misapplied to pose a significant threat with broad potential consequences to public health and safety, agricultural crops and other plants, animals, the environment, materiel, or national security."
     }
   },
   {
@@ -52,7 +52,7 @@
     "pk": 7,
     "fields": {
        "name": "ELSI (Ethical, legal and social aspects)",
-       "description": "ELSI (Ethical, legal and social aspects)"
+       "description": "Overlaps with a resource type category but included here to allow any resource type with an ELSI aspect to be tagged. Matching search terms include Ethical aspects, Legal aspects, Social Impact, Societal aspects."
     }
   },
   {
@@ -76,7 +76,7 @@
     "pk": 10,
     "fields": {
        "name": "IP-aspects/licences",
-       "description": "IP-aspects/licences"
+       "description": "Include as matching terms IP, Licences, Creative Commons."
     }
   },
   {
@@ -92,7 +92,7 @@
     "pk": 12,
     "fields": {
        "name": "Interventional studies (including clinical trials)",
-       "description": "Interventional studies (including clinical trials)"
+       "description": "Includes as matching terms Clinical Trials, Interventional. This is important because the category “research design” was deleted."
     }
   },
   {
@@ -100,7 +100,7 @@
     "pk": 13,
     "fields": {
        "name": "Metadata supporting data sharing",
-       "description": "Metadata supporting data sharing"
+       "description": "Includes as matching terms Metadata, Metadata standards, Descriptive metadata."
     }
   },
   {
@@ -116,7 +116,7 @@
     "pk": 15,
     "fields": {
        "name": "Privacy protection",
-       "description": "Privacy protection"
+       "description": "Includes as matching terms Anonymisation, Pseudonymisation, De-identification."
     }
   },
   {
@@ -124,7 +124,7 @@
     "pk": 16,
     "fields": {
        "name": "Research participants involvement",
-       "description": "Research participants involvement"
+       "description": "Includes as matching terms Participants, Patient Group, Community involvement."
     }
   }
 ]

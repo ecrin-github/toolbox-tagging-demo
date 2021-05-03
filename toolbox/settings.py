@@ -132,5 +132,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 
+MEDIA_URL = '/uploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+
+
 # JQUERY_URL = True
 USE_DJANGO_JQUERY = True
