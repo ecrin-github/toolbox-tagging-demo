@@ -13,7 +13,7 @@ v.0.4.1:
     contact for example the “Project coordinators” when there is a problem with a 
     specific category or tag or resource.
 
-    ☐ Content managers should also be able to add/remove/modify tags of already
+    ✔ Content managers should also be able to add/remove/modify tags of already @done(21-05-03 23:31)
     tagged resources and act as “supertaggers”. We suggest that content managers 
     tagging overrules the tagging of taggers in case of disagreement. 
     This could lead to bias and systematic errors but we can integrate it like 
