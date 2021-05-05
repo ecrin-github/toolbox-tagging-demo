@@ -1,0 +1,98 @@
+[
+    {
+        "model": "resources.ResourceType",
+        "pk": 1,
+        "fields": {
+            "name": "Book",
+            "description": "Book"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 2,
+        "fields": {
+            "name": "Document",
+            "description": "Document"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 3,
+        "fields": {
+            "name": "Report",
+            "description": "Report"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 4,
+        "fields": {
+            "name": "Video",
+            "description": "Video"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 5,
+        "fields": {
+            "name": "Software",
+            "description": "Software"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 6,
+        "fields": {
+            "name": "Journal article",
+            "description": "Journal article"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 7,
+        "fields": {
+            "name": "Letter",
+            "description": "Letter"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 8,
+        "fields": {
+            "name": "Manuscript",
+            "description": "Manuscript"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 9,
+        "fields": {
+            "name": "Presentation",
+            "description": "Presentation"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 10,
+        "fields": {
+            "name": "Report",
+            "description": "Report"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 11,
+        "fields": {
+            "name": "Webinar",
+            "description": "Webinar"
+        }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 12,
+        "fields": {
+            "name": "Template Q & A",
+            "description": "Template Q & A"
+        }
+    }
+]

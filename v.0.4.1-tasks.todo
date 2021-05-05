@@ -31,7 +31,7 @@ v.0.4.1:
     ✔ For the categories, definitions from the categorisation system document @done(21-05-03 19:11)
     should go in. There is a field description so we would need content to go in.
 
-    ☐ For taggers: Add 2 options → Save and continue later vs Save and send for approval.
+    ✔ For taggers: Add 2 options → Save and continue later vs Save and send for approval. @done(21-05-04 13:10)
 
     ✔ For content managers → Content managers should be able to see the status @done(21-05-03 19:11)
     of the resources (tagged and waiting for approval vs still untagged). 

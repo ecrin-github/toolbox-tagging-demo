@@ -1,0 +1,22 @@
+{% extends 'admin/change_form.html' %}
+
+{% block submit_buttons_bottom %}
+    {% if request.user.groups.name == 'Project coordinators' or request.user.groups.name == 'Tagging group' %}
+        <div class="submit-row">
+            <input 
+                type="submit" 
+                value="Save and continue tagging" 
+                name="_save-and-continue-tagging" 
+                style="background-color: #019ad2 !important;" 
+            />
+            <input 
+                type="submit" 
+                value="Approve" 
+                name="_approve" 
+                style="background-color: #5cbf2a !important;" 
+                {% if is_disabled %} disabled {% endif %}
+            />
+        </div>
+    {% endif %}
+    {{ block.super }}
+{% endblock %}
