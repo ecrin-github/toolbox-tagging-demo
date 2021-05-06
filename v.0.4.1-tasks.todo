@@ -9,7 +9,7 @@ v.0.4.1:
         
     ✔ Consider renaming Administrators into “Project Coordinators”. @done(21-05-03 12:16)
 
-    ☐ Consider adding a contact mechanism so that taggers and content managers can 
+    ✔ Consider adding a contact mechanism so that taggers and content managers can @done(21-05-06 16:35)
     contact for example the “Project coordinators” when there is a problem with a 
     specific category or tag or resource.
 
