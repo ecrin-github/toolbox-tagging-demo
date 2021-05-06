@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'tagging.apps.TaggingConfig',
     'resources.apps.ResourcesConfig',
     'users_management.apps.UsersManagementConfig',
+    'contacts.apps.ContactsConfig',
 ]
 
 MIDDLEWARE = [

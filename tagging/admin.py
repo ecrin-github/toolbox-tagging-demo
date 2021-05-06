@@ -73,9 +73,18 @@ class TaggingResourceAdmin(admin.ModelAdmin):
     )
 
 
+    def get_queryset(self, request):
+        if request.user.groups.name == 'Project coordinators' or request.user.groups.name == 'Content managers':
+            qs = TaggingResource.objects.all()
+        else:
+            qs = TaggingResource.objects.filter(resource__tagging_persons__id=request.user.id)
+        return qs
+
+
     def add_view(self, request, form_url='', extra_context=None):
         extra_context = extra_context or {}
         extra_context['is_disabled'] = True
+        extra_context['is_tagger'] = True
         return super().add_view(request, form_url=form_url, extra_context=extra_context)
 
 
@@ -88,6 +97,11 @@ class TaggingResourceAdmin(admin.ModelAdmin):
             extra_context['is_disabled'] = False
         else:
             extra_context['is_disabled'] = True
+        check_tagger = Resource.objects.filter(id=tagging_resource.resource.id, tagging_persons__id=request.user.id)
+        if check_tagger.exists():
+            extra_context['is_tagger'] = True
+        else:
+            extra_context['is_tagger'] = False
         return super().change_view(request, object_id, form_url=form_url, extra_context=extra_context)
 
 

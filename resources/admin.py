@@ -108,6 +108,7 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
     def add_view(self, request, form_url='', extra_context=None):
         extra_context = extra_context or {}
         extra_context['is_disabled'] = True
+        extra_context['is_author'] = True
         return super().add_view(request, form_url=form_url, extra_context=extra_context)
 
 
@@ -118,6 +119,11 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
             extra_context['is_disabled'] = False
         else:
             extra_context['is_disabled'] = True
+        resource = Resource.objects.get(id=object_id)
+        if resource.added_by == request.user:
+            extra_context['is_author'] = True
+        else:
+            extra_context['is_author'] = False
         return super().change_view(request, object_id, form_url=form_url, extra_context=extra_context)
 
 
