@@ -1,0 +1,13 @@
+{% extends 'admin/change_form.html' %}
+
+{% block submit_buttons_bottom %}
+    <div class="submit-row">
+        <input 
+            type="submit" 
+            value="Send" 
+            name="_send" 
+            style="background-color: #019ad2 !important;" 
+        />
+    </div>
+    <!--{{ block.super }}-->
+{% endblock %}

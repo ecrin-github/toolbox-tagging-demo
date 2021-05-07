@@ -24,7 +24,7 @@ class TaggingResourceInline(admin.StackedInline):
             check_resource_status = ResourceStatus.objects.filter(resource=obj)
             if check_resource_status.exists():
                 resource_status = ResourceStatus.objects.get(resource=obj)
-                if resource_status.is_tagged == True or request.user.groups.name == 'Project coordinators':
+                if (resource_status.is_tagged == True and obj.added_by == request.user) or request.user.groups.name == 'Project coordinators':
                     return []
                 else:
                     return [
@@ -149,7 +149,8 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
     def response_change(self, request, obj):
         
         if "_save" in request.POST:
-            obj.added_by = request.user
+            if obj.added_by is None or obj.added_by == '':
+                obj.added_by = request.user
             resource = Resource.objects.get(id=obj.pk)
 
             check_tagging_resource = TaggingResource.objects.filter(resource=resource)
@@ -252,7 +253,8 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
 
     
     def save_model(self, request, obj, form, change):
-        obj.added_by = request.user
+        if obj.added_by is None or obj.added_by == '':
+            obj.added_by = request.user
         super().save_model(request, obj, form, change)
         resource = Resource.objects.get(id=obj.pk)
         check_tagging_resource = TaggingResource.objects.filter(resource=resource)

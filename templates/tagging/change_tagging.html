@@ -7,7 +7,8 @@
                 type="submit" 
                 value="Save and continue tagging" 
                 name="_save-and-continue-tagging" 
-                style="background-color: #019ad2 !important;" 
+                style="background-color: #019ad2 !important;"
+                {% if is_disabled %} disabled {% endif %} 
             />
             <input 
                 type="submit" 

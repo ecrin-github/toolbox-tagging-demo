@@ -37,10 +37,10 @@ class Resource(models.Model):
     abstract = models.TextField(null=True, blank=True)
     authors = models.TextField(null=False, blank=False, default='Unknown')
     year_of_publication = models.IntegerField(null=False, blank=False, default=0)
-    doi = models.CharField(max_length=175, null=True, blank=True)
+    doi = models.CharField(max_length=175, null=True, blank=True, verbose_name='DOI')
     language = models.ForeignKey(Language, unique=False, on_delete=models.CASCADE, null=True, blank=True)
     type_of_resource = models.ForeignKey(ResourceType, unique=False, on_delete=models.CASCADE, null=True, blank=True)
-    url = models.URLField(max_length=1000, null=False, blank=False)
+    url = models.URLField(max_length=1000, null=False, blank=False, verbose_name='URL')
     resource_file = models.FileField(upload_to='uploads/', max_length=450, null=True, blank=True)
 
     created = models.DateTimeField(auto_now_add=True)

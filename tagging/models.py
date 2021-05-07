@@ -37,4 +37,4 @@ class TaggingResource(models.Model):
         return self.resource.title
 
     class Meta:
-        verbose_name_plural = "Waiting for tagging"
+        verbose_name_plural = "Tagging section"
