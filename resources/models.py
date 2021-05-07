@@ -33,7 +33,7 @@ class Language(models.Model):
 
 class Resource(models.Model):
     title = models.CharField(max_length=500, null=False, blank=False)
-    short_title = models.CharField(max_length=175, null=True, blank=True)
+    short_title = models.CharField(max_length=250, null=True, blank=True)
     abstract = models.TextField(null=True, blank=True)
     authors = models.TextField(null=False, blank=False, default='Unknown')
     year_of_publication = models.IntegerField(null=False, blank=False, default=0)

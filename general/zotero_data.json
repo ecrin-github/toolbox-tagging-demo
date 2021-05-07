@@ -1,0 +1,725 @@
+[{
+    "title": "Good practice principles for sharing individual participant data from publicly funded clinical trials",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Catrin",
+        "lastName": "Tudur Smith"
+    }, {
+        "creatorType": "author",
+        "firstName": "Carolyn",
+        "lastName": "Hopkins"
+    }, {
+        "creatorType": "author",
+        "firstName": "Matt",
+        "lastName": "Sydes"
+    }, {
+        "creatorType": "author",
+        "firstName": "Kerry",
+        "lastName": "Woolfall"
+    }, {
+        "creatorType": "author",
+        "firstName": "Mike",
+        "lastName": "Clarke"
+    }, {
+        "creatorType": "author",
+        "firstName": "Gordon",
+        "lastName": "Murray"
+    }, {
+        "creatorType": "author",
+        "firstName": "Paula",
+        "lastName": "Williamson"
+    }],
+    "year": "2015",
+    "doi": "10.1186/1745-6215-16-S2-O1",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-16-S2-O1",
+    "file": ""
+}, {
+    "title": "Sharing Clinical Trial Data \u2014 A Proposal from the International Committee of Medical Journal Editors",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Darren",
+        "lastName": "Taichman"
+    }, {
+        "creatorType": "author",
+        "firstName": "Joyce",
+        "lastName": "Backus"
+    }, {
+        "creatorType": "author",
+        "firstName": "Christopher",
+        "lastName": "Baethge"
+    }, {
+        "creatorType": "author",
+        "firstName": "Howard",
+        "lastName": "Bauchner"
+    }, {
+        "creatorType": "author",
+        "firstName": "Peter",
+        "lastName": "de Leeuw"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jeffrey",
+        "lastName": "Drazen"
+    }, {
+        "creatorType": "author",
+        "firstName": "John",
+        "lastName": "Fletcher"
+    }, {
+        "creatorType": "author",
+        "firstName": "Frank",
+        "lastName": "Frizelle"
+    }, {
+        "creatorType": "author",
+        "firstName": "Trish",
+        "lastName": "Groves"
+    }, {
+        "creatorType": "author",
+        "firstName": "Abraham",
+        "lastName": "Haileamlak"
+    }, {
+        "creatorType": "author",
+        "firstName": "Astrid",
+        "lastName": "James"
+    }, {
+        "creatorType": "author",
+        "firstName": "Christopher",
+        "lastName": "Laine"
+    }, {
+        "creatorType": "author",
+        "firstName": "Larry",
+        "lastName": "Peiperi"
+    }, {
+        "creatorType": "author",
+        "firstName": "Anja",
+        "lastName": "Pinborg"
+    }, {
+        "creatorType": "author",
+        "firstName": "Peush",
+        "lastName": "Sahni"
+    }, {
+        "creatorType": "author",
+        "firstName": "Sinan",
+        "lastName": "Wu"
+    }],
+    "year": "2016",
+    "doi": "",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26786954/",
+    "file": ""
+}, {
+    "title": "The National Drug Abuse Treatment Clinical Trials Network Data Share project: Website design, usage, challenges, and future directions",
+    "shortTitle": "The National Drug Abuse Treatment Clinical Trials Network Data Share project",
+    "abstract": "Background\u2014The are many benefits of data sharing, including the promotion of new research from effective use of existing data, replication of findings through re-analysis of pooled data files, meta-analysis using individual patient data, and reinforcement of open scientific inquiry. A randomized controlled trial is considered as the \u201cgold standard\u201d for establishing treatment effectiveness, but clinical trial research is very costly and sharing data is an opportunity to expand the investment of the clinical trial beyond its original goals at minimal costs.\nPurpose\u2014We describe the goals, developments, and usage of the Data Share website (www.ctndatashare.org) for the National Drug Abuse Treatment Clinical Trials Network (CTN) in the US, including lessons learned, limitations and major revisions and considerations for future directions to improve data sharing.\nMethods\u2014Data management and programming procedures were conducted to produce uniform and Health Insurance Portability and Accountability Act (HIPAA)-compliant de-identified research data files from the completed trials of the CTN for archiving, managing, and sharing on the Data Share website.\nResults\u2014Since its inception in 2006 and through October 2012, nearly 1700 downloads from 27 clinical trials have been accessed from the Data Share website, with the use increasing over the years. Individuals from 31 countries have downloaded data from the website, and there have been at least 13 publications derived from analyzing data through the public Data Share website. Limitations\u2014Minimal control over data requests and usage has resulted in little information and lack of control regarding how the data from the website are used. Lack of uniformity in data elements collected across CTN trials has limited cross-study analyses.\nConclusions\u2014The Data Share website offers researchers easy access to deidentified data files with the goal to promote additional research and identify new findings from completed CTN studies. To maximize the utility of the website, on-going collaborative efforts are needed to",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Dikla",
+        "lastName": "Shmueli-Blumberg"
+    }, {
+        "creatorType": "author",
+        "firstName": "Lian",
+        "lastName": "Hu"
+    }, {
+        "creatorType": "author",
+        "firstName": "Colleen",
+        "lastName": "Allen"
+    }, {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Frasketi"
+    }, {
+        "creatorType": "author",
+        "firstName": "Li-Tzy",
+        "lastName": "Wu"
+    }, {
+        "creatorType": "author",
+        "firstName": "Paul",
+        "lastName": "VanVeldhuisen"
+    }],
+    "year": "2013",
+    "doi": "10.1177/1740774513503522",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "http://journals.sagepub.com/doi/10.1177/1740774513503522",
+    "file": ""
+}, {
+    "title": "The Yale Open Data Access (YODA) Project - A Mechanism for Data Sharing",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Harlan",
+        "lastName": "Krumholz"
+    }, {
+        "creatorType": "author",
+        "firstName": "Joanne",
+        "lastName": "Waldstreicher"
+    }],
+    "year": "2016",
+    "doi": "10.1056/NEJMp1607342",
+    "language": "",
+    "type_of_resource": "Journal article",
+    "url": "http://dx.doi.org/10.1056/NEJMp1607342",
+    "file": ""
+}, {
+    "title": "Data Sharing from Clinical Trials \u2014 A Research Funder\u2019s Perspective",
+    "shortTitle": "",
+    "abstract": "Representatives of the Wellcome Trust, the Medical Research Council, Cancer Research UK, and the Bill and Melinda Gates Foundation describe the importance of sharing clinical-trial data for reasons of transparency, good practice, and accelerated dissemination of results.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Robert",
+        "lastName": "Kiley"
+    }, {
+        "creatorType": "author",
+        "firstName": "Tony",
+        "lastName": "Peatfield"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jennifer",
+        "lastName": "Hansen"
+    }, {
+        "creatorType": "author",
+        "firstName": "Fiona",
+        "lastName": "Reddington"
+    }],
+    "year": "2017",
+    "doi": "10.1056/NEJMsb1708278",
+    "language": "",
+    "type_of_resource": "Journal article",
+    "url": "https://doi.org/10.1056/NEJMsb1708278",
+    "file": ""
+}, {
+    "title": "Discussion framework for clinical trial data Sharing: Guiding Principles, Elements, and Activities",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "IOM"
+    }],
+    "year": "2014",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Document",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25392895/",
+    "file": ""
+}, {
+    "title": "Piloting the European Unified Patient Identity Management (EUPID) Concept to Facilitate Secondary Use of Neuroblastoma Data from Clinical Trials and Biobanking",
+    "shortTitle": "",
+    "abstract": "Data from two contexts, i.e. the European Unresectable Neuroblastoma (EUNB) clinical trial and results from comparative genomic hybridisation (CGH) analyses from corresponding tumour samples shall be provided to existing repositories for secondary use. Utilizing the European Unified Patient IDentity Management (EUPID) as developed in the course of the ENCCA project, the following processes were applied to the data: standardization (providing interoperability), pseudonymization (generating distinct but linkable pseudonyms for both contexts), and linking both data sources. The applied procedures resulted in a joined dataset that did not contain any identifiers that would allow to backtrack the records to either data sources. This provided a high degree of privacy to the involved patients as required by data protection regulations, without preventing proper analysis.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Hubert",
+        "lastName": "Ebner"
+    }, {
+        "creatorType": "author",
+        "firstName": "Dieter",
+        "lastName": "Hayn"
+    }, {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Falgenhauer"
+    }, {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Nitzlnader"
+    }, {
+        "creatorType": "author",
+        "firstName": "Gudrun",
+        "lastName": "Schleiermacher"
+    }, {
+        "creatorType": "author",
+        "firstName": "Riccardo",
+        "lastName": "Haupt"
+    }, {
+        "creatorType": "author",
+        "firstName": "Giovanni",
+        "lastName": "Erminio"
+    }, {
+        "creatorType": "author",
+        "firstName": "Raffaella",
+        "lastName": "Defferrari"
+    }, {
+        "creatorType": "author",
+        "firstName": "Katia",
+        "lastName": "Mazzocco"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jan",
+        "lastName": "Kohler"
+    }, {
+        "creatorType": "author",
+        "firstName": "Paolo",
+        "lastName": "Tonini"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ruth",
+        "lastName": "Ladenstein"
+    }, {
+        "creatorType": "author",
+        "firstName": "Guenter",
+        "lastName": "Schreier"
+    }],
+    "year": "2010",
+    "doi": "",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27139382/",
+    "file": ""
+}, {
+    "title": "Data Authorship as an Incentive to Data Sharing",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Barbara E",
+        "lastName": "Bierer"
+    }],
+    "year": "2017",
+    "doi": "",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMsb1616595",
+    "file": ""
+}, {
+    "title": "WMA - The World Medical Association-Declaration of Taipei",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "WMA"
+    }],
+    "year": "2020",
+    "doi": null,
+    "language": "en",
+    "type_of_resource": "Report",
+    "url": "https://www.wma.net/what-we-do/medical-ethics/declaration-of-taipei/",
+    "file": ""
+}, {
+    "title": "Joint Declaration of Data Citation Principles - FINAL",
+    "shortTitle": "",
+    "abstract": "When citing please use: Data Citation Synthesis Group: Joint Declaration of Data Citation Principles. Martone M. (ed.) San Diego CA: FORCE11; 2014 https://doi.org/10.25490/a97f-egyk Translations Japanese \u2013 https://doi.org/10.11502/rduf_rdc_jddcp_ja (added 31.01.2020). >>> Endorsement List Preamble Sound, reproducible scholarship rests upon a foundation of robust, accessible data. For this to be so in practice as well as theory, data must be accorded due importance in the practice of scholarship and in the enduring scholarly record.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "FORCE 11"
+    }],
+    "year": "2013",
+    "doi": null,
+    "language": "en",
+    "type_of_resource": "Template Q & A",
+    "url": "https://www.force11.org/datacitationprinciples",
+    "file": ""
+}, {
+    "title": "Legal and ethical framework for global health information and biospecimen exchange - an international perspective",
+    "shortTitle": "",
+    "abstract": "Background: The progress of electronic health technologies and biobanks holds enormous promise for efficient research. Evidence shows that studies based on sharing and secondary use of data/samples have the potential to significantly advance medical knowledge. However, sharing of such resources for international collaboration is hampered by the lack of clarity about ethical and legal requirements for transfer of data and samples across international borders. Main text: Here, the International Clinical Trial Center Network (ICN) reports the legal and ethical requirements governing data and sample exchange (DSE) across four continents. The most recurring requirement is ethical approval, whereas only in specific conditions approval of national health authorities is required. Informed consent is not required in all sharing situations. However, waiver of informed consent is only allowed in certain countries/ regions and under certain circumstances. The current legal and ethical landscape appears to be very complex and under constant evolution. Regulations differ between countries/regions and are often incomplete, leading to uncertainty. Conclusion: With this work, ICN illuminates the unmet need for a single international collaborative framework to facilitate DSE. Harmonising requirements for global DSE will reduce inefficiency and waste in research. There are many challenges to realising this ambitious vision, including inconsistent terminology and definitions, and heterogeneous and dynamic legal constraints. Here, we identify areas of agreement and significant difference as a necessary first step towards facilitating international collaboration. We propose the establishment of a working group to continue the comparison across jurisdictions, create a standardised glossary and define a set of basic principles and fundamental requirements for DSE.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Lara",
+        "lastName": "Bernasconi"
+    }, {
+        "creatorType": "author",
+        "firstName": "Sel\u00e7uk",
+        "lastName": "\u015een"
+    }, {
+        "creatorType": "author",
+        "firstName": "Luca",
+        "lastName": "Angerame"
+    }, {
+        "creatorType": "author",
+        "firstName": "Apolo P.",
+        "lastName": "Balyegisawa"
+    }, {
+        "creatorType": "author",
+        "firstName": "Damien",
+        "lastName": "Hong Yew Hui"
+    }, {
+        "creatorType": "author",
+        "firstName": "Maximilian",
+        "lastName": "Hotter"
+    }, {
+        "creatorType": "author",
+        "firstName": "Chung Y.",
+        "lastName": "Hsu"
+    }, {
+        "creatorType": "author",
+        "firstName": "Tatsuya",
+        "lastName": "Ito"
+    }, {
+        "creatorType": "author",
+        "firstName": "Francisca",
+        "lastName": "J\u00f6rger"
+    }, {
+        "creatorType": "author",
+        "firstName": "Wolfgang",
+        "lastName": "Krassnitzer"
+    }, {
+        "creatorType": "author",
+        "firstName": "Adam T.",
+        "lastName": "Phillips"
+    }, {
+        "creatorType": "author",
+        "firstName": "Rui",
+        "lastName": "Li"
+    }, {
+        "creatorType": "author",
+        "firstName": "Louise",
+        "lastName": "Stockley"
+    }, {
+        "creatorType": "author",
+        "firstName": "Fabian",
+        "lastName": "Tay"
+    }, {
+        "creatorType": "author",
+        "firstName": "Charlotte",
+        "lastName": "von Heijne Widlund"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ming",
+        "lastName": "Wan"
+    }, {
+        "creatorType": "author",
+        "firstName": "Creany",
+        "lastName": "Wong"
+    }, {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "Yau"
+    }, {
+        "creatorType": "author",
+        "firstName": "Thomas F.",
+        "lastName": "Hiemstra"
+    }, {
+        "creatorType": "author",
+        "firstName": "Yagiz",
+        "lastName": "Uresin"
+    }, {
+        "creatorType": "author",
+        "firstName": "Gabriela",
+        "lastName": "Senti"
+    }],
+    "year": "2020",
+    "doi": "10.1186/s12910-020-0448-9",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://bmcmedethics.biomedcentral.com/articles/10.1186/s12910-020-0448-9",
+    "file": ""
+}, {
+    "title": "The risk of re-identification versus the need to identify individuals in rare disease research",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Mats G",
+        "lastName": "Hansson"
+    }, {
+        "creatorType": "author",
+        "firstName": "Hanns",
+        "lastName": "Lochm\u00fcller"
+    }, {
+        "creatorType": "author",
+        "firstName": "Olaf",
+        "lastName": "Riess"
+    }, {
+        "creatorType": "author",
+        "firstName": "Franz",
+        "lastName": "Schaefer"
+    }, {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Orth"
+    }, {
+        "creatorType": "author",
+        "firstName": "Yaffa",
+        "lastName": "Rubinstein"
+    }, {
+        "creatorType": "author",
+        "firstName": "Caron",
+        "lastName": "Molster"
+    }, {
+        "creatorType": "author",
+        "firstName": "Hugh",
+        "lastName": "Dawkins"
+    }, {
+        "creatorType": "author",
+        "firstName": "Domenica",
+        "lastName": "Taruscio"
+    }, {
+        "creatorType": "author",
+        "firstName": "Manuel",
+        "lastName": "Posada"
+    }, {
+        "creatorType": "author",
+        "firstName": "Simon",
+        "lastName": "Woods"
+    }],
+    "year": "2016",
+    "doi": "10.1038/ejhg.2016.52",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "http://www.nature.com/articles/ejhg201652",
+    "file": ""
+}, {
+    "title": "Views of Ethical Best Practices in Sharing Individual-Level Data From Medical and Public Health Research: A Systematic Scoping Review",
+    "shortTitle": "",
+    "abstract": "There is increasing support for sharing individual-level data generated by medical and public health research. This scoping review of empirical research and conceptual literature examined stakeholders\ufffd perspectives of ethical best practices in data sharing, particularly in low- and middle-income settings. Sixty-nine empirical and conceptual articles were reviewed, of which, only five were empirical studies and eight were conceptual articles focusing on low- and middle-income settings. We conclude that support for sharing individual-level data is contingent on the development and implementation of international and local policies and processes to support ethical best practices. Further conceptual and empirical research is needed to ensure data sharing policies and processes in low- and middle-income settings are appropriately informed by stakeholders\ufffd perspectives.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Susan",
+        "lastName": "Bull"
+    }, {
+        "creatorType": "author",
+        "firstName": "Nia",
+        "lastName": "Roberts"
+    }, {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Parker"
+    }],
+    "year": "2015",
+    "doi": "10.1177/1556264615594767",
+    "language": "",
+    "type_of_resource": "Journal article",
+    "url": "http://jre.sagepub.com/content/10/3/225.abstract",
+    "file": ""
+}, {
+    "title": "Policy Statement on Data Sharing by the World Health Organization in the Context of Public Health Emergencies",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "WHO"
+    }],
+    "year": "2016",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Template Q & A",
+    "url": "https://www.who.int/ihr/procedures/SPG_data_sharing.pdf",
+    "file": ""
+}, {
+    "title": "Towards a comprehensive and interoperable representation of consent-based data usage permissions in the German medical informatics initiative",
+    "shortTitle": "",
+    "abstract": "BACKGROUND: The aim of the German Medical Informatics Initiative is to establish a national infrastructure for integrating and sharing health data. To this, Data Integration Centers are set up at university medical centers, which address data harmonization, information security and data protection. To capture patient consent, a common informed consent template has been developed. It consists of different modules addressing permissions for using data and biosamples. On the technical level, a common digital representation of information from signed consent templates is needed. As the partners in the initiative are free to adopt different solutions for managing consent information (e.g. IHE BPPC or HL7 FHIR Consent Resources), we had to develop an interoperability layer.\nMETHODS: First, we compiled an overview of data items required to reflect the information from the MII consent template as well as patient preferences and derived permissions. Next, we created entity-relationship diagrams to formally describe the conceptual data model underlying relevant items. We then compared this data model to conceptual models describing representations of consent information using different interoperability standards. We used the result of this comparison to derive an interoperable representation that can be mapped to common standards.\nRESULTS: The digital representation needs to capture the following information: (1) version of the consent, (2) consent status for each module, and (3) period of validity of the status. We found that there is no generally accepted solution to represent status information in a manner interoperable with all relevant standards. Hence, we developed a pragmatic solution, comprising codes which describe combinations of modules with a basic set of status labels. We propose to maintain these codes in a public registry called ART-DECOR. We present concrete technical implementations of our approach using HL7 FHIR and IHE BPPC which are also compatible with the open-source consent management software gICS.\nCONCLUSIONS: The proposed digital representation is (1) generic enough to capture relevant information from a wide range of consent documents and data use regulations and (2) interoperable with common technical standards. We plan to extend our model to include more fine-grained status codes and rules for automated access control.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Raffael",
+        "lastName": "Bild"
+    }, {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Bialke"
+    }, {
+        "creatorType": "author",
+        "firstName": "Karoline",
+        "lastName": "Buckow"
+    }, {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Ganslandt"
+    }, {
+        "creatorType": "author",
+        "firstName": "Kristina",
+        "lastName": "Ihrig"
+    }, {
+        "creatorType": "author",
+        "firstName": "Roland",
+        "lastName": "Jahns"
+    }, {
+        "creatorType": "author",
+        "firstName": "Angela",
+        "lastName": "Merzweiler"
+    }, {
+        "creatorType": "author",
+        "firstName": "Sybille",
+        "lastName": "Roschka"
+    }, {
+        "creatorType": "author",
+        "firstName": "Bj\u00f6rn",
+        "lastName": "Schreiweis"
+    }, {
+        "creatorType": "author",
+        "firstName": "Sebastian",
+        "lastName": "St\u00e4ubert"
+    }, {
+        "creatorType": "author",
+        "firstName": "Sven",
+        "lastName": "Zenker"
+    }, {
+        "creatorType": "author",
+        "firstName": "Fabian",
+        "lastName": "Prasser"
+    }],
+    "year": "2020",
+    "doi": "10.1186/s12911-020-01138-6",
+    "language": "en",
+    "type_of_resource": "journalArticle",
+    "url": "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01138-6",
+    "file": ""
+}, {
+    "title": "The Importance of Context: Risk-based De-identification of Biomedical Data",
+    "shortTitle": "The Importance of Context",
+    "abstract": "BACKGROUND: Data sharing is a central aspect of modern biomedical research. It is accompanied by significant privacy concerns and often data needs to be protected from re-identification. With methods of de-identification datasets can be transformed in such a way that it becomes extremely difficult to link their records to identified individuals. The most important challenge in this process is to find an adequate balance between an increase in privacy and a decrease in data quality.\nOBJECTIVES: Accurately measuring the risk of re-identification in a specific data sharing scenario is an important aspect of data de-identification. Overestimation of risks will significantly deteriorate data quality, while underestimation will leave data prone to attacks on privacy. Several models have been proposed for measuring risks, but there is a lack of generic methods for risk-based data de-identification. The aim of the work described in this article was to bridge this gap and to show how the quality of de-identified datasets can be improved by using risk models to tailor the process of de-identification to a concrete context.\nMETHODS: We implemented a generic de-identification process and several models for measuring re-identification risks into the ARX de-identification tool for biomedical data. By integrating the methods into an existing framework, we were able to automatically transform datasets in such a way that information loss is minimized while it is ensured that re-identification risks meet a user-defined threshold. We performed an extensive experimental evaluation to analyze the impact of using different risk models and assumptions about the goals and the background knowledge of an attacker on the quality of de-identified data.\nRESULTS: The results of our experiments show that data quality can be improved significantly by using risk models for data de-identification. On a scale where 100\u200a% represents the original input dataset and 0\u200a% represents a dataset from which all information has been removed, the loss of information content could be reduced by up to 10\u200a% when protecting datasets against strong adversaries and by up to 24\u200a% when protecting datasets against weaker adversaries.\nCONCLUSIONS: The methods studied in this article are well suited for protecting sensitive biomedical data and our implementation is available as open-source software. Our results can be used by data custodians to increase the information content of de-identified data by tailoring the process to a specific data sharing scenario. Improving data quality is important for fostering the adoption of de-identification methods in biomedical research.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Fabian",
+        "lastName": "Prasser"
+    }, {
+        "creatorType": "author",
+        "firstName": "Florian",
+        "lastName": "Kohlmayer"
+    }, {
+        "creatorType": "author",
+        "firstName": "Klaus A.",
+        "lastName": "Kuhn"
+    }],
+    "year": "2016",
+    "doi": "10.3414/ME16-01-0012",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://www.thieme-connect.com/products/ejournals/abstract/10.3414/ME16-01-0012",
+    "file": ""
+}, {
+    "title": "Pseudonymization for research data collection: is the juice worth the squeeze?",
+    "shortTitle": "Pseudonymization for research data collection",
+    "abstract": "BACKGROUND: The collection of data and biospecimens which characterize patients and probands in-depth is a core element of modern biomedical research. Relevant data must be considered highly sensitive and it needs to be protected from unauthorized use and re-identification. In this context, laws, regulations, guidelines and best-practices often recommend or mandate pseudonymization, which means that directly identifying data of subjects (e.g. names and addresses) is stored separately from data which is primarily needed for scientific analyses.\nDISCUSSION: When (authorized) re-identification of subjects is not an exceptional but a common procedure, e.g. due to longitudinal data collection, implementing pseudonymization can significantly increase the complexity of software solutions. For example, data stored in distributed databases, need to be dynamically combined with each other, which requires additional interfaces for communicating between the various subsystems. This increased complexity may lead to new attack vectors for intruders. Obviously, this is in contrast to the objective of improving data protection. What is lacking is a standardized process of evaluating and reporting risks, threats and countermeasures, which can be used to test whether integrating pseudonymization methods into data collection systems actually improves upon the degree of protection provided by system designs that simply follow common IT security best practices and implement fine-grained role-based access control models. To demonstrate that the methods used to describe systems employing pseudonymized data management are currently heterogeneous and ad-hoc, we examined the extent to which twelve recent studies address each of the six basic security properties defined by the International Organization for Standardization (ISO) standard 27,000. We show inconsistencies across the studies, with most of them failing to mention one or more security properties.\nCONCLUSION: We discuss the degree of privacy protection provided by implementing pseudonymization into research data collection processes. We conclude that (1) more research is needed on the interplay of pseudonymity, information security and data protection, (2) problem-specific guidelines for evaluating and reporting risks, threats and countermeasures should be developed and that (3) future work on pseudonymized research data collection should include the results of such structured and integrated analyses.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Florian",
+        "lastName": "Kohlmayer"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ronald",
+        "lastName": "Lautenschl\u00e4ger"
+    }, {
+        "creatorType": "author",
+        "firstName": "Fabian",
+        "lastName": "Prasser"
+    }],
+    "year": "2019",
+    "doi": "10.1186/s12911-019-0905-x",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0905-x",
+    "file": ""
+}, {
+    "title": "Where Anonymization Happens in XNAT",
+    "shortTitle": "",
+    "abstract": "XNAT needs to examine and alter the contents of image objects. Uses include:\n\n- Remove Protected Health Information (PHI)\n- Re-identify with experiment-required identifiers\n- Enable automatic mapping of Image objects into XNAT's Project/Subject/Session data model.-",
+    "authors": [{
+        "creatorType": "author",
+        "name": "XNAT - Anonymisation"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Document",
+    "url": "https://wiki.xnat.org/documentation/how-to-use-xnat/image-session-upload-methods-in-xnat/where-anonymization-happens-in-xnat",
+    "file": ""
+}, {
+    "title": "Protecting privacy using k-anonymity",
+    "shortTitle": "",
+    "abstract": "OBJECTIVE: There is increasing pressure to share health information and even make it publicly available. However, such disclosures of personal health information raise serious privacy concerns. To alleviate such concerns, it is possible to anonymize the data before disclosure. One popular anonymization approach is k-anonymity. There have been no evaluations of the actual re-identification probability of k-anonymized data sets.\nDESIGN: Through a simulation, we evaluated the re-identification risk of k-anonymization and three different improvements on three large data sets.\nMEASUREMENT: Re-identification probability is measured under two different re-identification scenarios. Information loss is measured by the commonly used discernability metric.\nRESULTS: For one of the re-identification scenarios, k-Anonymity consistently over-anonymizes data sets, with this over-anonymization being most pronounced with small sampling fractions. Over-anonymization results in excessive distortions to the data (i.e., high information loss), making the data less useful for subsequent analysis. We found that a hypothesis testing approach provided the best control over re-identification risk and reduces the extent of information loss compared to baseline k-anonymity.\nCONCLUSION: Guidelines are provided on when to use the hypothesis testing approach instead of baseline k-anonymity.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Khaled",
+        "lastName": "El Emam"
+    }, {
+        "creatorType": "author",
+        "firstName": "Fida Kamal",
+        "lastName": "Dankar"
+    }],
+    "year": "2008",
+    "doi": "10.1197/jamia.M2716",
+    "language": "en",
+    "type_of_resource": "Journal article",
+    "url": "https://academic.oup.com/jamia/article/15/5/627/732733",
+    "file": ""
+}, {
+    "title": "",
+    "shortTitle": "",
+    "abstract": "EUPID was developed by the Austrian Institute of Technology and is designed to facilitate secondary use of datasets in biomedical research and healthcare by addressing the following major requirements:\n- prevent duplicate registration of patients\n- avoid creating a transparent universal patient ID but\n- provide distinct pseudonyms for patients in different contexts\n- preserve the possibility for re-identification by a trusted third party\n- keep a protected link between the different pseudonyms in the background, which supports creating merged datasets for secondary use",
+    "authors": [{
+        "creatorType": "author",
+        "name": "EUPID-pseudonymisation tool"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Document",
+    "url": "https://eu-rd-platform.jrc.ec.europa.eu/erdri/pseudonymisation-tool_en",
+    "file": ""
+}, {
+    "title": "Data safe haven",
+    "shortTitle": "",
+    "abstract": "Safe Havens provide a platform for the use of NHS electronic data in research feasibility, delivery and pharmacovigilance offering:\n- A secure environment, with trained staff operating to agreed principles and standards\n- A federated network across Scotland working collaboratively to deliver and develop health informatics capability\n- Access to a wide range of anonymised datasets  (including national datasets through to specialised local datasets)\n- Robust governance procedures to protect the confidentiality of the data\n- Single costing and contracting\n- Updated daily. \nWorking to agreed principles and standards these Safe Havens provide access to health data and services to enable research while protecting the confidentiality of the data. Data remains under the control of the NHS and complies with legislative and NHS policies.\n\nLocal Safe Havens operate in havens operate in the regional hubs of Aberdeen, Dundee, Edinburgh and Glasgow; with a national Safe Haven at National Services Scotland.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "NHS Scotland - Data safe haven"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Document",
+    "url": "https://www.nhsresearchscotland.org.uk/research-in-scotland/data/safe-havens",
+    "file": ""
+}, {
+    "title": "UK anonymisation network (UKAN)",
+    "shortTitle": "UKAN",
+    "abstract": "The UK Anonymisation Network (UKAN) has been set up as a means of establishing best practice in anonymisation and offers practical advice and information to anyone who handles personal data and needs to share it.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "University of Manchester - UK anonymisation network"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "en",
+    "type_of_resource": "Document",
+    "url": "https://ukanon.net/",
+    "file": ""
+}, {
+    "title": "Edinburgh International Data Facility",
+    "shortTitle": "",
+    "abstract": "EIDF can be thought of as a layer of storage and computing services presented as a private cloud and hosting a rich and growing collection of data. EIDF supports the long-term storage and curation of data assets, and their cataloguing, preparation and presentation as analytic-ready datasets for research and innovation. It offers a range of computing services, from web-based notebooks to rich desktop environments and seamless access to high-performance computing.\nEIDF supports learners, researchers and innovators across the spectrum, with services from basic data download through simple learn-as-you-play-with-data notebooks to GPU-enabled machine-learning platforms for driving AI application development.\n\nEIDF also provides safe haven services to health and government users, following best practice in independent governance and supporting the linkage of complex personal data for public benefit research and policy-making under national and regional safeguards.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Edinburgh International Data Facility"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Document",
+    "url": "https://www.epcc.ed.ac.uk/research/data/eidf",
+    "file": ""
+}, {
+    "title": "MyHealthMyData (MHMD)",
+    "shortTitle": "",
+    "abstract": "MyHealthMyData (MHMD) is a Horizon 2020 Research and Innovation Action which aims at fundamentally changing the way sensitive data are shared. MHMD is poised to be the first open biomedical information network centred on the connection between organisations and individuals, encouraging hospitals to start making anonymised data available for open research, while prompting citizens to become the ultimate owners and controllers of their health data. MHMD is intended to become a true information marketplace, based on new mechanisms of trust and direct, value-based relationships between EU citizens, hospitals, research centres and businesses.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "MyHealthMyData (MHMD)"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Document",
+    "url": "http://www.myhealthmydata.eu/",
+    "file": ""
+}, {
+    "title": "Amnesia",
+    "shortTitle": "",
+    "abstract": "Amnesia is an application written in java and JavaScript and should be used locally for anonymizing a dataset. The basic idea behind anonymization is that a file containing personal data is loaded to Amnesia, we refer to this as the original dataset, and Amnesia transforms it to an anonymous dataset, which can then be stored locally. The transformation is guided by user choices and provides an anonymization guaranty for the result. The guaranties currently supported by Amnesia are k-anonymity and km-anonymity.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "OpenAIRE-Anamnesia"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "Document",
+    "url": "https://amnesia.openaire.eu/",
+    "file": ""
+}]

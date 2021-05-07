@@ -192,7 +192,7 @@ class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
             resource_status = ResourceStatus.objects.get(resource=obj)
             return resource_status.status_description
         else:
-            return 'Unknown status'
+            return 'Creating the resource'
 
 
     @csrf_protected_method

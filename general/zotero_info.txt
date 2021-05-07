@@ -1,0 +1,5 @@
+PRIVATE_KEY = 'sDmtsYFa6c1PNW5kNqPWJ1Pd'
+userID = '7003583'
+library_type = 'user'
+or
+library_type = 'group'
