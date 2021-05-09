@@ -17,14 +17,15 @@ if __name__ == '__main__':
     from django.contrib.contenttypes.models import ContentType
     from users_management.models import ProjectCoordinator
 
+
+    group = Group.objects.get(name='Project coordinators')
+
     id = 1
-    username = 'admin'
+    username = 'project_coordinator'
     password = 'ECRIN_Watt13!!'
     first_name = 'Sergei'
     last_name = 'Gorianin'
-    email = 'frequenteen@gmail.com'
-
-    group = Group.objects.get(name='Project coordinators')
+    email = 'sergei.gorianin@ecrin.org'
 
     user = ProjectCoordinator(
         id=id,

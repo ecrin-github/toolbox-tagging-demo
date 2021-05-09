@@ -5,7 +5,7 @@ from django.utils.decorators import method_decorator
 from resources.models import Resource, ResourceStatus, Language
 from users_management.models import User
 from tagging.models import TaggingResource
-from app.admin import ExportCsvMixin
+# from app.admin import ExportCsvMixin
 
 
 csrf_protected_method = method_decorator(csrf_protect)
@@ -62,7 +62,7 @@ class TaggingResourceInline(admin.StackedInline):
 
 
 @admin.register(Resource)
-class ResourceAdmin(admin.ModelAdmin, ExportCsvMixin):
+class ResourceAdmin(admin.ModelAdmin):
 
     change_form_template = 'resources/change_resource.html'
 
