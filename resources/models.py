@@ -36,7 +36,7 @@ class Resource(models.Model):
     short_title = models.CharField(max_length=250, null=True, blank=True)
     abstract = models.TextField(null=True, blank=True)
     authors = models.TextField(null=False, blank=False, default='Unknown')
-    year_of_publication = models.IntegerField(null=False, blank=False, default=0)
+    year_of_publication = models.IntegerField(null=False, blank=False, default=1950)
     doi = models.CharField(max_length=175, null=True, blank=True, verbose_name='DOI')
     language = models.ForeignKey(Language, unique=False, on_delete=models.CASCADE, null=True, blank=True)
     type_of_resource = models.ForeignKey(ResourceType, unique=False, on_delete=models.CASCADE, null=True, blank=True)
@@ -45,7 +45,7 @@ class Resource(models.Model):
 
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
-    tagging_persons = models.ManyToManyField(TaggingUser, unique=False, blank=False, related_name='tagging_persons')
+    tagging_persons = models.ManyToManyField(TaggingUser, unique=False, blank=True, related_name='tagging_persons')
     added_by = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL, unique=False, related_name='added_by')
 
 

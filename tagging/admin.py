@@ -4,6 +4,7 @@ from django.utils.decorators import method_decorator
 
 from django.utils.safestring import mark_safe
 
+from categories.models import SpecificTopic
 from tagging.models import TaggingResource
 from resources.models import ResourceStatus, Resource
 from general.configs import HOST
@@ -111,6 +112,7 @@ class TaggingResourceAdmin(admin.ModelAdmin):
             'show_save_and_continue': False,
             'show_save_and_add_another': False
         })
+        context['adminform'].form.fields['specific_topics'].queryset = SpecificTopic.objects.all().order_by('id')
         return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
 
 

@@ -2,6 +2,8 @@ from django.contrib import admin
 from django.views.decorators.csrf import csrf_protect
 from django.utils.decorators import method_decorator
 
+from resources.forms import NonRequiredInlineFormSet
+
 from resources.models import Resource, ResourceStatus, Language
 from users_management.models import User
 from tagging.models import TaggingResource
@@ -17,6 +19,10 @@ class TaggingResourceInline(admin.StackedInline):
     can_delete = False
     verbose_name_plural = 'Tagging data'
     fk_name = 'resource'
+    formset = NonRequiredInlineFormSet
+    formset_required = False
+    extra = 1
+    max_num = 1
 
 
     def get_readonly_fields(self, request, obj=None):

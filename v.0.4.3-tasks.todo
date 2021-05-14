@@ -1,0 +1,13 @@
+v.0.4.3:
+
+    ✔ Tagger: File size has to be increased @done(21-05-14 14:24)
+
+    ✔ Content manager: Year start with 1950 instead of 1 @done(21-05-14 14:26)
+
+    ✔ Project coordinator: "Specific topic" - change order from alphabetic @done(21-05-14 14:34)
+        to that is in the document
+
+    ✔ Tagger: Indicate of possibility to use "ctrl" and "shift" @done(21-05-14 14:35)
+        to select multiple options
+
+    ✔ Fix "Save" behavior @done(21-05-14 15:11)
