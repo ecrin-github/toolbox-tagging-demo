@@ -75,16 +75,16 @@
         "model": "resources.ResourceType",
         "pk": 10,
         "fields": {
-            "name": "Report",
-            "description": "Report"
+            "name": "Webinar",
+            "description": "Webinar"
         }
     },
     {
         "model": "resources.ResourceType",
         "pk": 11,
         "fields": {
-            "name": "Webinar",
-            "description": "Webinar"
+            "name": "Webpage",
+            "description": "Webpage"
         }
     },
     {

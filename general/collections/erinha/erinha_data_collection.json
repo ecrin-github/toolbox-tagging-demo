@@ -11,10 +11,10 @@
         "firstName": "Brian",
         "lastName": "Rappert"
     }],
-    "year": "2020-11-26 07:47:16",
+    "year": "2020",
     "doi": null,
     "language": "en",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "https://press.anu.edu.au/publications/series/practical-ethics-public-policy/dual-uses-science-and-ethics",
     "file": ""
 }, {
@@ -25,10 +25,10 @@
         "creatorType": "author",
         "name": "Miller und Selgelid"
     }],
-    "year": "2020-11-26 07:26:57",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://link.springer.com/book/10.1007%2F978-1-4020-8312-9",
     "file": ""
 }, {
@@ -55,7 +55,7 @@
     "year": "2010",
     "doi": null,
     "language": "en",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK305027/",
     "file": ""
 }, {
@@ -67,10 +67,10 @@
         "firstName": "Gerald L.",
         "lastName": "Epstein"
     }],
-    "year": "March 1, 2012",
+    "year": "2012",
     "doi": "10.1089/bsp.2011.0091",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://www.liebertpub.com/doi/10.1089/bsp.2011.0091",
     "file": ""
 }, {
@@ -86,10 +86,10 @@
         "firstName": "Uwe Ulex",
         "lastName": "Mueller-Doblies"
     }],
-    "year": "October 20, 2017",
+    "year": "2017",
     "doi": "10.1016/j.vaccine.2017.07.109",
     "language": "en",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "http://www.sciencedirect.com/science/article/pii/S0264410X17310605",
     "file": ""
 }, {
@@ -129,10 +129,10 @@
         "firstName": "Herv\u00e9",
         "lastName": "Raoul"
     }],
-    "year": "2020-11-09",
+    "year": "2020",
     "doi": null,
-    "language": "eng",
-    "type_of_resource": "presentation",
+    "language": "en",
+    "type_of_resource": "Presentation",
     "url": "https://zenodo.org/record/4275835#.X79TM81Kg2w",
     "file": ""
 }, {
@@ -147,7 +147,7 @@
     "year": "2020",
     "doi": "10.15468/DOC-5JP4-5G10",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://docs.gbif.org/sensitive-species-best-practices/master/en/",
     "file": ""
 }, {
@@ -158,10 +158,10 @@
         "creatorType": "author",
         "name": "Council Regulation (EC) No 428/2009"
     }],
-    "year": "2020-11-26 07:16:21",
+    "year": "2020",
     "doi": null,
     "language": "en",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0428&from=EN",
     "file": ""
 }, {
@@ -180,8 +180,8 @@
     }],
     "year": "2011",
     "doi": null,
-    "language": "eng",
-    "type_of_resource": "book",
+    "language": "en",
+    "type_of_resource": "Book",
     "url": "http://www.ncbi.nlm.nih.gov/books/NBK196146/",
     "file": ""
 }, {
@@ -193,10 +193,10 @@
         "firstName": "Louise",
         "lastName": "Bezuidenhout"
     }],
-    "year": "Mar 2013",
+    "year": "2013",
     "doi": "10.1007/s11948-011-9298-7",
-    "language": "eng",
-    "type_of_resource": "journalArticle",
+    "language": "en",
+    "type_of_resource": "Journal article",
     "url": "https://pubmed.ncbi.nlm.nih.gov/21805213/",
     "file": ""
 }]

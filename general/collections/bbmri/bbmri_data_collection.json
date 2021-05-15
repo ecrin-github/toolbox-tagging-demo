@@ -9,7 +9,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.bbmri-eric.eu/wp-content/uploads/WP29_consent-joint-comments_BBMRI-ERIC_as-submitted.pdf",
     "file": ""
 }, {
@@ -23,7 +23,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.bbmri-eric.eu/wp-content/uploads/BBMRI-ERIC-reply-to-EC-public-consultation-1.pdf",
     "file": ""
 }, {
@@ -37,7 +37,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.bbmri-eric.eu/wp-content/uploads/2016/08/BBMRI-ERIC-Rec20064-PubCons-Integrated-Final.pdf",
     "file": ""
 }, {
@@ -51,7 +51,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.bbmri-eric.eu/elsi/helpdesk/",
     "file": ""
 }, {
@@ -62,10 +62,10 @@
         "creatorType": "director",
         "name": "CINECA project, Status Update Code of Conduct"
     }],
-    "year": "2020-02-10",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=1HcaQMtppVs&feature=youtu.be",
     "file": ""
 }, {
@@ -76,10 +76,10 @@
         "creatorType": "director",
         "name": "BBMRI ERIC, Ethical handling of incidental findings in research"
     }],
-    "year": "2020-08-06",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=vhp0g-SMZGY&feature=youtu.be",
     "file": ""
 }, {
@@ -90,10 +90,10 @@
         "creatorType": "director",
         "name": "CORBEL"
     }],
-    "year": "2020-04-23",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=Oc8vHbkdv1k&feature=youtu.be",
     "file": ""
 }, {
@@ -104,10 +104,10 @@
         "creatorType": "director",
         "name": "CINECA project, Ethical, legal and societal issues in international data sharing"
     }],
-    "year": "2020-01-31",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=IquZb6Qs32M&feature=youtu.be",
     "file": ""
 }, {
@@ -118,10 +118,10 @@
         "creatorType": "director",
         "name": "BBMRI ERIC, What are MTAs and DTAs?"
     }],
-    "year": "2019-06-28",
+    "year": "2019",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=Tu2mYZA8xfs&list=PLIu6KJ19npXyOx3Hjcb-wt5Y6yBTNBO1E",
     "file": ""
 }, {
@@ -132,10 +132,10 @@
         "creatorType": "director",
         "name": "BBMRI ERIC, Completing the Ethics Self-Assessments for H2020"
     }],
-    "year": "2020-07-16",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=Db8ACHBIJhg&feature=youtu.be",
     "file": ""
 }, {
@@ -146,10 +146,10 @@
         "creatorType": "director",
         "name": "BBMRI ERIC, The GDPR and Scientific Research"
     }],
-    "year": "2018-08-31",
+    "year": "2018",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=GIM_Z6nvkYk&list=PLIu6KJ19npXz5IgcDVguPNfhgCHOtamPi",
     "file": ""
 }, {
@@ -160,10 +160,10 @@
         "creatorType": "director",
         "name": "BBMRI ERIC, Anonymisation and Pseudonymisation"
     }],
-    "year": "2018-08-16",
+    "year": "2018",
     "doi": null,
     "language": "",
-    "type_of_resource": "videoRecording",
+    "type_of_resource": "Video",
     "url": "https://www.youtube.com/watch?v=6bHQTZAJC0g&list=PLIu6KJ19npXxo379cvW9UN_TDwn-H52Eg",
     "file": ""
 }, {
@@ -174,10 +174,10 @@
         "creatorType": "author",
         "name": "BBMRI-ERIC ELSI Services and Research"
     }],
-    "year": "2020-05-14",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.bbmri-eric.eu/elsi/knowledge-base/",
     "file": ""
 }, {
@@ -193,10 +193,10 @@
         "firstName": "Michaela Th.",
         "lastName": "Mayrhofer"
     }],
-    "year": "2019-04-01",
+    "year": "2019",
     "doi": "",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://zenodo.org/record/3754255#.X8kgE9hKg2x",
     "file": ""
 }, {
@@ -240,10 +240,10 @@
         "firstName": "Sara",
         "lastName": "Casati"
     }],
-    "year": "2020-05-20",
+    "year": "2020",
     "doi": null,
-    "language": "eng",
-    "type_of_resource": "report",
+    "language": "en",
+    "type_of_resource": "Report",
     "url": "https://zenodo.org/record/3839273#.X8kf9dhKg2w",
     "file": ""
 }, {
@@ -267,10 +267,10 @@
         "firstName": "Michaela",
         "lastName": "Mayrhofer"
     }],
-    "year": "2019-10-01",
+    "year": "2019",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://zenodo.org/record/3516948#.X8kfV9hKg2w",
     "file": ""
 }, {
@@ -290,10 +290,10 @@
         "firstName": "Jane",
         "lastName": "Reichel"
     }],
-    "year": "2020-09-18",
+    "year": "2020",
     "doi": "",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://zenodo.org/record/3928385#.X8ke89hKg2w",
     "file": ""
 }, {
@@ -313,10 +313,10 @@
         "firstName": "Olga",
         "lastName": "Tzortzatou"
     }],
-    "year": "2018-09-28",
+    "year": "2018",
     "doi": "",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://zenodo.org/record/3928389#.X8keydhKg2w",
     "file": ""
 }, {
@@ -335,10 +335,10 @@
         "firstName": "Olga",
         "lastName": "Tzortzatou"
     }],
-    "year": "2018-09-28",
+    "year": "2018",
     "doi": "",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://zenodo.org/record/3928410#.X8kehthKg2w",
     "file": ""
 }, {
@@ -358,10 +358,10 @@
         "firstName": "Olga",
         "lastName": "Tzortzatou"
     }],
-    "year": "2018-09-28",
+    "year": "2018",
     "doi": "10.5281/zenodo.3928446",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://zenodo.org/record/3928446#.X8keL9hKg2w",
     "file": ""
 }, {
@@ -372,10 +372,10 @@
         "creatorType": "author",
         "name": "BBMRI-LPC"
     }],
-    "year": "2016-01-04",
+    "year": "2016",
     "doi": "",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://zenodo.org/record/3928451#.X8kd-9hKg2w",
     "file": ""
 }, {
@@ -431,10 +431,10 @@
         "firstName": "Mats",
         "lastName": "Hansson"
     }],
-    "year": "2015-06",
+    "year": "2015",
     "doi": "10.1038/ejhg.2014.197",
     "language": "en",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://www.nature.com/articles/ejhg2014197",
     "file": ""
 }, {
@@ -445,10 +445,10 @@
         "creatorType": "author",
         "name": "BBMRI-ERIC Common Service ELSI"
     }],
-    "year": "2017-03-01",
+    "year": "2017",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://zenodo.org/record/3473120#.X8kfo9hKg2w",
     "file": ""
 }, {
@@ -512,10 +512,10 @@
         "firstName": "Stephanie",
         "lastName": "Suhr"
     }],
-    "year": "2019-07-02",
+    "year": "2019",
     "doi": "",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://zenodo.org/record/3928317#.X8kfgdhKg2w",
     "file": ""
 }]

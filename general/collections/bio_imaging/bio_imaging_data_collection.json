@@ -9,7 +9,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.eui.eu/documents/servicesadmin/deanofstudies/researchethics/guide-data-protection-research.pdf",
     "file": ""
 }, {
@@ -20,10 +20,10 @@
         "creatorType": "author",
         "name": "Neuroimaging DICOM and N1fT1 primer"
     }],
-    "year": "2020-12-08 13:45:11",
+    "year": "2020",
     "doi": null,
     "language": "en",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://github.com/DataCurationNetwork/data-primers",
     "file": ""
 }, {
@@ -34,10 +34,10 @@
         "creatorType": "author",
         "name": "De-identification of medical images"
     }],
-    "year": "2020-12-08 13:44:30",
+    "year": "2020",
     "doi": null,
     "language": "de",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://cloud.google.com/solutions/de-identification-of-medical-images-through-the-cloud-healthcare-api?hl=de",
     "file": ""
 }, {
@@ -48,10 +48,10 @@
         "creatorType": "author",
         "name": "AIDA GDPR policy"
     }],
-    "year": "2020-12-08 13:43:37",
+    "year": "2020",
     "doi": null,
     "language": "de",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit?usp=embed_facebook",
     "file": ""
 }, {
@@ -65,7 +65,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf",
     "file": ""
 }, {
@@ -85,10 +85,10 @@
         "firstName": "J. Raymond",
         "lastName": "Geis"
     }],
-    "year": "2017-08-01",
+    "year": "2017",
     "doi": "10.1007/s10278-017-9976-3",
     "language": "en",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://doi.org/10.1007/s10278-017-9976-3",
     "file": ""
 }, {
@@ -136,10 +136,10 @@
         "firstName": "S\u00e9bastien",
         "lastName": "Ourselin"
     }],
-    "year": "February 1, 2017",
+    "year": "2017",
     "doi": "10.1016/j.cmpb.2016.11.004",
     "language": "en",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "http://www.sciencedirect.com/science/article/pii/S016926071630654X",
     "file": ""
 }, {
@@ -150,10 +150,10 @@
         "creatorType": "author",
         "name": "MeSH"
     }],
-    "year": "2020-12-08 13:42:25",
+    "year": "2020",
     "doi": null,
-    "language": "eng",
-    "type_of_resource": "webpage",
+    "language": "en",
+    "type_of_resource": "Webpage",
     "url": "https://www.nlm.nih.gov/mesh/meshhome.html",
     "file": ""
 }, {
@@ -193,10 +193,10 @@
         "firstName": "Clement J.",
         "lastName": "McDonald"
     }],
-    "year": "March 1, 2015",
+    "year": "2015",
     "doi": "10.1093/jamia/ocv080",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://doi.org/10.1093/jamia/ocv080",
     "file": ""
 }, {
@@ -207,10 +207,10 @@
         "creatorType": "author",
         "name": "RSNA"
     }],
-    "year": "2020-12-08 13:43:13",
+    "year": "2020",
     "doi": null,
-    "language": "en-US",
-    "type_of_resource": "webpage",
+    "language": "en",
+    "type_of_resource": "Webpage",
     "url": "https://sequoiaproject.org/rsna/",
     "file": ""
 }, {
@@ -221,10 +221,10 @@
         "creatorType": "author",
         "name": "RadLex radiology lexicon"
     }],
-    "year": "2020-12-08 13:42:48",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.rsna.org/practice-tools/data-tools-and-standards/radlex-radiology-lexicon",
     "file": ""
 }, {
@@ -236,10 +236,10 @@
         "firstName": "Luke",
         "lastName": "Oakden-Rayner"
     }],
-    "year": "2020/01/01",
+    "year": "2020",
     "doi": "10.1016/j.acra.2019.10.006",
-    "language": "English",
-    "type_of_resource": "journalArticle",
+    "language": "en",
+    "type_of_resource": "Journal article",
     "url": "https://www.academicradiology.org/article/S1076-6332(19)30488-X/abstract",
     "file": ""
 }, {
@@ -250,10 +250,10 @@
         "creatorType": "author",
         "name": "The Cancer Imaging Archive (TCIA)"
     }],
-    "year": "2020-12-08 13:40:32",
+    "year": "2020",
     "doi": null,
-    "language": "en-US",
-    "type_of_resource": "webpage",
+    "language": "en",
+    "type_of_resource": "Webpage",
     "url": "https://www.cancerimagingarchive.net/",
     "file": ""
 }]

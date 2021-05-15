@@ -1,6 +1,7 @@
 import os
 import sys
 
+
 if __name__ == '__main__':
     # Setup environ
     dir_path = '/Users/iproger/Projects/ecrin-mdr/toolbox'
@@ -13,46 +14,16 @@ if __name__ == '__main__':
     django.setup()
 
 
-    import json
-    from pyzotero import zotero
-    
     from general.collections.zotero_configs import PRIVATE_KEY, USER_ID, LIBRARY_TYPE
+    from general.collections.extract_functions import save_collection_to_file, \
+        read_file, convert_authors, convert_year
 
 
     # GLOBAL VARIABLES
     COLLECTION_ID = 'Z8UCBR6E'
-    FILENAME = 'bbmri_data_collection.json'
+    FILENAME = '/Users/iproger/Projects/ecrin-mdr/toolbox/general/collections/bbmri/bbmri_data_collection.json'
 
-
-    def save_collection_to_file(privateKey: str, userID: str, libraryType: str, collectionID: str, filename: str):
-        zot = zotero.Zotero(library_id=userID, library_type=libraryType, api_key=privateKey)
-
-        collection_items = zot.collection_items(COLLECTION_ID)
-
-        final_items = []
-
-        for item in collection_items:
-            item_data = item['data']
-            final_items.append({
-                'title': item_data['title'] if 'title' in item_data else 'None',
-                'shortTitle': item_data['shortTitle'] if 'shortTitle' in item_data else None,
-                'abstract': item_data['abstractNote'] if 'abstractNote' in item_data else None,
-                'authors': item_data['creators'] if 'creators' in item_data else None,
-                'year': item_data['date'] if 'date' in item_data else None,
-                'doi': item_data['DOI'] if 'DOI' in item_data else None,
-                'language': item_data['language'] if 'language' in item_data else None,
-                'type_of_resource': item_data['itemType'] if 'itemType' in item_data else None,
-                'url': item_data['url'] if 'url' in item_data else None,
-                'file': ''
-            })
-        
-        with open(filename, 'w') as fp:
-            json.dump(final_items, fp)
-
-        print('DONE!')
-
-
-    
+    '''
     save_collection_to_file(
         privateKey=PRIVATE_KEY, 
         userID=USER_ID, 
@@ -60,14 +31,11 @@ if __name__ == '__main__':
         collectionID=COLLECTION_ID, 
         filename=FILENAME
     )
-    
-
+    '''
 
     from users_management.models import User
     from resources.models import Resource, ResourceStatus, Language, ResourceType
     from tagging.models import TaggingResource
-
-    from general.collections.extract_functions import read_file, convert_authors, convert_year
 
 
     def collection_importer():
@@ -76,7 +44,7 @@ if __name__ == '__main__':
             if item['language'] is not None and item['language'] != '':
                 language = Language.objects.filter(code=item['language'])
                 if language.exists():
-                    lang = Language.objects.filter(code=item['language']).first()
+                    lang = Language.objects.get(code=item['language'])
                 else:
                     lang = None
             else:
@@ -85,7 +53,7 @@ if __name__ == '__main__':
             if item['type_of_resource'] is not None and item['type_of_resource'] != '':
                 type_of_resource = ResourceType.objects.filter(name=item['type_of_resource'])
                 if type_of_resource.exists():
-                    res_type = ResourceType.objects.filter(name=item['type_of_resource']).first()
+                    res_type = ResourceType.objects.get(name=item['type_of_resource'])
                 else:
                     res_type = None
             else:
@@ -109,7 +77,7 @@ if __name__ == '__main__':
             )
             resource.save()
             res = Resource.objects.get(id=resource.id)
-            res.tagging_persons.add(tagging_person)
+            res.tagging_persons.add(tagging_person.id)
 
             res_status = ResourceStatus(
                 resource_id=resource.id,
@@ -128,4 +96,4 @@ if __name__ == '__main__':
         print('DONE!')
 
 
-    # collection_importer()
+    collection_importer()

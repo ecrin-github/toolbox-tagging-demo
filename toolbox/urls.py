@@ -29,8 +29,8 @@ urlpatterns = [
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
-admin.site.site_header = "The WP4 Toolbox Tagging system (v.0.4.3)"
-admin.site.site_title = "The WP4 Toolbox Tagging system (v.0.4.3)"
+admin.site.site_header = "The WP4 Toolbox Tagging system (v.0.5.1)"
+admin.site.site_title = "The WP4 Toolbox Tagging system (v.0.5.1)"
 admin.site.index_title = "Sections"
 
 admin.site.unregister(Group)

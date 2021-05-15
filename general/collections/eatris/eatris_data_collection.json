@@ -9,7 +9,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.ga4gh.org/news/how-can-researchers-approach-international-data-transfers-under-the-gdpr",
     "file": ""
 }, {
@@ -23,7 +23,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/",
     "file": ""
 }, {
@@ -37,7 +37,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://ec.europa.eu/health/sites/health/files/files/documents/qa_clinicaltrials_gdpr_en.pdf",
     "file": ""
 }, {
@@ -51,7 +51,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://elsi.health-ri.nl/sites/elsi/files/2020-07/20180709%20White%20Paper%20Processing%20Genomic%20Data%20in%20the%20Cloud%20including%20Annex.pdf",
     "file": ""
 }, {
@@ -65,7 +65,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://elsi.health-ri.nl/sites/elsi/files/2020-11/1020_HRI_PolicyDocument_LATEST.pdf",
     "file": ""
 }, {
@@ -93,10 +93,10 @@
         "firstName": "Ghislaine J. M. W.",
         "lastName": "van Thiel"
     }],
-    "year": "March 28, 2019",
+    "year": "2019",
     "doi": "10.1186/s12910-019-0359-9",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://doi.org/10.1186/s12910-019-0359-9",
     "file": ""
 }, {
@@ -110,7 +110,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.bbmri.nl/services/samples-images-data/catalogue",
     "file": ""
 }, {
@@ -121,10 +121,10 @@
         "creatorType": "author",
         "name": "Core Trust Seal"
     }],
-    "year": "2020-02-19T10:03:46+00:00",
+    "year": "2020",
     "doi": null,
-    "language": "en-GB",
-    "type_of_resource": "blogPost",
+    "language": "en",
+    "type_of_resource": "Webpage",
     "url": "https://www.coretrustseal.org/about/history/data-seal-of-approval-synopsis-2008-2018/",
     "file": ""
 }, {
@@ -138,7 +138,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "http://www.nlgenome.nl/wp-content/uploads/2015/04/GoNLDATA_ACCESS_POLICY_CONDITIONS_FINAL-2014.pdf",
     "file": ""
 }, {
@@ -149,10 +149,10 @@
         "creatorType": "author",
         "name": "dbGaP Overview"
     }],
-    "year": "2020-12-11 18:20:11",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/about.html#duc",
     "file": ""
 }, {
@@ -163,10 +163,10 @@
         "creatorType": "author",
         "name": "El Emam, Khaled"
     }],
-    "year": "2020-12-11 18:05:57",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://academic.oup.com/jamia/article/16/5/670/804120",
     "file": ""
 }, {
@@ -178,10 +178,10 @@
         "firstName": "Office for Civil",
         "lastName": "Rights (OCR)"
     }],
-    "year": "2015-10-01T15:10:46-04:00",
+    "year": "2015",
     "doi": null,
     "language": "en",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.hhs.gov/hipaa/for-individuals/faq/187/what-does-the-hipaa-privacy-rule-do/index.html",
     "file": ""
 }, {
@@ -205,10 +205,10 @@
         "firstName": "Alessandro",
         "lastName": "Blasimme"
     }],
-    "year": "2018/01/16",
+    "year": "2018",
     "doi": "10.4414/smw.2018.14571",
     "language": "en",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://smw.ch/article/doi/smw.2018.14571",
     "file": ""
 }, {
@@ -219,10 +219,10 @@
         "creatorType": "author",
         "name": "Dual-Use-Research"
     }],
-    "year": "2020-12-11 18:02:15",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://oir.nih.gov/sourcebook/ethical-conduct/special-research-considerations/dual-use-research",
     "file": ""
 }, {
@@ -233,10 +233,10 @@
         "creatorType": "author",
         "name": "RDA COVID-19 recommendations"
     }],
-    "year": "2020-06-30T06:36:26+00:00",
+    "year": "2020",
     "doi": null,
     "language": "en",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.rd-alliance.org/group/rda-covid19-rda-covid19-omics-rda-covid-19-epidemiology-rda-covid19-clinical-rda-covid19-0",
     "file": ""
 }, {
@@ -256,10 +256,10 @@
         "firstName": "Pascal",
         "lastName": "Borry"
     }],
-    "year": "2016-12",
+    "year": "2016",
     "doi": "10.1038/ejhg.2016.111",
     "language": "en",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://www.nature.com/articles/ejhg2016111",
     "file": ""
 }, {
@@ -270,10 +270,10 @@
         "creatorType": "author",
         "name": "GDPR"
     }],
-    "year": "2020-12-11 18:03:59",
+    "year": "2020",
     "doi": null,
-    "language": "en-US",
-    "type_of_resource": "webpage",
+    "language": "en",
+    "type_of_resource": "Webpage",
     "url": "https://gdpr-info.eu/",
     "file": ""
 }, {
@@ -285,10 +285,10 @@
         "firstName": "Julia Yvonne",
         "lastName": "HODDER"
     }],
-    "year": "2020-10-29T11:51:36+01:00",
+    "year": "2020",
     "doi": null,
     "language": "en",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://edps.europa.eu/press-publications/press-news/press-releases/2020/strategy-eu-institutions-comply-schrems-ii-ruling_en",
     "file": ""
 }, {
@@ -300,10 +300,10 @@
         "firstName": "Statistics",
         "lastName": "Netherlands Statistics"
     }],
-    "year": "2020-12-11 18:00:10",
+    "year": "2020",
     "doi": null,
-    "language": "en-GB",
-    "type_of_resource": "webpage",
+    "language": "en",
+    "type_of_resource": "Webpage",
     "url": "https://www.cbs.nl/en-gb/our-services/customised-services-microdata/microdata-conducting-your-own-research/rules-and-sanctioning-policy",
     "file": ""
 }, {
@@ -523,10 +523,10 @@
         "firstName": "Barend",
         "lastName": "Mons"
     }],
-    "year": "2016-03-15",
+    "year": "2016",
     "doi": "10.1038/sdata.2016.18",
     "language": "",
-    "type_of_resource": "journalArticle",
+    "type_of_resource": "Journal article",
     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/",
     "file": ""
 }, {
@@ -537,10 +537,10 @@
         "creatorType": "author",
         "name": "XNAT"
     }],
-    "year": "2020-12-11 17:57:17",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.xnat.org/",
     "file": ""
 }, {
@@ -551,10 +551,10 @@
         "creatorType": "author",
         "name": "EGPA"
     }],
-    "year": "2020-12-11 17:56:41",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://www.ebi.ac.uk/ega/home",
     "file": ""
 }, {
@@ -565,10 +565,10 @@
         "creatorType": "author",
         "name": "MIRC Overview"
     }],
-    "year": "2020-12-11 17:57:40",
+    "year": "2020",
     "doi": null,
     "language": "",
-    "type_of_resource": "webpage",
+    "type_of_resource": "Webpage",
     "url": "https://mircwiki.rsna.org/index.php?title=Main_Page",
     "file": ""
 }]

@@ -9,7 +9,7 @@
     "year": "",
     "doi": null,
     "language": null,
-    "type_of_resource": "computerProgram",
+    "type_of_resource": "Software",
     "url": "https://www.obis.org/manual/processing/",
     "file": ""
 }, {
@@ -23,7 +23,7 @@
     "year": "",
     "doi": null,
     "language": null,
-    "type_of_resource": "computerProgram",
+    "type_of_resource": "Software",
     "url": "https://github.com/EMODnet/EMODnetBiocheck",
     "file": ""
 }, {
@@ -37,7 +37,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://docs.gbif.org/sensitive-species-best-practices/master/en/",
     "file": ""
 }, {
@@ -51,7 +51,7 @@
     "year": "2006",
     "doi": null,
     "language": "",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "https://www.gbif.org/document/80536/georeferencing-best-practices",
     "file": ""
 }, {
@@ -65,7 +65,7 @@
     "year": "2005",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data",
     "file": ""
 }, {
@@ -79,7 +79,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "",
     "file": ""
 }, {
@@ -93,7 +93,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "",
     "file": ""
 }, {
@@ -107,7 +107,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "",
     "file": ""
 }, {
@@ -121,7 +121,7 @@
     "year": "2003",
     "doi": null,
     "language": "",
-    "type_of_resource": "report",
+    "type_of_resource": "Report",
     "url": "https://www.researchgate.net/publication/333185367_APPENDIX_I_Environmental_Data_Quality_-_b_Data_Cleaning_Tools",
     "file": ""
 }, {
@@ -135,7 +135,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "",
     "file": ""
 }, {
@@ -149,7 +149,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "",
     "file": ""
 }, {
@@ -163,7 +163,7 @@
     "year": "",
     "doi": null,
     "language": "",
-    "type_of_resource": "book",
+    "type_of_resource": "Book",
     "url": "",
     "file": ""
 }]

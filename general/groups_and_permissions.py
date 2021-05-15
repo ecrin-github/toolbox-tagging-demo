@@ -13,6 +13,7 @@ if __name__ == '__main__':
     import django
     django.setup()
 
+
     from django.contrib.auth.models import Group, Permission
     from django.contrib.contenttypes.models import ContentType
     from users_management.models import User
