@@ -639,7 +639,7 @@
     "url": "https://academic.oup.com/jamia/article/15/5/627/732733",
     "file": ""
 }, {
-    "title": "None",
+    "title": "EUPID",
     "shortTitle": "",
     "abstract": "EUPID was developed by the Austrian Institute of Technology and is designed to facilitate secondary use of datasets in biomedical research and healthcare by addressing the following major requirements:\n- prevent duplicate registration of patients\n- avoid creating a transparent universal patient ID but\n- provide distinct pseudonyms for patients in different contexts\n- preserve the possibility for re-identification by a trusted third party\n- keep a protected link between the different pseudonyms in the background, which supports creating merged datasets for secondary use",
     "authors": [{
