@@ -1,0 +1,521 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:sc="http://umbel.org/umbel/sc/">
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/XTEZKIPS">
+        <res:resource>
+            <bibo:Book>
+                <dcterms:title>EMBRC ABS handbook</dcterms:title>
+                <z:extra>Code: EMBRC ABS handbook
+Publication Title: EMBRC ABS handbook
+Reporter: EMBRC ABS handbook</z:extra>
+                <dcterms:creator rdf:nodeID="n1304"/>
+                <bibo:authorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n1304"/></rdf:Seq>
+                </bibo:authorList>
+            </bibo:Book>
+        </res:resource>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1309"/>
+        <ctag:tagged rdf:nodeID="n1310"/>
+        <ctag:tagged rdf:nodeID="n1311"/>
+        <ctag:tagged rdf:nodeID="n1312"/>
+        <ctag:tagged rdf:nodeID="n1313"/>
+        <ctag:tagged rdf:nodeID="n1314"/>
+        <ctag:tagged rdf:nodeID="n1315"/>
+        <ctag:tagged rdf:nodeID="n1316"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1318"/>
+        <ctag:tagged rdf:nodeID="n1319"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1321"/>
+        <ctag:tagged rdf:nodeID="n1322"/>
+        <ctag:tagged rdf:nodeID="n1323"/>
+        <ctag:tagged rdf:nodeID="n1324"/>
+        <ctag:tagged rdf:nodeID="n1325"/>
+    </z:UserItem>
+    <foaf:Organization rdf:nodeID="n1304">
+       <foaf:name>ABS best practices for users</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n1306">
+       <ctag:label>1-best practice</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1307">
+       <ctag:label>1-guidance/recommendation</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1308">
+       <ctag:label>2-general life scoiences</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1309">
+       <ctag:label>2-marine/water biology</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1310">
+       <ctag:label>2-microbiology</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1311">
+       <ctag:label>2-plant sciences</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1312">
+       <ctag:label>2-zoology</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1313">
+       <ctag:label>3-experimental/interventional</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1314">
+       <ctag:label>3-other research desings</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1315">
+       <ctag:label>3-secondary research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1316">
+       <ctag:label>4A3-biobank/registry data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1317">
+       <ctag:label>4B3-organism or species specific data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1318">
+       <ctag:label>5-access to data re-use</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1319">
+       <ctag:label>5-publicstion of re-use</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1320">
+       <ctag:label>6-global</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1321">
+       <ctag:label>7-attribution/credit fo DS</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1322">
+       <ctag:label>7-data transfer agreement</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1323">
+       <ctag:label>7-data use agreement</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1324">
+       <ctag:label>7-legal aspects</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1325">
+       <ctag:label>8-data consumer</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/SR5IU2X8">
+        <res:resource>
+            <bibo:Book>
+                <dcterms:title>EMBRC ABS handbook</dcterms:title>
+                <z:extra>Code: EMBRC ABS handbook
+Publication Title: EMBRC ABS handbook
+Reporter: EMBRC ABS handbook</z:extra>
+                <dcterms:creator rdf:nodeID="n1328"/>
+                <bibo:authorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n1328"/></rdf:Seq>
+                </bibo:authorList>
+            </bibo:Book>
+        </res:resource>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1309"/>
+        <ctag:tagged rdf:nodeID="n1311"/>
+        <ctag:tagged rdf:nodeID="n1312"/>
+        <ctag:tagged rdf:nodeID="n1313"/>
+        <ctag:tagged rdf:nodeID="n1314"/>
+        <ctag:tagged rdf:nodeID="n1315"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1318"/>
+        <ctag:tagged rdf:nodeID="n1330"/>
+        <ctag:tagged rdf:nodeID="n1319"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1321"/>
+        <ctag:tagged rdf:nodeID="n1331"/>
+        <ctag:tagged rdf:nodeID="n1323"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-ethics of DS</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1324"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+        <ctag:tagged rdf:nodeID="n1334"/>
+    </z:UserItem>
+    <foaf:Organization rdf:nodeID="n1328">
+       <foaf:name>ABS best practice for institutions</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n1330">
+       <ctag:label>5-managing data access</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1331">
+       <ctag:label>7-data governance</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1333">
+       <ctag:label>8-data provider</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1334">
+       <ctag:label>8-data service provider</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/L4ABF43N">
+        <res:resource>
+            <bibo:Book>
+                <dcterms:title>EMBRC ABS handbook</dcterms:title>
+                <z:extra>Code: EMBRC ABS handbook
+Publication Title: EMBRC ABS handbook
+Reporter: EMBRC ABS handbook</z:extra>
+                <dcterms:creator rdf:nodeID="n1337"/>
+                <bibo:authorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n1337"/></rdf:Seq>
+                </bibo:authorList>
+            </bibo:Book>
+        </res:resource>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1339"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1313"/>
+        <ctag:tagged rdf:nodeID="n1314"/>
+        <ctag:tagged rdf:nodeID="n1315"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1330"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1331"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>7-technical &amp; organisational measures</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1334"/>
+    </z:UserItem>
+    <foaf:Organization rdf:nodeID="n1337">
+        <foaf:name>ABS: Model for sample terms and conditions for academic use</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n1339">
+       <ctag:label>1-legal/regulation</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/IDKUIUUA">
+        <res:resource>
+            <bibo:Book>
+                <dcterms:title>EMBRC ABS handbook</dcterms:title>
+                <z:extra>Code: EMBRC ABS handbook
+Publication Title: EMBRC ABS handbook
+Reporter: EMBRC ABS handbook</z:extra>
+                <dcterms:creator rdf:nodeID="n1343"/>
+                <bibo:authorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n1343"/></rdf:Seq>
+                </bibo:authorList>
+            </bibo:Book>
+        </res:resource>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1339"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1313"/>
+        <ctag:tagged rdf:nodeID="n1314"/>
+        <ctag:tagged rdf:nodeID="n1315"/>
+        <ctag:tagged rdf:nodeID="n1316"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1318"/>
+        <ctag:tagged rdf:nodeID="n1330"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-monitoring DS</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1346"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1331"/>
+        <ctag:tagged rdf:nodeID="n1322"/>
+        <ctag:tagged rdf:nodeID="n1325"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+        <ctag:tagged rdf:nodeID="n1334"/>
+    </z:UserItem>
+    <foaf:Organization rdf:nodeID="n1343">
+       <foaf:name>ABS: Model for material transfer agreement</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n1346">
+       <ctag:label>5-planning for DS</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/JULR9QXU">
+        <res:resource>
+            <bibo:Book>
+                <dcterms:title>EMBRC ABS handbook</dcterms:title>
+                <z:extra>Code: EMBRC ABS handbook
+Publication Title: EMBRC ABS handbook
+Reporter: EMBRC ABS handbook</z:extra>
+                <dcterms:creator rdf:nodeID="n1349"/>
+                <bibo:authorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n1349"/></rdf:Seq>
+                </bibo:authorList>
+            </bibo:Book>
+        </res:resource>
+        <ctag:tagged rdf:nodeID="n1339"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1309"/>
+        <ctag:tagged rdf:nodeID="n1310"/>
+        <ctag:tagged rdf:nodeID="n1311"/>
+        <ctag:tagged rdf:nodeID="n1312"/>
+        <ctag:tagged rdf:nodeID="n1313"/>
+        <ctag:tagged rdf:nodeID="n1314"/>
+        <ctag:tagged rdf:nodeID="n1315"/>
+        <ctag:tagged rdf:nodeID="n1316"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1318"/>
+        <ctag:tagged rdf:nodeID="n1330"/>
+        <ctag:tagged rdf:nodeID="n1346"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1331"/>
+        <ctag:tagged rdf:nodeID="n1323"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>8-coordination forum</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1325"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+    </z:UserItem>
+    <foaf:Organization rdf:nodeID="n1349">
+       <foaf:name>ABS: Model for material accession form</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/A9MKEQXH">
+        <res:resource>
+            <bibo:Book>
+                <dcterms:title>EMBRC ABS handbook</dcterms:title>
+                <z:extra>Code: EMBRC ABS handbook
+Publication Title: EMBRC ABS handbook
+Reporter: EMBRC ABS handbook</z:extra>
+                <dcterms:creator rdf:nodeID="n1354"/>
+                <bibo:authorList>
+                   <rdf:Seq><rdf:li rdf:nodeID="n1354"/></rdf:Seq>
+                </bibo:authorList>
+            </bibo:Book>
+        </res:resource>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1309"/>
+        <ctag:tagged rdf:nodeID="n1310"/>
+        <ctag:tagged rdf:nodeID="n1311"/>
+        <ctag:tagged rdf:nodeID="n1312"/>
+        <ctag:tagged rdf:nodeID="n1313"/>
+        <ctag:tagged rdf:nodeID="n1356"/>
+        <ctag:tagged rdf:nodeID="n1314"/>
+        <ctag:tagged rdf:nodeID="n1315"/>
+        <ctag:tagged rdf:nodeID="n1316"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-any</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1331"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+        <ctag:tagged rdf:nodeID="n1334"/>
+    </z:UserItem>
+    <foaf:Organization rdf:nodeID="n1354">
+        <foaf:name>ABS; Genetic resources database fields required for internal ABD management</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n1356">
+       <ctag:label>3-observational research</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/IKPU4GBT">
+        <res:resource rdf:resource="https://www.researchgate.net/publication/333185367_APPENDIX_I_Environmental_Data_Quality_-_b_Data_Cleaning_Tools"/>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1356"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>4B4-ecological/environmental data</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1362"/>
+        <ctag:tagged rdf:nodeID="n1363"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1364"/>
+        <ctag:tagged rdf:nodeID="n1365"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://www.researchgate.net/publication/333185367_APPENDIX_I_Environmental_Data_Quality_-_b_Data_Cleaning_Tools">
+        <dcterms:title>Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools</dcterms:title>
+        <dcterms:date>2003</dcterms:date>
+        <bibo:uri>https://www.researchgate.net/publication/333185367_APPENDIX_I_Environmental_Data_Quality_-_b_Data_Cleaning_Tools</bibo:uri>
+        <z:extra>Code: Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools
+Publication Title: Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools
+Reporter: Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools
+Code: Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools
+Publication Title: Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools
+Reporter: Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools</z:extra>
+        <dcterms:creator rdf:nodeID="n1359"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1359"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n1359">
+       <foaf:name>Chapman AD (2004)</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n1362">
+       <ctag:label>5-preparation for DS</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1363">
+       <ctag:label>5-transfer of data to repository</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1364">
+       <ctag:label>7-data storage agreement</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1365">
+       <ctag:label>7-repository quality</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/SSEG66WT">
+        <res:resource rdf:resource="https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1356"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1363"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1365"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data">
+        <dcterms:title>Chapman AD (2005) Principles and methods of data cleaning - primary species and species-occurrence data. Report for the Global Biodiversity Information Facility. GBIF, Copenhagen</dcterms:title>
+        <dcterms:date>2005</dcterms:date>
+        <bibo:uri>https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data</bibo:uri>
+        <z:extra>Code: Chapman AD (2005) Principles and methods of data cleaning - primary species and species-occurrence data. Report for the Global Biodiversity Information Facility. GBIF, Copenhagen
+Publication Title: Chapman AD (2005) Principles and methods of data cleaning - primary species and species-occurrence data. Report for the Global Biodiversity Information Facility. GBIF, Copenhagen
+Reporter: Chapman AD (2005) Principles and methods of data cleaning - primary species and species-occurrence data. Report for the Global Biodiversity Information Facility. GBIF, Copenhagen</z:extra>
+        <dcterms:creator rdf:nodeID="n1367"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1367"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n1367">
+       <foaf:name>Chapman AD (2005)</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/BSRXNXJB">
+        <res:resource rdf:resource="https://www.gbif.org/document/80536/georeferencing-best-practices"/>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1356"/>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1362"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1364"/>
+        <ctag:tagged rdf:nodeID="n1365"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+    </z:UserItem>
+    <bibo:Book rdf:about="https://www.gbif.org/document/80536/georeferencing-best-practices">
+        <dcterms:title>Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman &amp; John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.</dcterms:title>
+        <dcterms:date>2006</dcterms:date>
+        <bibo:uri>https://www.gbif.org/document/80536/georeferencing-best-practices</bibo:uri>
+        <z:extra>Code: Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman &amp; John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.
+Publication Title: Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman &amp; John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.
+Reporter: Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman &amp; John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.
+Code: Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman &amp; John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.
+Publication Title: Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman &amp; John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.
+Reporter: Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman &amp; John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.</z:extra>
+        <dcterms:creator rdf:nodeID="n1370"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1370"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Book>
+    <foaf:Organization rdf:nodeID="n1370">
+       <foaf:name>Chapman AD, Wieczorek J (2006)</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/ZDD34F2D">
+        <res:resource rdf:resource="https://docs.gbif.org/sensitive-species-best-practices/master/en/"/>
+        <ctag:tagged rdf:nodeID="n1306"/>
+        <ctag:tagged rdf:nodeID="n1307"/>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>3-not specified</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1317"/>
+        <ctag:tagged rdf:nodeID="n1362"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged rdf:nodeID="n1331"/>
+        <ctag:tagged rdf:nodeID="n1325"/>
+        <ctag:tagged rdf:nodeID="n1333"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://docs.gbif.org/sensitive-species-best-practices/master/en/">
+        <dcterms:title>version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data</dcterms:title>
+        <bibo:uri>https://docs.gbif.org/sensitive-species-best-practices/master/en/</bibo:uri>
+        <z:extra>Code: version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data
+Publication Title: version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data
+Reporter: version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data
+Code: version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data
+Publication Title: version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data
+Reporter: version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data</z:extra>
+        <dcterms:creator rdf:nodeID="n1373"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1373"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n1373">
+       <foaf:name>Current best practices (2020)</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/6YB3BWLC">
+       <res:resource rdf:resource="https://github.com/EMODnet/EMODnetBiocheck"/>
+    </z:UserItem>
+    <sc:ComputerProgram_CW rdf:about="https://github.com/EMODnet/EMODnetBiocheck">
+        <dcterms:title>Within EMODnet Biology there is a quality check tool for data providers to use before they submit their data . This runs on public IPT resources</dcterms:title>
+        <bibo:uri>https://github.com/EMODnet/EMODnetBiocheck</bibo:uri>
+        <z:extra>Programmers: _:n361
+Code: Within EMODnet Biology there is a quality check tool for data providers to use before they submit their data . This runs on public IPT resources
+Publication Title: Within EMODnet Biology there is a quality check tool for data providers to use before they submit their data . This runs on public IPT resources
+Reporter: Within EMODnet Biology there is a quality check tool for data providers to use before they submit their data . This runs on public IPT resources</z:extra>
+        <dcterms:creator rdf:nodeID="n1377"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1377"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </sc:ComputerProgram_CW>
+    <foaf:Organization rdf:nodeID="n1377">
+       <foaf:name>EMODnet Biology quality check</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/KDKRPN7A">
+        <res:resource rdf:resource="https://www.obis.org/manual/processing/"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>1-systems/tools/services</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1308"/>
+        <ctag:tagged rdf:nodeID="n1313"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>3-modelling research</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1356"/>
+        <ctag:tagged rdf:nodeID="n1314"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1346"/>
+        <ctag:tagged rdf:nodeID="n1362"/>
+        <ctag:tagged rdf:nodeID="n1320"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-broad consent</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>8-research community</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <sc:ComputerProgram_CW rdf:about="https://www.obis.org/manual/processing/">
+        <dcterms:title>OBIS also has tools that allow for data quality checks</dcterms:title>
+        <bibo:uri>https://www.obis.org/manual/processing/</bibo:uri>
+        <z:extra>Programmers: _:n364
+Code: OBIS also has tools that allow for data quality checks
+Publication Title: OBIS also has tools that allow for data quality checks
+Reporter: OBIS also has tools that allow for data quality checks</z:extra>
+        <dcterms:creator rdf:nodeID="n1380"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1380"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </sc:ComputerProgram_CW>
+    <foaf:Organization rdf:nodeID="n1380">
+       <foaf:name>OBIS data quality check</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

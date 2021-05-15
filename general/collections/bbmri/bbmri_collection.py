@@ -1,7 +1,6 @@
 import os
 import sys
 
-
 if __name__ == '__main__':
     # Setup environ
     dir_path = '/Users/iproger/Projects/ecrin-mdr/toolbox'
@@ -16,14 +15,13 @@ if __name__ == '__main__':
 
     import json
     from pyzotero import zotero
+    
+    from general.collections.zotero_configs import PRIVATE_KEY, USER_ID, LIBRARY_TYPE
 
 
     # GLOBAL VARIABLES
-    PRIVATE_KEY = 'sDmtsYFa6c1PNW5kNqPWJ1Pd'
-    USER_ID = '7003583'
-    LIBRARY_TYPE = 'user'
-    COLLECTION_ID = '3FM8UU6H'
-    FILENAME = 'zotero_data.json'
+    COLLECTION_ID = 'Z8UCBR6E'
+    FILENAME = 'bbmri_data_collection.json'
 
 
     def save_collection_to_file(privateKey: str, userID: str, libraryType: str, collectionID: str, filename: str):
@@ -54,7 +52,7 @@ if __name__ == '__main__':
         print('DONE!')
 
 
-    '''
+    
     save_collection_to_file(
         privateKey=PRIVATE_KEY, 
         userID=USER_ID, 
@@ -62,41 +60,14 @@ if __name__ == '__main__':
         collectionID=COLLECTION_ID, 
         filename=FILENAME
     )
-    '''
-
-
-    def read_file(filename: str):
-        with open(filename, 'r') as fp:
-            data = json.load(fp)
-        return data
-
-
-    def convert_authors(authors_list: list) -> str:
-        authors = ''
-        if len(authors_list) > 0 and authors_list is not None:
-            for author_data in authors_list:
-                author_string = ''
-                if 'firstName' in author_data:
-                    author_string += author_data['firstName'] + ' '
-                if 'lastName' in author_data:
-                    author_string += author_data['lastName'] + ' '
-                if 'name' in author_data:
-                    author_string += author_data['name'] + ' '
-                
-                authors += author_string + '; '
-        return authors
-
     
-    def convert_year(year: str) -> int:
-        if year != '' and year is not None:
-            return int(year)
-        else:
-            return 0
-    
+
 
     from users_management.models import User
     from resources.models import Resource, ResourceStatus, Language, ResourceType
     from tagging.models import TaggingResource
+
+    from general.collections.extract_functions import read_file, convert_authors, convert_year
 
 
     def collection_importer():
@@ -120,8 +91,8 @@ if __name__ == '__main__':
             else:
                 res_type = None
 
-            user = User.objects.get(username='content_manager_1')
-            tagging_person = User.objects.get(username='tagging_user_1')
+            content_manager = User.objects.get(username='BBMRI_CM')
+            tagging_person = User.objects.get(username='BBMRI_Tagger')
 
             resource = Resource(
                 title=item['title'] if 'title' != '' else 'None',
@@ -134,10 +105,11 @@ if __name__ == '__main__':
                 type_of_resource=res_type,
                 url=item['url'],
                 resource_file=None,
-                added_by=user,
+                added_by=content_manager,
             )
-            # resource.tagging_persons.set(tagging_person)
             resource.save()
+            res = Resource.objects.get(id=resource.id)
+            res.tagging_persons.add(tagging_person)
 
             res_status = ResourceStatus(
                 resource_id=resource.id,
@@ -156,4 +128,4 @@ if __name__ == '__main__':
         print('DONE!')
 
 
-    collection_importer()
+    # collection_importer()

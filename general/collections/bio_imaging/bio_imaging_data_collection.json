@@ -1,0 +1,259 @@
+[{
+    "title": "Guide on an overview of the major concepts of data protection and privacy in research.",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "EUI Ethics Committee"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://www.eui.eu/documents/servicesadmin/deanofstudies/researchethics/guide-data-protection-research.pdf",
+    "file": ""
+}, {
+    "title": "DataCurationNetwork/data-primers",
+    "shortTitle": "",
+    "abstract": "Contribute to DataCurationNetwork/data-primers development by creating an account on GitHub.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Neuroimaging DICOM and N1fT1 primer"
+    }],
+    "year": "2020-12-08 13:45:11",
+    "doi": null,
+    "language": "en",
+    "type_of_resource": "webpage",
+    "url": "https://github.com/DataCurationNetwork/data-primers",
+    "file": ""
+}, {
+    "title": "Medizinische Bilder \u00fcber die Cloud Healthcare API de-identifizieren",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "De-identification of medical images"
+    }],
+    "year": "2020-12-08 13:44:30",
+    "doi": null,
+    "language": "de",
+    "type_of_resource": "webpage",
+    "url": "https://cloud.google.com/solutions/de-identification-of-medical-images-through-the-cloud-healthcare-api?hl=de",
+    "file": ""
+}, {
+    "title": "AIDA GDPR policy 1.0",
+    "shortTitle": "",
+    "abstract": "AIDA GDPR policy Introduction Analytic Imaging Diagnostics Arena (AIDA) is a strategic initiative within Medtech4Health, supported by Vinnova. This policy describes how the AIDA community interprets some key aspects of GDPR and national Swedish legislation in relation to typical research and inno...",
+    "authors": [{
+        "creatorType": "author",
+        "name": "AIDA GDPR policy"
+    }],
+    "year": "2020-12-08 13:43:37",
+    "doi": null,
+    "language": "de",
+    "type_of_resource": "webpage",
+    "url": "https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit?usp=embed_facebook",
+    "file": ""
+}, {
+    "title": "The Organization for Human Brain Mapping (OHBM)",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Committee on Best Practice in Data Analysis and Sharing (COBIDAS) on MRI"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf",
+    "file": ""
+}, {
+    "title": "Medical Image Data and Datasets in the Era of Machine Learning\u2014Whitepaper from the 2016 C-MIMI Meeting Dataset Session",
+    "shortTitle": "",
+    "abstract": "At the first annual Conference on Machine Intelligence in Medical Imaging (C-MIMI), held in September 2016, a conference session on medical image data and datasets for machine learning identified multiple issues. The common theme from attendees was that everyone participating in medical image evaluation with machine learning is data starved. There is an urgent need to find better ways to collect, annotate, and reuse medical imaging data. Unique domain issues with medical image datasets require further study, development, and dissemination of best practices and standards, and a coordinated effort among medical imaging domain experts, medical imaging informaticists, government and industry data scientists, and interested commercial, academic, and government entities. High-level attributes of reusable medical image datasets suitable to train, test, validate, verify, and regulate ML products should be better described. NIH and other government agencies should promote and, where applicable, enforce, access to medical image datasets. We should improve communication among medical imaging domain experts, medical imaging informaticists, academic clinical and basic science researchers, government and industry data scientists, and interested commercial entities.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Marc D.",
+        "lastName": "Kohli"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ronald M.",
+        "lastName": "Summers"
+    }, {
+        "creatorType": "author",
+        "firstName": "J. Raymond",
+        "lastName": "Geis"
+    }],
+    "year": "2017-08-01",
+    "doi": "10.1007/s10278-017-9976-3",
+    "language": "en",
+    "type_of_resource": "journalArticle",
+    "url": "https://doi.org/10.1007/s10278-017-9976-3",
+    "file": ""
+}, {
+    "title": "GIFT-Cloud: A data sharing and collaboration platform for medical imaging research",
+    "shortTitle": "GIFT-Cloud",
+    "abstract": "Objectives\nClinical imaging data are essential for developing research software for computer-aided diagnosis, treatment planning and image-guided surgery, yet existing systems are poorly suited for data sharing between healthcare and academia: research systems rarely provide an integrated approach for data exchange with clinicians; hospital systems are focused towards clinical patient care with limited access for external researchers; and safe haven environments are not well suited to algorithm development. We have established GIFT-Cloud, a data and medical image sharing platform, to meet the needs of GIFT-Surg, an international research collaboration that is developing novel imaging methods for fetal surgery. GIFT-Cloud also has general applicability to other areas of imaging research.\nMethods\nGIFT-Cloud builds upon well-established cross-platform technologies. The Server provides secure anonymised data storage, direct web-based data access and a REST API for integrating external software. The Uploader provides automated on-site anonymisation, encryption and data upload. Gateways provide a seamless process for uploading medical data from clinical systems to the research server.\nResults\nGIFT-Cloud has been implemented in a multi-centre study for fetal medicine research. We present a case study of placental segmentation for pre-operative surgical planning, showing how GIFT-Cloud underpins the research and integrates with the clinical workflow.\nConclusions\nGIFT-Cloud simplifies the transfer of imaging data from clinical to research institutions, facilitating the development and validation of medical research software and the sharing of results back to the clinical partners. GIFT-Cloud supports collaboration between multiple healthcare and research institutions while satisfying the demands of patient confidentiality, data security and data ownership.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Tom",
+        "lastName": "Doel"
+    }, {
+        "creatorType": "author",
+        "firstName": "Dzhoshkun I.",
+        "lastName": "Shakir"
+    }, {
+        "creatorType": "author",
+        "firstName": "Rosalind",
+        "lastName": "Pratt"
+    }, {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Aertsen"
+    }, {
+        "creatorType": "author",
+        "firstName": "James",
+        "lastName": "Moggridge"
+    }, {
+        "creatorType": "author",
+        "firstName": "Erwin",
+        "lastName": "Bellon"
+    }, {
+        "creatorType": "author",
+        "firstName": "Anna L.",
+        "lastName": "David"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jan",
+        "lastName": "Deprest"
+    }, {
+        "creatorType": "author",
+        "firstName": "Tom",
+        "lastName": "Vercauteren"
+    }, {
+        "creatorType": "author",
+        "firstName": "S\u00e9bastien",
+        "lastName": "Ourselin"
+    }],
+    "year": "February 1, 2017",
+    "doi": "10.1016/j.cmpb.2016.11.004",
+    "language": "en",
+    "type_of_resource": "journalArticle",
+    "url": "http://www.sciencedirect.com/science/article/pii/S016926071630654X",
+    "file": ""
+}, {
+    "title": "Medical Subject Headings - Home Page",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "MeSH"
+    }],
+    "year": "2020-12-08 13:42:25",
+    "doi": null,
+    "language": "eng",
+    "type_of_resource": "webpage",
+    "url": "https://www.nlm.nih.gov/mesh/meshhome.html",
+    "file": ""
+}, {
+    "title": "Preparing a collection of radiology examinations for distribution and retrieval",
+    "shortTitle": "",
+    "abstract": "Objective Clinical documents made available for secondary use play an increasingly important role in discovery of clinical knowledge, development of research methods, and education. An important step in facilitating secondary use of clinical document collections is easy access to descriptions and samples that represent the content of the collections. This paper presents an approach to developing a collection of radiology examinations, including both the images and radiologist narrative reports, and making them publicly available in a searchable database. Materials and Methods The authors collected 3996 radiology reports from the Indiana Network for Patient Care and 8121 associated images from the hospitals\u2019 picture archiving systems. The images and reports were de-identified automatically and then the automatic de-identification was manually verified. The authors coded the key findings of the reports and empirically assessed the benefits of manual coding on retrieval. Results The automatic de-identification of the narrative was aggressive and achieved 100% precision at the cost of rendering a few findings uninterpretable. Automatic de-identification of images was not quite as perfect. Images for two of 3996 patients (0.05%) showed protected health information. Manual encoding of findings improved retrieval precision. Conclusion Stringent de-identification methods can remove all identifiers from text radiology reports. DICOM de-identification of images does not remove all identifying information and needs special attention to images scanned from film. Adding manual coding to the radiologist narrative reports significantly improved relevancy of the retrieved clinical documents. The de-identified Indiana chest X-ray collection is available for searching and downloading from the National Library of Medicine ( http://openi.nlm.nih.gov/ ).",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Dina",
+        "lastName": "Demner-Fushman"
+    }, {
+        "creatorType": "author",
+        "firstName": "Marc D.",
+        "lastName": "Kohli"
+    }, {
+        "creatorType": "author",
+        "firstName": "Marc B.",
+        "lastName": "Rosenman"
+    }, {
+        "creatorType": "author",
+        "firstName": "Sonya E.",
+        "lastName": "Shooshan"
+    }, {
+        "creatorType": "author",
+        "firstName": "Laritza",
+        "lastName": "Rodriguez"
+    }, {
+        "creatorType": "author",
+        "firstName": "Sameer",
+        "lastName": "Antani"
+    }, {
+        "creatorType": "author",
+        "firstName": "George R.",
+        "lastName": "Thoma"
+    }, {
+        "creatorType": "author",
+        "firstName": "Clement J.",
+        "lastName": "McDonald"
+    }],
+    "year": "March 1, 2015",
+    "doi": "10.1093/jamia/ocv080",
+    "language": "",
+    "type_of_resource": "journalArticle",
+    "url": "https://doi.org/10.1093/jamia/ocv080",
+    "file": ""
+}, {
+    "title": "RSNA",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "RSNA"
+    }],
+    "year": "2020-12-08 13:43:13",
+    "doi": null,
+    "language": "en-US",
+    "type_of_resource": "webpage",
+    "url": "https://sequoiaproject.org/rsna/",
+    "file": ""
+}, {
+    "title": "RadLex radiology lexicon",
+    "shortTitle": "",
+    "abstract": "Radiological Society of North America",
+    "authors": [{
+        "creatorType": "author",
+        "name": "RadLex radiology lexicon"
+    }],
+    "year": "2020-12-08 13:42:48",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "webpage",
+    "url": "https://www.rsna.org/practice-tools/data-tools-and-standards/radlex-radiology-lexicon",
+    "file": ""
+}, {
+    "title": "Exploring Large-scale Public Medical Image Datasets",
+    "shortTitle": "",
+    "abstract": "<h3>Rationale and Objectives</h3><p>Medical artificial intelligence systems are dependent on well characterized large-scale datasets. Recently released public datasets have been of great interest to the field, but pose specific challenges due to the disconnect they cause between data generation and data usage, potentially limiting the utility of these datasets.</p><h3>Materials and Methods</h3><p>We visually explore two large public datasets, to determine how accurate the provided labels are and whether other subtle problems exist. The ChestXray14 dataset contains 112,120 frontal chest films, and the Musculoskeletal Radiology (MURA) dataset contains 40,561 upper limb radiographs. A subset of around 700 images from both datasets was reviewed by a board-certified radiologist, and the quality of the original labels was determined.</p><h3>Results</h3><p>The ChestXray14 labels did not accurately reflect the visual content of the images, with positive predictive values mostly between 10% and 30% lower than the values presented in the original documentation. There were other significant problems, with examples of hidden stratification and label disambiguation failure. The MURA labels were more accurate, but the original normal/abnormal labels were inaccurate for the subset of cases with degenerative joint disease, with a sensitivity of 60% and a specificity of 82%.</p><h3>Conclusion</h3><p>Visual inspection of images is a necessary component of understanding large image datasets. We recommend that teams producing public datasets should perform this important quality control procedure and include a thorough description of their findings, along with an explanation of the data generating procedures and labeling rules, in the documentation for their datasets.</p>",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Luke",
+        "lastName": "Oakden-Rayner"
+    }],
+    "year": "2020/01/01",
+    "doi": "10.1016/j.acra.2019.10.006",
+    "language": "English",
+    "type_of_resource": "journalArticle",
+    "url": "https://www.academicradiology.org/article/S1076-6332(19)30488-X/abstract",
+    "file": ""
+}, {
+    "title": "Welcome to The Cancer Imaging Archive",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "The Cancer Imaging Archive (TCIA)"
+    }],
+    "year": "2020-12-08 13:40:32",
+    "doi": null,
+    "language": "en-US",
+    "type_of_resource": "webpage",
+    "url": "https://www.cancerimagingarchive.net/",
+    "file": ""
+}]

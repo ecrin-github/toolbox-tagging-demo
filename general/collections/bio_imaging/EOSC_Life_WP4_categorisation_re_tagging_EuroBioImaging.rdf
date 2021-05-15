@@ -1,0 +1,747 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/JXERBCBB">
+        <res:resource rdf:resource="https://www.cancerimagingarchive.net/"/>
+        <z:accessDate>2020-12-08 13:40:32</z:accessDate>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>1-repositories/other</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n907"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n909"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>5-discovering the data</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n911"/>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n913"/>
+        <ctag:tagged rdf:nodeID="n914"/>
+        <ctag:tagged rdf:nodeID="n915"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>8-other group</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.cancerimagingarchive.net/">
+        <dcterms:title>Welcome to The Cancer Imaging Archive</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:uri>https://www.cancerimagingarchive.net/</bibo:uri>
+        <dcterms:creator rdf:nodeID="n903"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n903"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:date>2020-12-08 13:40:32</dcterms:date>
+                <dcterms:title>The Cancer Imaging Archive (TCIA)</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n903">
+       <foaf:name>The Cancer Imaging Archive (TCIA)</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n906">
+       <ctag:label>2-health research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n907">
+       <ctag:label>3-secondary research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n908">
+       <ctag:label>4A5-data including images of humans</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n909">
+       <ctag:label>5-access to data re-use</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n911">
+       <ctag:label>5-managing data access</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n912">
+       <ctag:label>6-global</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n913">
+       <ctag:label>7-de-identification</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n914">
+       <ctag:label>7-repository quality</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n915">
+       <ctag:label>8-data provider</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n917">
+       <ctag:label>8-research community</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/8R6AD5NB">
+        <res:resource rdf:resource="https://www.academicradiology.org/article/S1076-6332(19)30488-X/abstract"/>
+        <z:repository>www.academicradiology.org</z:repository>
+        <z:accessDate>2020-12-08 13:41:11</z:accessDate>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>3-observational research</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>5-data preparation at the end of study</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n914"/>
+        <ctag:tagged rdf:nodeID="n928"/>
+        <ctag:tagged rdf:nodeID="n915"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.academicradiology.org/article/S1076-6332(19)30488-X/abstract">
+        <dcterms:title>Exploring Large-scale Public Medical Image Datasets</dcterms:title>
+        <dcterms:abstract>&lt;h3&gt;Rationale and Objectives&lt;/h3&gt;&lt;p&gt;Medical artificial intelligence systems are dependent on well characterized large-scale datasets. Recently released public datasets have been of great interest to the field, but pose specific challenges due to the disconnect they cause between data generation and data usage, potentially limiting the utility of these datasets.&lt;/p&gt;&lt;h3&gt;Materials and Methods&lt;/h3&gt;&lt;p&gt;We visually explore two large public datasets, to determine how accurate the provided labels are and whether other subtle problems exist. The ChestXray14 dataset contains 112,120 frontal chest films, and the Musculoskeletal Radiology (MURA) dataset contains 40,561 upper limb radiographs. A subset of around 700 images from both datasets was reviewed by a board-certified radiologist, and the quality of the original labels was determined.&lt;/p&gt;&lt;h3&gt;Results&lt;/h3&gt;&lt;p&gt;The ChestXray14 labels did not accurately reflect the visual content of the images, with positive predictive values mostly between 10% and 30% lower than the values presented in the original documentation. There were other significant problems, with examples of hidden stratification and label disambiguation failure. The MURA labels were more accurate, but the original normal/abnormal labels were inaccurate for the subset of cases with degenerative joint disease, with a sensitivity of 60% and a specificity of 82%.&lt;/p&gt;&lt;h3&gt;Conclusion&lt;/h3&gt;&lt;p&gt;Visual inspection of images is a necessary component of understanding large image datasets. We recommend that teams producing public datasets should perform this important quality control procedure and include a thorough description of their findings, along with an explanation of the data generating procedures and labeling rules, in the documentation for their datasets.&lt;/p&gt;</dcterms:abstract>
+        <dcterms:language>English</dcterms:language>
+        <bibo:uri>https://www.academicradiology.org/article/S1076-6332(19)30488-X/abstract</bibo:uri>
+        <z:extra>Number: 1
+Publisher: Elsevier
+PMID: 31706792</z:extra>
+        <bibo:pages>106-112</bibo:pages>
+        <bibo:doi>10.1016/j.acra.2019.10.006</bibo:doi>
+        <dcterms:creator rdf:nodeID="n923"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n923"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2020/01/01</dcterms:date>
+                <bibo:volume>27</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Academic Radiology</dcterms:title>
+                        <bibo:shortTitle>Academic Radiology</bibo:shortTitle>
+                        <bibo:issn>1076-6332, 1878-4046</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n923">
+        <foaf:givenName>Luke</foaf:givenName>
+        <foaf:surname>Oakden-Rayner</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n925">
+       <ctag:label>1-guidance/recommendation</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n928">
+       <ctag:label>8-data consumer</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/Y3898FMU">
+        <res:resource rdf:resource="https://doi.org/10.1093/jamia/ocv080"/>
+        <z:repository>Silverchair</z:repository>
+        <z:accessDate>2020-12-08 13:41:51</z:accessDate>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n907"/>
+        <ctag:tagged rdf:nodeID="n943"/>
+        <ctag:tagged rdf:nodeID="n944"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n909"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>5-transfer of data to repository</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>6-national (USA)</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n913"/>
+        <ctag:tagged rdf:nodeID="n947"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1093/jamia/ocv080">
+        <dcterms:title>Preparing a collection of radiology examinations for distribution and retrieval</dcterms:title>
+        <dcterms:abstract>Objective Clinical documents made available for secondary use play an increasingly important role in discovery of clinical knowledge, development of research methods, and education. An important step in facilitating secondary use of clinical document collections is easy access to descriptions and samples that represent the content of the collections. This paper presents an approach to developing a collection of radiology examinations, including both the images and radiologist narrative reports, and making them publicly available in a searchable database. Materials and Methods The authors collected 3996 radiology reports from the Indiana Network for Patient Care and 8121 associated images from the hospitals’ picture archiving systems. The images and reports were de-identified automatically and then the automatic de-identification was manually verified. The authors coded the key findings of the reports and empirically assessed the benefits of manual coding on retrieval. Results The automatic de-identification of the narrative was aggressive and achieved 100% precision at the cost of rendering a few findings uninterpretable. Automatic de-identification of images was not quite as perfect. Images for two of 3996 patients (0.05%) showed protected health information. Manual encoding of findings improved retrieval precision. Conclusion Stringent de-identification methods can remove all identifiers from text radiology reports. DICOM de-identification of images does not remove all identifying information and needs special attention to images scanned from film. Adding manual coding to the radiologist narrative reports significantly improved relevancy of the retrieved clinical documents. The de-identified Indiana chest X-ray collection is available for searching and downloading from the National Library of Medicine ( http://openi.nlm.nih.gov/ ).</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1093/jamia/ocv080</bibo:uri>
+        <z:extra>Number: 2</z:extra>
+        <bibo:pages>304-310</bibo:pages>
+        <bibo:doi>10.1093/jamia/ocv080</bibo:doi>
+        <dcterms:creator rdf:nodeID="n934"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n934"/>
+                <rdf:li rdf:nodeID="n936"/>
+                <rdf:li rdf:nodeID="n937"/>
+                <rdf:li rdf:nodeID="n938"/>
+                <rdf:li rdf:nodeID="n939"/>
+                <rdf:li rdf:nodeID="n940"/>
+                <rdf:li rdf:nodeID="n941"/>
+                <rdf:li rdf:nodeID="n942"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n936"/>
+        <dcterms:creator rdf:nodeID="n937"/>
+        <dcterms:creator rdf:nodeID="n938"/>
+        <dcterms:creator rdf:nodeID="n939"/>
+        <dcterms:creator rdf:nodeID="n940"/>
+        <dcterms:creator rdf:nodeID="n941"/>
+        <dcterms:creator rdf:nodeID="n942"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>March 1, 2015</dcterms:date>
+                <bibo:volume>23</bibo:volume>
+                <bibo:issue>2</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Journal of the American Medical Informatics Association</dcterms:title>
+                        <bibo:shortTitle>Journal of the American Medical Informatics Association</bibo:shortTitle>
+                        <bibo:issn>1067-5027</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n934">
+        <foaf:givenName>Dina</foaf:givenName>
+        <foaf:surname>Demner-Fushman</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n936">
+       <foaf:givenName>Marc D.</foaf:givenName><foaf:surname>Kohli</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n937">
+        <foaf:givenName>Marc B.</foaf:givenName>
+        <foaf:surname>Rosenman</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n938">
+        <foaf:givenName>Sonya E.</foaf:givenName>
+        <foaf:surname>Shooshan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n939">
+        <foaf:givenName>Laritza</foaf:givenName>
+        <foaf:surname>Rodriguez</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n940">
+       <foaf:givenName>Sameer</foaf:givenName><foaf:surname>Antani</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n941">
+        <foaf:givenName>George R.</foaf:givenName>
+        <foaf:surname>Thoma</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n942">
+        <foaf:givenName>Clement J.</foaf:givenName>
+        <foaf:surname>McDonald</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n943">
+       <ctag:label>4A1-real world/routine health data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n944">
+       <ctag:label>4A2-clinical research data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n947">
+       <ctag:label>7-metadata for DS</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/6WAQJJ8N">
+        <res:resource rdf:resource="https://www.nlm.nih.gov/mesh/meshhome.html"/>
+        <z:accessDate>2020-12-08 13:42:25</z:accessDate>
+        <dcterms:rights>Public Domain</dcterms:rights>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>1-other resource type</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n954"/>
+        <ctag:tagged rdf:nodeID="n955"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n956"/>
+        <ctag:tagged rdf:nodeID="n943"/>
+        <ctag:tagged rdf:nodeID="n944"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-any</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n947"/>
+        <ctag:tagged rdf:nodeID="n958"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+        <ctag:tagged rdf:nodeID="n959"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.nlm.nih.gov/mesh/meshhome.html">
+        <dcterms:title>Medical Subject Headings - Home Page</dcterms:title>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:uri>https://www.nlm.nih.gov/mesh/meshhome.html</bibo:uri>
+        <z:extra>Publisher: U.S. National Library of Medicine</z:extra>
+        <dcterms:type>Product, Program, and Project Descriptions</dcterms:type>
+        <dcterms:creator rdf:nodeID="n951"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n951"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:date>2020-12-08 13:42:25</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n951">
+       <foaf:name>MeSH</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n954">
+       <ctag:label>1-systems/tools/services</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n955">
+       <ctag:label>2-general life scoiences</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n956">
+       <ctag:label>3-not applicable</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n958">
+       <ctag:label>8-data service provider</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n959">
+       <ctag:label>8-standardisation body</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/DXFPUFWY">
+        <res:resource rdf:resource="https://www.rsna.org/practice-tools/data-tools-and-standards/radlex-radiology-lexicon"/>
+        <z:accessDate>2020-12-08 13:42:48</z:accessDate>
+        <ctag:tagged rdf:nodeID="n954"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n965"/>
+        <ctag:tagged rdf:nodeID="n943"/>
+        <ctag:tagged rdf:nodeID="n944"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n966"/>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n947"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-other topics</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n917"/>
+        <ctag:tagged rdf:nodeID="n959"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.rsna.org/practice-tools/data-tools-and-standards/radlex-radiology-lexicon">
+        <dcterms:title>RadLex radiology lexicon</dcterms:title>
+        <dcterms:abstract>Radiological Society of North America</dcterms:abstract>
+        <bibo:uri>https://www.rsna.org/practice-tools/data-tools-and-standards/radlex-radiology-lexicon</bibo:uri>
+        <dcterms:creator rdf:nodeID="n963"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n963"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+               <dcterms:date>2020-12-08 13:42:48</dcterms:date>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n963">
+       <foaf:name>RadLex radiology lexicon</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n965">
+       <ctag:label>3-other research desings</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n966">
+       <ctag:label>5-preparation for DS</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/HAYHQHV5">
+        <res:resource rdf:resource="https://sequoiaproject.org/rsna/"/>
+        <z:accessDate>2020-12-08 13:43:13</z:accessDate>
+        <ctag:tagged rdf:nodeID="n954"/>
+        <ctag:tagged rdf:nodeID="n955"/>
+        <ctag:tagged rdf:nodeID="n956"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-other</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n914"/>
+        <ctag:tagged rdf:nodeID="n915"/>
+        <ctag:tagged rdf:nodeID="n959"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://sequoiaproject.org/rsna/">
+        <dcterms:title>RSNA</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:uri>https://sequoiaproject.org/rsna/</bibo:uri>
+        <dcterms:creator rdf:nodeID="n971"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n971"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:date>2020-12-08 13:43:13</dcterms:date>
+                <dcterms:title>The Sequoia Project</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n971">
+       <foaf:name>RSNA</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/XD2V8A7Q">
+        <res:resource rdf:resource="https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit?usp=embed_facebook"/>
+        <z:accessDate>2020-12-08 13:43:37</z:accessDate>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n979"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n956"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n909"/>
+        <ctag:tagged rdf:nodeID="n911"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>6-national (Sweden)</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n981"/>
+        <ctag:tagged rdf:nodeID="n982"/>
+        <ctag:tagged rdf:nodeID="n983"/>
+        <ctag:tagged rdf:nodeID="n984"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>8-coordination forum</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n959"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit?usp=embed_facebook">
+        <dcterms:title>AIDA GDPR policy 1.0</dcterms:title>
+        <dcterms:abstract>AIDA GDPR policy Introduction Analytic Imaging Diagnostics Arena (AIDA) is a strategic initiative within Medtech4Health, supported by Vinnova. This policy describes how the AIDA community interprets some key aspects of GDPR and national Swedish legislation in relation to typical research and inno...</dcterms:abstract>
+        <dcterms:language>de</dcterms:language>
+        <bibo:uri>https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit?usp=embed_facebook</bibo:uri>
+        <dcterms:creator rdf:nodeID="n977"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n977"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:date>2020-12-08 13:43:37</dcterms:date>
+                <dcterms:title>Google Docs</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n977">
+       <foaf:name>AIDA GDPR policy</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n979">
+       <ctag:label>1-legal/regulation</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n981">
+       <ctag:label>7-anonymisation</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n982"><ctag:label>7-GDPR</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n983">
+       <ctag:label>7-legal aspects</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n984">
+       <ctag:label>7-planning for data re-use</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/6M7EGFRN">
+        <res:resource rdf:resource="http://www.sciencedirect.com/science/article/pii/S016926071630654X"/>
+        <z:repository>ScienceDirect</z:repository>
+        <z:accessDate>2020-12-08 13:44:04</z:accessDate>
+        <ctag:tagged rdf:nodeID="n954"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n965"/>
+        <ctag:tagged rdf:nodeID="n944"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n909"/>
+        <ctag:tagged rdf:nodeID="n1002"/>
+        <ctag:tagged rdf:nodeID="n981"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>7-managing data access</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n984"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://www.sciencedirect.com/science/article/pii/S016926071630654X">
+        <dcterms:title>GIFT-Cloud: A data sharing and collaboration platform for medical imaging research</dcterms:title>
+        <dcterms:abstract>Objectives
+Clinical imaging data are essential for developing research software for computer-aided diagnosis, treatment planning and image-guided surgery, yet existing systems are poorly suited for data sharing between healthcare and academia: research systems rarely provide an integrated approach for data exchange with clinicians; hospital systems are focused towards clinical patient care with limited access for external researchers; and safe haven environments are not well suited to algorithm development. We have established GIFT-Cloud, a data and medical image sharing platform, to meet the needs of GIFT-Surg, an international research collaboration that is developing novel imaging methods for fetal surgery. GIFT-Cloud also has general applicability to other areas of imaging research.
+Methods
+GIFT-Cloud builds upon well-established cross-platform technologies. The Server provides secure anonymised data storage, direct web-based data access and a REST API for integrating external software. The Uploader provides automated on-site anonymisation, encryption and data upload. Gateways provide a seamless process for uploading medical data from clinical systems to the research server.
+Results
+GIFT-Cloud has been implemented in a multi-centre study for fetal medicine research. We present a case study of placental segmentation for pre-operative surgical planning, showing how GIFT-Cloud underpins the research and integrates with the clinical workflow.
+Conclusions
+GIFT-Cloud simplifies the transfer of imaging data from clinical to research institutions, facilitating the development and validation of medical research software and the sharing of results back to the clinical partners. GIFT-Cloud supports collaboration between multiple healthcare and research institutions while satisfying the demands of patient confidentiality, data security and data ownership.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>GIFT-Cloud</bibo:shortTitle>
+        <bibo:uri>http://www.sciencedirect.com/science/article/pii/S016926071630654X</bibo:uri>
+        <bibo:pages>181-190</bibo:pages>
+        <bibo:doi>10.1016/j.cmpb.2016.11.004</bibo:doi>
+        <dcterms:creator rdf:nodeID="n991"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n991"/>
+                <rdf:li rdf:nodeID="n993"/>
+                <rdf:li rdf:nodeID="n994"/>
+                <rdf:li rdf:nodeID="n995"/>
+                <rdf:li rdf:nodeID="n996"/>
+                <rdf:li rdf:nodeID="n997"/>
+                <rdf:li rdf:nodeID="n998"/>
+                <rdf:li rdf:nodeID="n999"/>
+                <rdf:li rdf:nodeID="n1000"/>
+                <rdf:li rdf:nodeID="n1001"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n993"/>
+        <dcterms:creator rdf:nodeID="n994"/>
+        <dcterms:creator rdf:nodeID="n995"/>
+        <dcterms:creator rdf:nodeID="n996"/>
+        <dcterms:creator rdf:nodeID="n997"/>
+        <dcterms:creator rdf:nodeID="n998"/>
+        <dcterms:creator rdf:nodeID="n999"/>
+        <dcterms:creator rdf:nodeID="n1000"/>
+        <dcterms:creator rdf:nodeID="n1001"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>February 1, 2017</dcterms:date>
+                <bibo:volume>139</bibo:volume>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Computer Methods and Programs in Biomedicine</dcterms:title>
+                        <bibo:shortTitle>Computer Methods and Programs in Biomedicine</bibo:shortTitle>
+                        <bibo:issn>0169-2607</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n991">
+       <foaf:givenName>Tom</foaf:givenName><foaf:surname>Doel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n993">
+        <foaf:givenName>Dzhoshkun I.</foaf:givenName>
+        <foaf:surname>Shakir</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n994">
+       <foaf:givenName>Rosalind</foaf:givenName><foaf:surname>Pratt</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n995">
+        <foaf:givenName>Michael</foaf:givenName>
+        <foaf:surname>Aertsen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n996">
+        <foaf:givenName>James</foaf:givenName>
+        <foaf:surname>Moggridge</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n997">
+       <foaf:givenName>Erwin</foaf:givenName><foaf:surname>Bellon</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n998">
+       <foaf:givenName>Anna L.</foaf:givenName><foaf:surname>David</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n999">
+       <foaf:givenName>Jan</foaf:givenName><foaf:surname>Deprest</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1000">
+        <foaf:givenName>Tom</foaf:givenName>
+        <foaf:surname>Vercauteren</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1001">
+        <foaf:givenName>Sébastien</foaf:givenName>
+        <foaf:surname>Ourselin</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n1002">
+       <ctag:label>6-continental</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/AE2XMKT2">
+        <res:resource rdf:resource="https://cloud.google.com/solutions/de-identification-of-medical-images-through-the-cloud-healthcare-api?hl=de"/>
+        <z:accessDate>2020-12-08 13:44:30</z:accessDate>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n954"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n907"/>
+        <ctag:tagged rdf:nodeID="n944"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n966"/>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n913"/>
+        <ctag:tagged rdf:nodeID="n958"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://cloud.google.com/solutions/de-identification-of-medical-images-through-the-cloud-healthcare-api?hl=de">
+        <dcterms:title>Medizinische Bilder über die Cloud Healthcare API de-identifizieren</dcterms:title>
+        <dcterms:language>de</dcterms:language>
+        <bibo:uri>https://cloud.google.com/solutions/de-identification-of-medical-images-through-the-cloud-healthcare-api?hl=de</bibo:uri>
+        <dcterms:creator rdf:nodeID="n1007"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1007"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:date>2020-12-08 13:44:30</dcterms:date>
+                <dcterms:title>Google Cloud</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n1007">
+       <foaf:name>De-identification of medical images</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/LY92YIA2">
+        <res:resource rdf:resource="https://github.com/DataCurationNetwork/data-primers"/>
+        <z:accessDate>2020-12-08 13:45:11</z:accessDate>
+        <ctag:tagged rdf:nodeID="n1014"/>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n965"/>
+        <ctag:tagged rdf:nodeID="n944"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n909"/>
+        <ctag:tagged rdf:nodeID="n911"/>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n947"/>
+        <ctag:tagged rdf:nodeID="n984"/>
+        <ctag:tagged rdf:nodeID="n928"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://github.com/DataCurationNetwork/data-primers">
+        <dcterms:title>DataCurationNetwork/data-primers</dcterms:title>
+        <dcterms:abstract>Contribute to DataCurationNetwork/data-primers development by creating an account on GitHub.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://github.com/DataCurationNetwork/data-primers</bibo:uri>
+        <dcterms:creator rdf:nodeID="n1012"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1012"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:date>2020-12-08 13:45:11</dcterms:date>
+                <dcterms:title>GitHub</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n1012">
+       <foaf:name>Neuroimaging DICOM and N1fT1 primer</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n1014">
+       <ctag:label>1-best practice</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/UAM6S3GT">
+        <res:resource rdf:resource="https://doi.org/10.1007/s10278-017-9976-3"/>
+        <z:repository>Springer Link</z:repository>
+        <z:accessDate>2020-12-08 13:45:51</z:accessDate>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n1024"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n956"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged rdf:nodeID="n1025"/>
+        <ctag:tagged rdf:nodeID="n966"/>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n983"/>
+        <ctag:tagged rdf:nodeID="n947"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1007/s10278-017-9976-3">
+        <dcterms:title>Medical Image Data and Datasets in the Era of Machine Learning—Whitepaper from the 2016 C-MIMI Meeting Dataset Session</dcterms:title>
+        <dcterms:abstract>At the first annual Conference on Machine Intelligence in Medical Imaging (C-MIMI), held in September 2016, a conference session on medical image data and datasets for machine learning identified multiple issues. The common theme from attendees was that everyone participating in medical image evaluation with machine learning is data starved. There is an urgent need to find better ways to collect, annotate, and reuse medical imaging data. Unique domain issues with medical image datasets require further study, development, and dissemination of best practices and standards, and a coordinated effort among medical imaging domain experts, medical imaging informaticists, government and industry data scientists, and interested commercial, academic, and government entities. High-level attributes of reusable medical image datasets suitable to train, test, validate, verify, and regulate ML products should be better described. NIH and other government agencies should promote and, where applicable, enforce, access to medical image datasets. We should improve communication among medical imaging domain experts, medical imaging informaticists, academic clinical and basic science researchers, government and industry data scientists, and interested commercial entities.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://doi.org/10.1007/s10278-017-9976-3</bibo:uri>
+        <z:extra>Number: 4</z:extra>
+        <bibo:pages>392-399</bibo:pages>
+        <bibo:doi>10.1007/s10278-017-9976-3</bibo:doi>
+        <dcterms:creator rdf:nodeID="n1020"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n1020"/>
+                <rdf:li rdf:nodeID="n1022"/>
+                <rdf:li rdf:nodeID="n1023"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n1022"/>
+        <dcterms:creator rdf:nodeID="n1023"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017-08-01</dcterms:date>
+                <bibo:volume>30</bibo:volume>
+                <bibo:issue>4</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Journal of Digital Imaging</dcterms:title>
+                        <bibo:shortTitle>J Digit Imaging</bibo:shortTitle>
+                        <bibo:issn>1618-727X</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n1020">
+       <foaf:givenName>Marc D.</foaf:givenName><foaf:surname>Kohli</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1022">
+        <foaf:givenName>Ronald M.</foaf:givenName>
+        <foaf:surname>Summers</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n1023">
+        <foaf:givenName>J. Raymond</foaf:givenName>
+        <foaf:surname>Geis</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n1024">
+       <ctag:label>1-postion paper/policies/principles</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n1025">
+       <ctag:label>5-planning for DS</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/S4QYPCZQ">
+        <res:resource rdf:resource="http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf"/>
+        <ctag:tagged rdf:nodeID="n1014"/>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n1024"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n956"/>
+        <ctag:tagged rdf:nodeID="n908"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-monitoring DS</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1025"/>
+        <ctag:tagged rdf:nodeID="n966"/>
+        <ctag:tagged rdf:nodeID="n912"/>
+        <ctag:tagged rdf:nodeID="n947"/>
+        <ctag:tagged rdf:nodeID="n984"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf">
+        <dcterms:title>The Organization for Human Brain Mapping (OHBM)</dcterms:title>
+        <bibo:uri>http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf</bibo:uri>
+        <dcterms:creator rdf:nodeID="n1027"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1027"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n1027">
+        <foaf:name>Committee on Best Practice in Data Analysis and Sharing (COBIDAS) on MRI</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/BL8GJQWI">
+        <res:resource rdf:resource="https://www.eui.eu/documents/servicesadmin/deanofstudies/researchethics/guide-data-protection-research.pdf"/>
+        <ctag:tagged rdf:nodeID="n925"/>
+        <ctag:tagged rdf:nodeID="n979"/>
+        <ctag:tagged rdf:nodeID="n906"/>
+        <ctag:tagged rdf:nodeID="n956"/>
+        <ctag:tagged rdf:nodeID="n943"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-not applicable</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n1002"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-ethics of DS</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n982"/>
+        <ctag:tagged rdf:nodeID="n983"/>
+        <ctag:tagged rdf:nodeID="n917"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://www.eui.eu/documents/servicesadmin/deanofstudies/researchethics/guide-data-protection-research.pdf">
+        <dcterms:title>Guide on an overview of the major concepts of data protection and privacy in research.</dcterms:title>
+        <bibo:uri>https://www.eui.eu/documents/servicesadmin/deanofstudies/researchethics/guide-data-protection-research.pdf</bibo:uri>
+        <dcterms:creator rdf:nodeID="n1031"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n1031"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n1031">
+       <foaf:name>EUI Ethics Committee</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

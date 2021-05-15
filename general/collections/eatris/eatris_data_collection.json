@@ -1,0 +1,574 @@
+[{
+    "title": "International transfer of data",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "GA4GH: International data transfer"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://www.ga4gh.org/news/how-can-researchers-approach-international-data-transfers-under-the-gdpr",
+    "file": ""
+}, {
+    "title": "Global Alliance for Genomics & Health regulatory and ethics toolkit",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "GAGH: Regulatory & ethics toolkit"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/",
+    "file": ""
+}, {
+    "title": "Question and Answers on the interplay between the Clinical Trials Regulation and the General Data Protection Regulation",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Q&A: Interplay CTR & GDPR"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://ec.europa.eu/health/sites/health/files/files/documents/qa_clinicaltrials_gdpr_en.pdf",
+    "file": ""
+}, {
+    "title": "Processing Human Genomic Data in the Cloud",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "White paper"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://elsi.health-ri.nl/sites/elsi/files/2020-07/20180709%20White%20Paper%20Processing%20Genomic%20Data%20in%20the%20Cloud%20including%20Annex.pdf",
+    "file": ""
+}, {
+    "title": "Generic Policy for Access to and Sharing of COVID-19 Data",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "health RI"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://elsi.health-ri.nl/sites/elsi/files/2020-11/1020_HRI_PolicyDocument_LATEST.pdf",
+    "file": ""
+}, {
+    "title": "Responsible data sharing in international health research: a systematic review of principles and norms",
+    "shortTitle": "Responsible data sharing in international health research",
+    "abstract": "Large-scale linkage of international clinical datasets could lead to unique insights into disease aetiology and facilitate treatment evaluation and drug development. Hereto, multi-stakeholder consortia are currently designing several disease-specific translational research platforms to enable international health data sharing. Despite the recent adoption of the EU General Data Protection Regulation (GDPR), the procedures for how to govern responsible data sharing in such projects are not at all spelled out yet. In search of a first, basic outline of an ethical governance framework, we set out to explore relevant ethical principles and norms.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Shona",
+        "lastName": "Kalkman"
+    }, {
+        "creatorType": "author",
+        "firstName": "Menno",
+        "lastName": "Mostert"
+    }, {
+        "creatorType": "author",
+        "firstName": "Christoph",
+        "lastName": "Gerlinger"
+    }, {
+        "creatorType": "author",
+        "firstName": "Johannes J. M.",
+        "lastName": "van Delden"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ghislaine J. M. W.",
+        "lastName": "van Thiel"
+    }],
+    "year": "March 28, 2019",
+    "doi": "10.1186/s12910-019-0359-9",
+    "language": "",
+    "type_of_resource": "journalArticle",
+    "url": "https://doi.org/10.1186/s12910-019-0359-9",
+    "file": ""
+}, {
+    "title": "The BBMRI-Nl catalogue to find data and sample resources",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "BBMRI-Nl catalogue"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://www.bbmri.nl/services/samples-images-data/catalogue",
+    "file": ""
+}, {
+    "title": "Data Seal of Approval Synopsis (2008\u20132018)",
+    "shortTitle": "",
+    "abstract": "You may have been redirected to this page from www.datasealofapproval.org. This is because the Data Seal of Approval (DSA) has been replaced by the CoreTrustSeal, and the DSA site and associated ce\u2026",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Core Trust Seal"
+    }],
+    "year": "2020-02-19T10:03:46+00:00",
+    "doi": null,
+    "language": "en-GB",
+    "type_of_resource": "blogPost",
+    "url": "https://www.coretrustseal.org/about/history/data-seal-of-approval-synopsis-2008-2018/",
+    "file": ""
+}, {
+    "title": "he Genome of the Netherlands Project: Access to Data",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Genome of the Netherlands project"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "http://www.nlgenome.nl/wp-content/uploads/2015/04/GoNLDATA_ACCESS_POLICY_CONDITIONS_FINAL-2014.pdf",
+    "file": ""
+}, {
+    "title": "dbGaP Overview",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "dbGaP Overview"
+    }],
+    "year": "2020-12-11 18:20:11",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "webpage",
+    "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/about.html#duc",
+    "file": ""
+}, {
+    "title": "Globally Optimal k-Anonymity Method for the De-Identification of Health Data | Journal of the American Medical Informatics Association | Oxford Academic",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "El Emam, Khaled"
+    }],
+    "year": "2020-12-11 18:05:57",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "webpage",
+    "url": "https://academic.oup.com/jamia/article/16/5/670/804120",
+    "file": ""
+}, {
+    "title": "187-What does the HIPAA Privacy Rule do",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Office for Civil",
+        "lastName": "Rights (OCR)"
+    }],
+    "year": "2015-10-01T15:10:46-04:00",
+    "doi": null,
+    "language": "en",
+    "type_of_resource": "webpage",
+    "url": "https://www.hhs.gov/hipaa/for-individuals/faq/187/what-does-the-hipaa-privacy-rule-do/index.html",
+    "file": ""
+}, {
+    "title": "Digital health: meeting the ethical and policy challenges",
+    "shortTitle": "Digital health",
+    "abstract": "Digital health entails connecting health-related data, including data generated by patients themselves, and harnessing the medical potential of technological tools of common usage, such as smartphones, wellness bands, apps, social media.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Effy",
+        "lastName": "Vayena"
+    }, {
+        "creatorType": "author",
+        "firstName": "Tobias",
+        "lastName": "Haeusermann"
+    }, {
+        "creatorType": "author",
+        "firstName": "Afua",
+        "lastName": "Adjekum"
+    }, {
+        "creatorType": "author",
+        "firstName": "Alessandro",
+        "lastName": "Blasimme"
+    }],
+    "year": "2018/01/16",
+    "doi": "10.4414/smw.2018.14571",
+    "language": "en",
+    "type_of_resource": "journalArticle",
+    "url": "https://smw.ch/article/doi/smw.2018.14571",
+    "file": ""
+}, {
+    "title": "Dual-Use Research | NIH Office of Intramural Research",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Dual-Use-Research"
+    }],
+    "year": "2020-12-11 18:02:15",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "webpage",
+    "url": "https://oir.nih.gov/sourcebook/ethical-conduct/special-research-considerations/dual-use-research",
+    "file": ""
+}, {
+    "title": "The final version of the RDA COVID-19 Recommendations and Guidelines for Data Sharing, published 30 June 2020",
+    "shortTitle": "",
+    "abstract": "&",
+    "authors": [{
+        "creatorType": "author",
+        "name": "RDA COVID-19 recommendations"
+    }],
+    "year": "2020-06-30T06:36:26+00:00",
+    "doi": null,
+    "language": "en",
+    "type_of_resource": "webpage",
+    "url": "https://www.rd-alliance.org/group/rda-covid19-rda-covid19-omics-rda-covid-19-epidemiology-rda-covid19-clinical-rda-covid19-0",
+    "file": ""
+}, {
+    "title": "Who should have access to genomic data and how should they be held accountable? Perspectives of Data Access Committee members and experts",
+    "shortTitle": "Who should have access to genomic data and how should they be held accountable?",
+    "abstract": "Facilitating the responsible access to genomic research data is an emerging ethical and scientific imperative. Data Access Committees (DACs) assess the ethical footing and scientific feasibility of the data access requests and evaluate the qualification of applicants to ensure they are bona fide researchers. Through semi-structured interviews, we explored the opinions and experiences of 20 DAC members and experts concerning the users\u2019 qualification criteria and mechanisms to hold users accountable. According to our respondents, such evaluation is necessary to ensure applicants are trustworthy, meet a certain level of expertise or experience and are aware of the rules and the associated concerns with genomic data sharing. The respondents noted, however, that the qualification criteria are fragmented or are poorly delineated at times. Thus, developing qualification criteria seems vital for an objective, fair and responsible access procedure. Similarly, the access review will benefit from using common ways of verifying the users\u2019 affiliations. Furthermore, some DAC members expressed concern over the uncertain oversight of downstream data use, in particular where data are shared across borders. DAC members and experts did not consider current sanctions and enforcement procedures to be crystal clear. Therefore, data sharing policies should address this gap by establishing proportionate sanctions both against data producers and data users\u2019 non-compliance. Users\u2019 home institutes will need to have an active role in keeping oversight on the downstream data uses, considering their ultimate responsibility if wrongdoings happen.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Mahsa",
+        "lastName": "Shabani"
+    }, {
+        "creatorType": "author",
+        "firstName": "Adrian",
+        "lastName": "Thorogood"
+    }, {
+        "creatorType": "author",
+        "firstName": "Pascal",
+        "lastName": "Borry"
+    }],
+    "year": "2016-12",
+    "doi": "10.1038/ejhg.2016.111",
+    "language": "en",
+    "type_of_resource": "journalArticle",
+    "url": "https://www.nature.com/articles/ejhg2016111",
+    "file": ""
+}, {
+    "title": "General Data Protection Regulation (GDPR) \u2013 Official Legal Text",
+    "shortTitle": "",
+    "abstract": "General Data Protection Regulation (EU GDPR) \u2013 The official PDF of the Regulation (EU) 2016/679, its recitals & key issues as a neatly arranged website.",
+    "authors": [{
+        "creatorType": "author",
+        "name": "GDPR"
+    }],
+    "year": "2020-12-11 18:03:59",
+    "doi": null,
+    "language": "en-US",
+    "type_of_resource": "webpage",
+    "url": "https://gdpr-info.eu/",
+    "file": ""
+}, {
+    "title": "Strategy for EU institutions to comply with \u201cSchrems II\u201d Ruling",
+    "shortTitle": "",
+    "abstract": "Strategy for EU institutions to comply with \u201cSchrems II\u201d Ruling",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Julia Yvonne",
+        "lastName": "HODDER"
+    }],
+    "year": "2020-10-29T11:51:36+01:00",
+    "doi": null,
+    "language": "en",
+    "type_of_resource": "webpage",
+    "url": "https://edps.europa.eu/press-publications/press-news/press-releases/2020/strategy-eu-institutions-comply-schrems-ii-ruling_en",
+    "file": ""
+}, {
+    "title": "Rules and sanctioning policy",
+    "shortTitle": "",
+    "abstract": "Microdata: Rules and sanctioning policy",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Statistics",
+        "lastName": "Netherlands Statistics"
+    }],
+    "year": "2020-12-11 18:00:10",
+    "doi": null,
+    "language": "en-GB",
+    "type_of_resource": "webpage",
+    "url": "https://www.cbs.nl/en-gb/our-services/customised-services-microdata/microdata-conducting-your-own-research/rules-and-sanctioning-policy",
+    "file": ""
+}, {
+    "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+    "shortTitle": "",
+    "abstract": "There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders\u2014representing academia, industry, funding agencies, and scholarly publishers\u2014have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles. The intent is that these may act as a guideline for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. This Comment is the first formal publication of the FAIR Principles, and includes the rationale behind them, and some exemplar implementations in the community.",
+    "authors": [{
+        "creatorType": "author",
+        "firstName": "Mark D.",
+        "lastName": "Wilkinson"
+    }, {
+        "creatorType": "author",
+        "firstName": "Michel",
+        "lastName": "Dumontier"
+    }, {
+        "creatorType": "author",
+        "firstName": "IJsbrand Jan",
+        "lastName": "Aalbersberg"
+    }, {
+        "creatorType": "author",
+        "firstName": "Gabrielle",
+        "lastName": "Appleton"
+    }, {
+        "creatorType": "author",
+        "firstName": "Myles",
+        "lastName": "Axton"
+    }, {
+        "creatorType": "author",
+        "firstName": "Arie",
+        "lastName": "Baak"
+    }, {
+        "creatorType": "author",
+        "firstName": "Niklas",
+        "lastName": "Blomberg"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jan-Willem",
+        "lastName": "Boiten"
+    }, {
+        "creatorType": "author",
+        "firstName": "Luiz Bonino",
+        "lastName": "da Silva Santos"
+    }, {
+        "creatorType": "author",
+        "firstName": "Philip E.",
+        "lastName": "Bourne"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jildau",
+        "lastName": "Bouwman"
+    }, {
+        "creatorType": "author",
+        "firstName": "Anthony J.",
+        "lastName": "Brookes"
+    }, {
+        "creatorType": "author",
+        "firstName": "Tim",
+        "lastName": "Clark"
+    }, {
+        "creatorType": "author",
+        "firstName": "Merc\u00e8",
+        "lastName": "Crosas"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ingrid",
+        "lastName": "Dillo"
+    }, {
+        "creatorType": "author",
+        "firstName": "Olivier",
+        "lastName": "Dumon"
+    }, {
+        "creatorType": "author",
+        "firstName": "Scott",
+        "lastName": "Edmunds"
+    }, {
+        "creatorType": "author",
+        "firstName": "Chris T.",
+        "lastName": "Evelo"
+    }, {
+        "creatorType": "author",
+        "firstName": "Richard",
+        "lastName": "Finkers"
+    }, {
+        "creatorType": "author",
+        "firstName": "Alejandra",
+        "lastName": "Gonzalez-Beltran"
+    }, {
+        "creatorType": "author",
+        "firstName": "Alasdair J.G.",
+        "lastName": "Gray"
+    }, {
+        "creatorType": "author",
+        "firstName": "Paul",
+        "lastName": "Groth"
+    }, {
+        "creatorType": "author",
+        "firstName": "Carole",
+        "lastName": "Goble"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jeffrey S.",
+        "lastName": "Grethe"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jaap",
+        "lastName": "Heringa"
+    }, {
+        "creatorType": "author",
+        "firstName": "Peter A.C",
+        "lastName": "\u2019t Hoen"
+    }, {
+        "creatorType": "author",
+        "firstName": "Rob",
+        "lastName": "Hooft"
+    }, {
+        "creatorType": "author",
+        "firstName": "Tobias",
+        "lastName": "Kuhn"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ruben",
+        "lastName": "Kok"
+    }, {
+        "creatorType": "author",
+        "firstName": "Joost",
+        "lastName": "Kok"
+    }, {
+        "creatorType": "author",
+        "firstName": "Scott J.",
+        "lastName": "Lusher"
+    }, {
+        "creatorType": "author",
+        "firstName": "Maryann E.",
+        "lastName": "Martone"
+    }, {
+        "creatorType": "author",
+        "firstName": "Albert",
+        "lastName": "Mons"
+    }, {
+        "creatorType": "author",
+        "firstName": "Abel L.",
+        "lastName": "Packer"
+    }, {
+        "creatorType": "author",
+        "firstName": "Bengt",
+        "lastName": "Persson"
+    }, {
+        "creatorType": "author",
+        "firstName": "Philippe",
+        "lastName": "Rocca-Serra"
+    }, {
+        "creatorType": "author",
+        "firstName": "Marco",
+        "lastName": "Roos"
+    }, {
+        "creatorType": "author",
+        "firstName": "Rene",
+        "lastName": "van Schaik"
+    }, {
+        "creatorType": "author",
+        "firstName": "Susanna-Assunta",
+        "lastName": "Sansone"
+    }, {
+        "creatorType": "author",
+        "firstName": "Erik",
+        "lastName": "Schultes"
+    }, {
+        "creatorType": "author",
+        "firstName": "Thierry",
+        "lastName": "Sengstag"
+    }, {
+        "creatorType": "author",
+        "firstName": "Ted",
+        "lastName": "Slater"
+    }, {
+        "creatorType": "author",
+        "firstName": "George",
+        "lastName": "Strawn"
+    }, {
+        "creatorType": "author",
+        "firstName": "Morris A.",
+        "lastName": "Swertz"
+    }, {
+        "creatorType": "author",
+        "firstName": "Mark",
+        "lastName": "Thompson"
+    }, {
+        "creatorType": "author",
+        "firstName": "Johan",
+        "lastName": "van der Lei"
+    }, {
+        "creatorType": "author",
+        "firstName": "Erik",
+        "lastName": "van Mulligen"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jan",
+        "lastName": "Velterop"
+    }, {
+        "creatorType": "author",
+        "firstName": "Andra",
+        "lastName": "Waagmeester"
+    }, {
+        "creatorType": "author",
+        "firstName": "Peter",
+        "lastName": "Wittenburg"
+    }, {
+        "creatorType": "author",
+        "firstName": "Katherine",
+        "lastName": "Wolstencroft"
+    }, {
+        "creatorType": "author",
+        "firstName": "Jun",
+        "lastName": "Zhao"
+    }, {
+        "creatorType": "author",
+        "firstName": "Barend",
+        "lastName": "Mons"
+    }],
+    "year": "2016-03-15",
+    "doi": "10.1038/sdata.2016.18",
+    "language": "",
+    "type_of_resource": "journalArticle",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/",
+    "file": ""
+}, {
+    "title": "XNAT - Home",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "XNAT"
+    }],
+    "year": "2020-12-11 17:57:17",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "webpage",
+    "url": "https://www.xnat.org/",
+    "file": ""
+}, {
+    "title": "home | European Genome-phenome Archive",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "EGPA"
+    }],
+    "year": "2020-12-11 17:56:41",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "webpage",
+    "url": "https://www.ebi.ac.uk/ega/home",
+    "file": ""
+}, {
+    "title": "MIRC Overview - CTP and TFS - MircWiki",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "MIRC Overview"
+    }],
+    "year": "2020-12-11 17:57:40",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "webpage",
+    "url": "https://mircwiki.rsna.org/index.php?title=Main_Page",
+    "file": ""
+}]

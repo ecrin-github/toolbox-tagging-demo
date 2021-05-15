@@ -1,0 +1,1532 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:po="http://purl.org/ontology/po/">
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/ZXBMMK47">
+        <res:resource rdf:resource="https://www.nature.com/articles/ejhg2014197"/>
+        <z:repository>www.nature.com</z:repository>
+        <z:accessDate>2020-12-03 17:17:55</z:accessDate>
+        <dcterms:rights>2015 The Author(s)</dcterms:rights>
+        <ctag:tagged rdf:nodeID="n167"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>1-paper</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n173"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n175"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>5-managing data access</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n177"/>
+        <ctag:tagged rdf:nodeID="n178"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n181"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.nature.com/articles/ejhg2014197">
+        <dcterms:title>International Charter of principles for sharing bio-specimens and data</dcterms:title>
+        <dcterms:abstract>There is a growing international agreement on the need to provide greater access to research data and bio-specimen collections to optimize their long-term value and exploit their potential for health discovery and validation. This is especially evident for rare disease research. Currently, the rising value of data and bio-specimen collections does not correspond with an equal increase in data/sample-sharing and data/sample access. Contradictory legal and ethical frameworks across national borders are obstacles to effective sharing: more specifically, the absence of an integrated model proves to be a major logistical obstruction. The Charter intends to amend the obstacle by providing both the ethical foundations on which data sharing should be based, as well as a general Material and Data Transfer Agreement (MTA/DTA). This Charter is the result of a careful negotiation of different stakeholders' interest and is built on earlier consensus documents and position statements, which provided the general international legal framework. Further to this, the Charter provides tools that may help accelerate sharing. The Charter has been formulated to serve as an enabling tool for effective and transparent data and bio-specimen sharing and the general MTA/DTA constitutes a mechanism to ensure uniformity of access across projects and countries, and may be regarded as a consistent basic agreement for addressing data and material sharing globally. The Charter is forward looking in terms of emerging issues from the perspective of a multi-stakeholder group, and where possible, provides strategies that may address these issues.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://www.nature.com/articles/ejhg2014197</bibo:uri>
+        <z:extra>Number: 6
+Publisher: Nature Publishing Group</z:extra>
+        <bibo:pages>721-728</bibo:pages>
+        <bibo:doi>10.1038/ejhg.2014.197</bibo:doi>
+        <dcterms:creator rdf:nodeID="n154"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n154"/>
+                <rdf:li rdf:nodeID="n156"/>
+                <rdf:li rdf:nodeID="n157"/>
+                <rdf:li rdf:nodeID="n158"/>
+                <rdf:li rdf:nodeID="n159"/>
+                <rdf:li rdf:nodeID="n160"/>
+                <rdf:li rdf:nodeID="n161"/>
+                <rdf:li rdf:nodeID="n162"/>
+                <rdf:li rdf:nodeID="n163"/>
+                <rdf:li rdf:nodeID="n164"/>
+                <rdf:li rdf:nodeID="n165"/>
+                <rdf:li rdf:nodeID="n166"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n156"/>
+        <dcterms:creator rdf:nodeID="n157"/>
+        <dcterms:creator rdf:nodeID="n158"/>
+        <dcterms:creator rdf:nodeID="n159"/>
+        <dcterms:creator rdf:nodeID="n160"/>
+        <dcterms:creator rdf:nodeID="n161"/>
+        <dcterms:creator rdf:nodeID="n162"/>
+        <dcterms:creator rdf:nodeID="n163"/>
+        <dcterms:creator rdf:nodeID="n164"/>
+        <dcterms:creator rdf:nodeID="n165"/>
+        <dcterms:creator rdf:nodeID="n166"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2015-06</dcterms:date>
+                <bibo:volume>23</bibo:volume>
+                <bibo:issue>6</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>European Journal of Human Genetics</dcterms:title>
+                        <bibo:issn>1476-5438</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n154">
+        <foaf:givenName>Deborah</foaf:givenName>
+        <foaf:surname>Mascalzoni</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n156">
+       <foaf:givenName>Edward S.</foaf:givenName><foaf:surname>Dove</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n157">
+        <foaf:givenName>Yaffa</foaf:givenName>
+        <foaf:surname>Rubinstein</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n158">
+        <foaf:givenName>Hugh J. S.</foaf:givenName>
+        <foaf:surname>Dawkins</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n159">
+       <foaf:givenName>Anna</foaf:givenName><foaf:surname>Kole</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n160">
+        <foaf:givenName>Pauline</foaf:givenName>
+        <foaf:surname>McCormack</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n161">
+       <foaf:givenName>Simon</foaf:givenName><foaf:surname>Woods</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n162">
+       <foaf:givenName>Olaf</foaf:givenName><foaf:surname>Riess</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n163">
+       <foaf:givenName>Franz</foaf:givenName><foaf:surname>Schaefer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n164">
+        <foaf:givenName>Hanns</foaf:givenName>
+        <foaf:surname>Lochmüller</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n165">
+        <foaf:givenName>Bartha M.</foaf:givenName>
+        <foaf:surname>Knoppers</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n166">
+       <foaf:givenName>Mats</foaf:givenName><foaf:surname>Hansson</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n167">
+       <ctag:label>1-guidance/recommendation</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n169"><ctag:label>2-ELSI</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n170">
+       <ctag:label>2-ethics</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n171"><ctag:label>2-law</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n172">
+       <ctag:label>3-not applicable</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n173">
+       <ctag:label>3-not specified</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n174">
+       <ctag:label>4A2-clinical research data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n175">
+       <ctag:label>5-data transfer</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n177">
+       <ctag:label>5-secondary processing of data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n178">
+       <ctag:label>6-global</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n179">
+       <ctag:label>7- data sharing</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n180">
+       <ctag:label>7-data governance</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n181">
+       <ctag:label>7-data sharing</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n182"><ctag:label>7-ELSI</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n183">
+       <ctag:label>8-research community</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/9Q9EBAP2">
+        <res:resource rdf:resource="https://zenodo.org/record/3928451#.X8kd-9hKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:18:59</z:accessDate>
+        <ctag:tagged rdf:nodeID="n191"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n193"/>
+        <ctag:tagged rdf:nodeID="n178"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n181"/>
+        <ctag:tagged rdf:nodeID="n194"/>
+        <ctag:tagged rdf:nodeID="n195"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n198"/>
+        <ctag:tagged rdf:nodeID="n199"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://zenodo.org/record/3928451#.X8kd-9hKg2w">
+        <dcterms:title>Sample Data and Material Transfer Agreement</dcterms:title>
+        <dcterms:abstract>This is a Sample Template. Any use of this Sample Template is exclusive responsibility of the respective users</dcterms:abstract>
+        <bibo:uri>https://zenodo.org/record/3928451#.X8kd-9hKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3928451
+Publisher: Zenodo</z:extra>
+        <dcterms:creator rdf:nodeID="n189"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n189"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Issue><dcterms:date>2016-01-04</dcterms:date></bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Organization rdf:nodeID="n189">
+       <foaf:name>BBMRI-LPC</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n191">
+       <ctag:label>1-template</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n192">
+       <ctag:label>4C2-not specified/not clear</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n193">
+       <ctag:label>5-preparation for DS</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n194">
+       <ctag:label>7-data transfer agreement</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n195">
+       <ctag:label>7-data use agreement</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n196"><ctag:label>7-GDPR</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n197">
+       <ctag:label>7-legal aspects</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n198">
+       <ctag:label>8-data service provider</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n199">
+       <ctag:label>8-data steward</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/AYJJ8XTX">
+        <res:resource rdf:resource="https://zenodo.org/record/3928446#.X8keL9hKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:19:50</z:accessDate>
+        <ctag:tagged rdf:nodeID="n209"/>
+        <ctag:tagged rdf:nodeID="n191"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n210"/>
+        <ctag:tagged rdf:nodeID="n211"/>
+        <ctag:tagged rdf:nodeID="n212"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n214"/>
+        <ctag:tagged rdf:nodeID="n215"/>
+        <ctag:tagged rdf:nodeID="n216"/>
+        <ctag:tagged rdf:nodeID="n193"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n218"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://zenodo.org/record/3928446#.X8keL9hKg2w">
+        <dcterms:title>Informed Consent Guide and Template for Biobank and Registry-Based Research</dcterms:title>
+        <dcterms:abstract>This is a Sample Template. The template is based on Jennifer Viberg Johansson and Mats Hansson template Version 1.6 2017-11-02, as modified by Santa Slokenberga, Jane Reichel &amp; Olga Tzortzatou for the purposes of B3Africa p</dcterms:abstract>
+        <bibo:uri>https://zenodo.org/record/3928446#.X8keL9hKg2w</bibo:uri>
+        <bibo:doi>10.5281/zenodo.3928446</bibo:doi>
+        <dcterms:creator rdf:nodeID="n205"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n205"/>
+                <rdf:li rdf:nodeID="n207"/>
+                <rdf:li rdf:nodeID="n208"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n207"/>
+        <dcterms:creator rdf:nodeID="n208"/>
+        <dcterms:isPartOf>
+           <bibo:Issue><dcterms:date>2018-09-28</dcterms:date></bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n205">
+        <foaf:givenName>Santa</foaf:givenName>
+        <foaf:surname>Skolenberga - Informed Consent</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n207">
+       <foaf:givenName>Jane</foaf:givenName><foaf:surname>Reichel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n208">
+        <foaf:givenName>Olga</foaf:givenName>
+        <foaf:surname>Tzortzatou</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n209">
+       <ctag:label>1-best practice</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n210">
+       <ctag:label>3-other research desings</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n211">
+       <ctag:label>3-registry based research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n212">
+       <ctag:label>4A1-real world/routine health data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n213">
+       <ctag:label>4A3-biobank/registry data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n214">
+       <ctag:label>4A6-genetic and molecular biology data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n215">
+       <ctag:label>4C1-other type of data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n216">
+       <ctag:label>5-planning for DS</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n217">
+       <ctag:label>6-continental</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n218">
+       <ctag:label>7-informed consent</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/PVNX3JQH">
+        <res:resource rdf:resource="https://zenodo.org/record/3928410#.X8kehthKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:21:17</z:accessDate>
+        <ctag:tagged rdf:nodeID="n209"/>
+        <ctag:tagged rdf:nodeID="n191"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n214"/>
+        <ctag:tagged rdf:nodeID="n228"/>
+        <ctag:tagged rdf:nodeID="n215"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n175"/>
+        <ctag:tagged rdf:nodeID="n216"/>
+        <ctag:tagged rdf:nodeID="n178"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n194"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://zenodo.org/record/3928410#.X8kehthKg2w">
+        <dcterms:title>Data Transfer Guide for African States/EU Member States</dcterms:title>
+        <dcterms:abstract>This is a DTA Guide. This DTA Guide is developed by Santa Slokenberga, Jane Reichel, and Olga Tzortzatou for the purposes of B3Africa project. Any use of this DTA Guide is exclusive responsibility of the respective users</dcterms:abstract>
+        <bibo:uri>https://zenodo.org/record/3928410#.X8kehthKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3928410
+Publisher: Zenodo</z:extra>
+        <dcterms:creator rdf:nodeID="n224"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n224"/>
+                <rdf:li rdf:nodeID="n226"/>
+                <rdf:li rdf:nodeID="n227"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n226"/>
+        <dcterms:creator rdf:nodeID="n227"/>
+        <dcterms:isPartOf>
+           <bibo:Issue><dcterms:date>2018-09-28</dcterms:date></bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Organization rdf:nodeID="n224">
+       <foaf:name>Skolenberga - Data Transfer Guide</foaf:name>
+    </foaf:Organization>
+    <foaf:Person rdf:nodeID="n226">
+       <foaf:givenName>Jane</foaf:givenName><foaf:surname>Reichel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n227">
+        <foaf:givenName>Olga</foaf:givenName>
+        <foaf:surname>Tzortzatou</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n228">
+       <ctag:label>4B1-omics data generated by basic research</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n229"><ctag:label>5-any</ctag:label></ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/ZVX7S2FV">
+        <res:resource rdf:resource="https://zenodo.org/record/3928389#.X8keydhKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:22:25</z:accessDate>
+        <ctag:tagged rdf:nodeID="n191"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n193"/>
+        <ctag:tagged rdf:nodeID="n178"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n181"/>
+        <ctag:tagged rdf:nodeID="n194"/>
+        <ctag:tagged rdf:nodeID="n195"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://zenodo.org/record/3928389#.X8keydhKg2w">
+        <dcterms:title>Sample Data Transfer Agreement  - Outgoing for Data Transfer within the EU</dcterms:title>
+        <dcterms:abstract>This is a Sample Template. This template is based the World Health Organization International Agency for research on cancer publicly available document NO. CIRC 72 (09/2017), as modified by Santa Slokenberga, Jane Reichel, and Olga Tzortzatou for the purposes of B3Africa project. Any use of this Sample Template is exclusive responsibility of the respective users.</dcterms:abstract>
+        <bibo:uri>https://zenodo.org/record/3928389#.X8keydhKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3928389
+Publisher: Zenodo</z:extra>
+        <dcterms:creator rdf:nodeID="n235"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n235"/>
+                <rdf:li rdf:nodeID="n237"/>
+                <rdf:li rdf:nodeID="n238"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n237"/>
+        <dcterms:creator rdf:nodeID="n238"/>
+        <dcterms:isPartOf>
+           <bibo:Issue><dcterms:date>2018-09-28</dcterms:date></bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n235">
+        <foaf:givenName>Santa</foaf:givenName>
+        <foaf:surname>Slokenberga - Sample data transfer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n237">
+       <foaf:givenName>Jane</foaf:givenName><foaf:surname>Reichel</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n238">
+        <foaf:givenName>Olga</foaf:givenName>
+        <foaf:surname>Tzortzatou</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/9MMCBSN2">
+        <res:resource rdf:resource="https://zenodo.org/record/3928385#.X8ke89hKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:23:05</z:accessDate>
+        <ctag:tagged rdf:nodeID="n209"/>
+        <ctag:tagged rdf:nodeID="n191"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n216"/>
+        <ctag:tagged rdf:nodeID="n193"/>
+        <ctag:tagged rdf:nodeID="n178"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n181"/>
+        <ctag:tagged rdf:nodeID="n194"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n248"/>
+        <ctag:tagged rdf:nodeID="n249"/>
+        <ctag:tagged rdf:nodeID="n198"/>
+        <ctag:tagged rdf:nodeID="n199"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://zenodo.org/record/3928385#.X8ke89hKg2w">
+        <dcterms:title>Sample Material Transfer Agreement</dcterms:title>
+        <dcterms:abstract>This is a Sample Template. It has been prepared by Olga Tzortzatou, Santa Slokenberga, Jane Reichel for the purposes of B3Africa project. Any use of this Sample Template is exclusive responsibility of the respective users.</dcterms:abstract>
+        <bibo:uri>https://zenodo.org/record/3928385#.X8ke89hKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3928385
+Publisher: Zenodo</z:extra>
+        <dcterms:creator rdf:nodeID="n244"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n244"/>
+                <rdf:li rdf:nodeID="n246"/>
+                <rdf:li rdf:nodeID="n247"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n246"/>
+        <dcterms:creator rdf:nodeID="n247"/>
+        <dcterms:isPartOf>
+           <bibo:Issue><dcterms:date>2020-09-18</dcterms:date></bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n244">
+        <foaf:givenName>Olga</foaf:givenName>
+        <foaf:surname>Tzortzatou</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n246">
+        <foaf:givenName>Santa</foaf:givenName>
+        <foaf:surname>Slokenberga</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n247">
+       <foaf:givenName>Jane</foaf:givenName><foaf:surname>Reichel</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n248">
+       <ctag:label>7-material transfer agreement</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n249">
+       <ctag:label>8-data provider</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/J647UFF2">
+        <res:resource rdf:resource="https://www.bbmri.nl/sites/bbmri/files/Erasmus_MC_Handreiking_Interactieve_pdf_Engels_29_04_2020_V3.pdf"/>
+        <z:repository>Zotero</z:repository>
+        <ctag:tagged rdf:nodeID="n167"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n212"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n214"/>
+        <ctag:tagged rdf:nodeID="n228"/>
+        <ctag:tagged rdf:nodeID="n215"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>6-national (Netherlands)</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n260"/>
+        <ctag:tagged rdf:nodeID="n218"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.bbmri.nl/sites/bbmri/files/Erasmus_MC_Handreiking_Interactieve_pdf_Engels_29_04_2020_V3.pdf">
+        <dcterms:title>Guide to the detection, management and communication of incidental findings for biobanks in BBMRI-NL</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://www.bbmri.nl/sites/bbmri/files/Erasmus_MC_Handreiking_Interactieve_pdf_Engels_29_04_2020_V3.pdf</bibo:uri>
+        <bibo:pages>11</bibo:pages>
+        <dcterms:creator rdf:nodeID="n255"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n255"/>
+                <rdf:li rdf:nodeID="n257"/>
+                <rdf:li rdf:nodeID="n258"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n257"/>
+        <dcterms:creator rdf:nodeID="n258"/>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n255">
+       <foaf:givenName>N</foaf:givenName><foaf:surname>Aarts</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n257">
+       <foaf:givenName>E M</foaf:givenName><foaf:surname>Bunnik</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n258">
+       <foaf:givenName>M</foaf:givenName><foaf:surname>Boeckhout</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n260">
+       <ctag:label>7-incidental findings</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/DRCVKA8K">
+        <res:resource rdf:resource="https://zenodo.org/record/3516948#.X8kfV9hKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:24:52</z:accessDate>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>1-how to guide</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n210"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>4B5-other biological data</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n270"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n271"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://zenodo.org/record/3516948#.X8kfV9hKg2w">
+        <dcterms:title>How-to Guide: Governance in Biobanking</dcterms:title>
+        <dcterms:abstract>This how-to guide focuses on addressing general issues relating to governance that are commonly seen as challenge areas, notwithstanding varying regulatory requirements. Indeed, we suggest how biobanks can adequately prepare themselves with regards to develop their own governance structure and networks, including how to facilitate trust that ultimately assist daily operations and sustaining longevity of biobanks.</dcterms:abstract>
+        <dcterms:date>2019-10-01</dcterms:date>
+        <bibo:shortTitle>How-to Guide</bibo:shortTitle>
+        <bibo:uri>https://zenodo.org/record/3516948#.X8kfV9hKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3516948</z:extra>
+        <dcterms:publisher>
+           <foaf:Organization><foaf:name>Zenodo</foaf:name></foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:creator rdf:nodeID="n263"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n263"/>
+                <rdf:li rdf:nodeID="n265"/>
+                <rdf:li rdf:nodeID="n266"/>
+                <rdf:li rdf:nodeID="n267"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n265"/>
+        <dcterms:creator rdf:nodeID="n266"/>
+        <dcterms:creator rdf:nodeID="n267"/>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n263">
+        <foaf:givenName>Melanie</foaf:givenName>
+        <foaf:surname>Goisauf</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n265">
+       <foaf:givenName>Anna</foaf:givenName><foaf:surname>Durnová</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n266">
+       <foaf:givenName>Jasjote</foaf:givenName><foaf:surname>Grewal</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n267">
+        <foaf:givenName>Michaela</foaf:givenName>
+        <foaf:surname>Mayrhofer</foaf:surname>
+    </foaf:Person>
+   <ctag:UserTag rdf:nodeID="n270"><ctag:label>5-other</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n271">
+       <ctag:label>7-governance</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/VB6NQ695">
+        <res:resource rdf:resource="https://zenodo.org/record/3928317#.X8kfgdhKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:25:26</z:accessDate>
+        <ctag:tagged rdf:nodeID="n209"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>1-matrix</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>3-experimental/interventional</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n212"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n228"/>
+        <ctag:tagged rdf:nodeID="n193"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n218"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://zenodo.org/record/3928317#.X8kfgdhKg2w">
+        <dcterms:title>Informed Consent Matrix for Clinical Trials</dcterms:title>
+        <dcterms:abstract>This matrix aims to provide a minimum set of requirements for informed consent aimed at adults in the context of clinical trials. This Guide should be adapted to national settings and specific contexts. It mainly refers to multicentre interventional randomized clinical trials, but some suggestions can also be applied to non-interventional research. The Guide covers: • the processing of information: context, language, setting; • topics and proposed wording; and • general suggestions on wording, format, length of the information sheet.</dcterms:abstract>
+        <bibo:uri>https://zenodo.org/record/3928317#.X8kfgdhKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3928317
+Publisher: Zenodo</z:extra>
+        <dcterms:creator rdf:nodeID="n277"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n277"/>
+                <rdf:li rdf:nodeID="n279"/>
+                <rdf:li rdf:nodeID="n280"/>
+                <rdf:li rdf:nodeID="n281"/>
+                <rdf:li rdf:nodeID="n282"/>
+                <rdf:li rdf:nodeID="n283"/>
+                <rdf:li rdf:nodeID="n284"/>
+                <rdf:li rdf:nodeID="n285"/>
+                <rdf:li rdf:nodeID="n286"/>
+                <rdf:li rdf:nodeID="n287"/>
+                <rdf:li rdf:nodeID="n288"/>
+                <rdf:li rdf:nodeID="n289"/>
+                <rdf:li rdf:nodeID="n290"/>
+                <rdf:li rdf:nodeID="n291"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n279"/>
+        <dcterms:creator rdf:nodeID="n280"/>
+        <dcterms:creator rdf:nodeID="n281"/>
+        <dcterms:creator rdf:nodeID="n282"/>
+        <dcterms:creator rdf:nodeID="n283"/>
+        <dcterms:creator rdf:nodeID="n284"/>
+        <dcterms:creator rdf:nodeID="n285"/>
+        <dcterms:creator rdf:nodeID="n286"/>
+        <dcterms:creator rdf:nodeID="n287"/>
+        <dcterms:creator rdf:nodeID="n288"/>
+        <dcterms:creator rdf:nodeID="n289"/>
+        <dcterms:creator rdf:nodeID="n290"/>
+        <dcterms:creator rdf:nodeID="n291"/>
+        <dcterms:isPartOf>
+           <bibo:Issue><dcterms:date>2019-07-02</dcterms:date></bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n277">
+       <foaf:givenName>Cinzia</foaf:givenName><foaf:surname>Colombo</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n279">
+       <foaf:givenName>Paola</foaf:givenName><foaf:surname>Mosconi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n280">
+        <foaf:givenName>Michaela</foaf:givenName>
+        <foaf:surname>Mayrhofer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n281">
+        <foaf:givenName>Christine</foaf:givenName>
+        <foaf:surname>Kubiak</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n282">
+        <foaf:givenName>Serena</foaf:givenName>
+        <foaf:surname>Battaglia</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n283">
+       <foaf:givenName>Mihaela</foaf:givenName><foaf:surname>Matei</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n284">
+        <foaf:givenName>Marialuisa</foaf:givenName>
+        <foaf:surname>Lavitrano</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n285">
+       <foaf:givenName>Sara</foaf:givenName><foaf:surname>Casati</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n286">
+       <foaf:givenName>Victoria</foaf:givenName><foaf:surname>Chico</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n287">
+        <foaf:givenName>Irene</foaf:givenName>
+        <foaf:surname>Schlünder</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n288">
+        <foaf:givenName>Jan-Willem</foaf:givenName>
+        <foaf:surname>Boiten</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n289">
+        <foaf:givenName>Lygature Tamara</foaf:givenName>
+        <foaf:surname>Carapina</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n290">
+       <foaf:givenName>Oskar</foaf:givenName><foaf:surname>Uzun</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n291">
+       <foaf:givenName>Stephanie</foaf:givenName><foaf:surname>Suhr</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/IKASWZJT">
+        <res:resource rdf:resource="https://zenodo.org/record/3473120#.X8kfo9hKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:26:04</z:accessDate>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>1-FAQs</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://zenodo.org/record/3473120#.X8kfo9hKg2w">
+        <dcterms:title>The EU General Data Protection Regulation - Answers to Frequently Asked Questions - Version 2.0</dcterms:title>
+        <dcterms:abstract>On April 14, 2016, the European Parliament adopted the Regulation of the European Parliament and of the Council on the Protection of Natural Persons with regard to the Processing of Personal Data and on the Free Movement of such data, and repealing Directive 95/46/EC (the General Data Protection Regulation, also referred to as the “GDPR” or as the “Regulation”). Following is a first set of answers to Frequently Asked Questions (FAQs) about how the EU General Data Protection Regulation is expected to apply to biobanks – collections of human samples and associated health data - in the EU. The FAQs do not constitute legal advice and may be subject to change, as a result of further analysis or when provisions of the GDPR are being implemented. This set of FAQs has been prepared by the BBMRI ERIC Common Services ELSI Task Force on the EU General Data Protection Regulation, in Graz, and revised on March 1, 2017.</dcterms:abstract>
+        <dcterms:date>2017-03-01</dcterms:date>
+        <bibo:uri>https://zenodo.org/record/3473120#.X8kfo9hKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3473120</z:extra>
+        <dcterms:publisher>
+           <foaf:Organization><foaf:name>Zenodo</foaf:name></foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:creator rdf:nodeID="n296"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n296"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n296">
+       <foaf:name>BBMRI-ERIC Common Service ELSI</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n299">
+       <ctag:label>3-not specified/not clear</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/6NJPJB5I">
+        <res:resource rdf:resource="https://zenodo.org/record/3839273#.X8kf9dhKg2w"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:27:24</z:accessDate>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>1-Q&amp;A</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n313"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>2-pre-clinical research</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n210"/>
+        <ctag:tagged rdf:nodeID="n211"/>
+        <ctag:tagged rdf:nodeID="n315"/>
+        <ctag:tagged rdf:nodeID="n212"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n316"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://zenodo.org/record/3839273#.X8kf9dhKg2w">
+        <dcterms:title>BBMRI-ERIC ELSI Services &amp; Research Q&amp;A on COVID-19 &amp; ELSI</dcterms:title>
+        <dcterms:abstract>The world is facing an unprecedented public health challenge with the COVID-19 pandemic; this has necessitated numerous efforts being deployed by governments, health agencies and individual institutions – including in the biobanking community – to develop effective tests, toolkits, treatments and vaccines to stem its spread and help fight it. To achieve this goal, the collection, analysis and timely sharing of samples and related data becomes instrumental in collective global research efforts. Aligned to these efforts is the prevalence for automated data processing and digital technologies such as location data and contact tracing applications as part of the toolkits. In this respect, biobanks are important infrastructures for access to these samples and data. Besides availability, quality and technical infrastructures, also ethical, legal and societal issues (ELSI) are particularly crucial in this regard. Public health ethics, personal data protection, ethics of data sharing, protection of consent and vulnerability as well as compliance issues within international data sharing have gained urgency in COVID-19 research. Against this backdrop, BBMRI-ERIC ELSI Services &amp; Research held a webinar that took a closer look at these issues. The webinar took place on April 24th, 2020; the recording is available here.   This document not only answers the questions posed during the webinar but ventures into much detail on the topics raised as a result. It also showcases two examples from Germany (presented by Prof. Roland Jahns) and Italy (presented by Prof. Marialuisa Lavitrano), as well as a detailed commentary on contact-tracing-apps from a legal perspective (presented by Gauthier Chassang). The document thus lays the foundation for further discussion on ELSI and COVID-19 in the context of biobanking.</dcterms:abstract>
+        <dcterms:date>2020-05-20</dcterms:date>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:uri>https://zenodo.org/record/3839273#.X8kf9dhKg2w</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3839273</z:extra>
+        <dcterms:publisher>
+           <foaf:Organization><foaf:name>Zenodo</foaf:name></foaf:Organization>
+        </dcterms:publisher>
+        <dcterms:creator rdf:nodeID="n302"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n302"/>
+                <rdf:li rdf:nodeID="n304"/>
+                <rdf:li rdf:nodeID="n305"/>
+                <rdf:li rdf:nodeID="n306"/>
+                <rdf:li rdf:nodeID="n307"/>
+                <rdf:li rdf:nodeID="n308"/>
+                <rdf:li rdf:nodeID="n309"/>
+                <rdf:li rdf:nodeID="n310"/>
+                <rdf:li rdf:nodeID="n311"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n304"/>
+        <dcterms:creator rdf:nodeID="n305"/>
+        <dcterms:creator rdf:nodeID="n306"/>
+        <dcterms:creator rdf:nodeID="n307"/>
+        <dcterms:creator rdf:nodeID="n308"/>
+        <dcterms:creator rdf:nodeID="n309"/>
+        <dcterms:creator rdf:nodeID="n310"/>
+        <dcterms:creator rdf:nodeID="n311"/>
+    </bibo:Report>
+    <foaf:Person rdf:nodeID="n302">
+       <foaf:givenName>Roland</foaf:givenName><foaf:surname>Jahns</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n304">
+        <foaf:givenName>Marialuisa</foaf:givenName>
+        <foaf:surname>Lavitrano</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n305">
+        <foaf:givenName>Gauthier</foaf:givenName>
+        <foaf:surname>Chassang</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n306">
+        <foaf:givenName>Michaela Th.</foaf:givenName>
+        <foaf:surname>Mayrhofer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n307">
+        <foaf:givenName>Melanie</foaf:givenName>
+        <foaf:surname>Goisauf</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n308">
+        <foaf:givenName>Ayodeji</foaf:givenName>
+        <foaf:surname>Adeniran</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n309">
+       <foaf:givenName>Kaya</foaf:givenName><foaf:surname>Akyüz</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n310">
+        <foaf:givenName>Mónica</foaf:givenName>
+        <foaf:surname>Cano Abadía</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n311">
+       <foaf:givenName>Sara</foaf:givenName><foaf:surname>Casati</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n313">
+       <ctag:label>2-health research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n315">
+       <ctag:label>3-secondary research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n316">
+       <ctag:label>7-broad consent</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n317">
+       <ctag:label>7-covid19</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/NVE3PS63">
+        <res:resource rdf:resource="https://zenodo.org/record/3754255#.X8kgE9hKg2x"/>
+        <z:repository>Zenodo</z:repository>
+        <z:accessDate>2020-12-03 17:27:55</z:accessDate>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>1-glossary</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>1-other resource type</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n328"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n175"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>6-not applicable</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>6-region in the world</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n331"/>
+        <ctag:tagged rdf:nodeID="n332"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n218"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n333"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://zenodo.org/record/3754255#.X8kgE9hKg2x">
+        <dcterms:title>BBMRI-ERIC ELSI Glossary</dcterms:title>
+        <dcterms:abstract>The ELSI Services &amp; Research team at BBMRI-ERIC has been assembling a glossary of terms helpful to our members. These will be continually updated. (Last update: April 2019)</dcterms:abstract>
+        <bibo:uri>https://zenodo.org/record/3754255#.X8kgE9hKg2x</bibo:uri>
+        <z:extra>DOI: 10.5281/zenodo.3754255
+Publisher: Zenodo</z:extra>
+        <dcterms:creator rdf:nodeID="n323"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n323"/><rdf:li rdf:nodeID="n325"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n325"/>
+        <dcterms:isPartOf>
+           <bibo:Issue><dcterms:date>2019-04-01</dcterms:date></bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n323">
+       <foaf:givenName>Jasjote</foaf:givenName><foaf:surname>Grewal</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n325">
+        <foaf:givenName>Michaela Th.</foaf:givenName>
+        <foaf:surname>Mayrhofer</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n328">
+       <ctag:label>2-societal</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n331">
+       <ctag:label>7-anonymisation</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n332">
+       <ctag:label>7-code of conduct</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n333">
+       <ctag:label>7-pseudonymisation</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/FK74DKF4">
+        <res:resource rdf:resource="https://www.bbmri-eric.eu/elsi/knowledge-base/"/>
+        <z:accessDate>2020-12-03 17:35:10</z:accessDate>
+        <ctag:tagged rdf:nodeID="n339"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n340"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n331"/>
+        <ctag:tagged rdf:nodeID="n316"/>
+        <ctag:tagged rdf:nodeID="n332"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n194"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n341"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n271"/>
+        <ctag:tagged rdf:nodeID="n260"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n248"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-other topics</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n333"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-societal issues</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.bbmri-eric.eu/elsi/knowledge-base/">
+        <dcterms:title>BBMRI ELSI Knowledge Base</dcterms:title>
+        <dcterms:abstract>The ELSI Knowledge Base is our open-access resource platform containing information on ELSI-related matters relevant in biobanking. Here you will find practical guidance on specific ELSI topics.
+    In need of ethical legal, or societal guidance? Browse our library below!</dcterms:abstract>
+        <bibo:uri>https://www.bbmri-eric.eu/elsi/knowledge-base/</bibo:uri>
+        <z:extra>Directors: _:n108
+Directors: _:n315</z:extra>
+        <dcterms:creator rdf:nodeID="n337"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n337"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:date>2020-05-14</dcterms:date></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n337">
+       <foaf:name>BBMRI-ERIC ELSI Services and Research</foaf:name>
+    </foaf:Organization>
+   <ctag:UserTag rdf:nodeID="n339"><ctag:label>1-tool</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n340">
+       <ctag:label>4C3-not applicable</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n341">
+       <ctag:label>7-ethical self assessment</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/EGRW8T6B">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=6bHQTZAJC0g&amp;list=PLIu6KJ19npXxo379cvW9UN_TDwn-H52Eg"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:35:45</z:accessDate>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n315"/>
+        <ctag:tagged rdf:nodeID="n348"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>5-access to data re-use</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n177"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n331"/>
+        <ctag:tagged rdf:nodeID="n195"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n333"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=6bHQTZAJC0g&amp;list=PLIu6KJ19npXxo379cvW9UN_TDwn-H52Eg">
+        <dcterms:title>Anonymisation and Pseudonymisation under the GDPR - Why Anonymise</dcterms:title>
+        <dcterms:date>2018-08-16</dcterms:date>
+        <bibo:uri>https://www.youtube.com/watch?v=6bHQTZAJC0g&amp;list=PLIu6KJ19npXxo379cvW9UN_TDwn-H52Eg</bibo:uri>
+        <z:extra>Directors: _:n112
+Directors: _:n557
+Directors: _:n112
+Directors: _:n111
+Directors: _:n318</z:extra>
+        <po:duration>2:25</po:duration>
+        <bibo:director rdf:nodeID="n345"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n345"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n345">
+       <foaf:name>BBMRI ERIC, Anonymisation and Pseudonymisation</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n347">
+       <ctag:label>1-webinar</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n348">
+        <ctag:label>4A4-human populational level health/socio-economic data</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/CUW5CN2H">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=GIM_Z6nvkYk&amp;list=PLIu6KJ19npXz5IgcDVguPNfhgCHOtamPi"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:37:05</z:accessDate>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n218"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=GIM_Z6nvkYk&amp;list=PLIu6KJ19npXz5IgcDVguPNfhgCHOtamPi">
+        <dcterms:title>The GDPR and Scientific Research: The Scope</dcterms:title>
+        <dcterms:abstract>BBMRI-ERIC Webinar - ELSI
+The GDPR and Scientific Research</dcterms:abstract>
+        <dcterms:date>2018-08-31</dcterms:date>
+        <bibo:shortTitle>The GDPR and Scientific Research</bibo:shortTitle>
+        <bibo:uri>https://www.youtube.com/watch?v=GIM_Z6nvkYk&amp;list=PLIu6KJ19npXz5IgcDVguPNfhgCHOtamPi</bibo:uri>
+        <z:extra>Directors: _:n115
+Directors: _:n560
+Directors: _:n115
+Directors: _:n114
+Directors: _:n321</z:extra>
+        <po:duration>2:24</po:duration>
+        <bibo:director rdf:nodeID="n351"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n351"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n351">
+       <foaf:name>BBMRI ERIC, The GDPR and Scientific Research</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/W3UFRF95">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=Db8ACHBIJhg&amp;feature=youtu.be"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:37:55</z:accessDate>
+        <ctag:tagged rdf:nodeID="n167"/>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n212"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n215"/>
+        <ctag:tagged rdf:nodeID="n193"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n341"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-ethics of DS</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n357"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=Db8ACHBIJhg&amp;feature=youtu.be">
+        <dcterms:title>BBMRI.ELSI Webinar Series - Completing the Ethics Self-Assessments for H2020 Proposals</dcterms:title>
+        <dcterms:abstract>This video provides guidance on completing the Ethics Self-Assessment section in H2020-funded project proposals for the European Commission. Jasjote Grewal of BBMRI-ERIC leads you through, step-by-step, and answers frequently asked questions. Created by the BBMRI-ERIC ELSI Services &amp;amp; Research team (Ethical, Legal and Societal Issues).</dcterms:abstract>
+        <dcterms:date>2020-07-16</dcterms:date>
+        <bibo:uri>https://www.youtube.com/watch?v=Db8ACHBIJhg&amp;feature=youtu.be</bibo:uri>
+        <z:extra>Directors: _:n118
+Directors: _:n563
+Directors: _:n118
+Directors: _:n117
+Directors: _:n324</z:extra>
+        <po:duration>24:31</po:duration>
+        <bibo:director rdf:nodeID="n354"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n354"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n354">
+        <foaf:name>BBMRI ERIC, Completing the Ethics Self-Assessments for H2020</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n357">
+       <ctag:label>8-other group</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/9FP2FL3X">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=Tu2mYZA8xfs&amp;list=PLIu6KJ19npXyOx3Hjcb-wt5Y6yBTNBO1E"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:38:30</z:accessDate>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n173"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>4A5-data including images of humans</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n214"/>
+        <ctag:tagged rdf:nodeID="n215"/>
+        <ctag:tagged rdf:nodeID="n175"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>6-transnational</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n194"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n248"/>
+        <ctag:tagged rdf:nodeID="n249"/>
+        <ctag:tagged rdf:nodeID="n198"/>
+        <ctag:tagged rdf:nodeID="n199"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=Tu2mYZA8xfs&amp;list=PLIu6KJ19npXyOx3Hjcb-wt5Y6yBTNBO1E">
+        <dcterms:title>1  What are MTAs and DTAs?</dcterms:title>
+        <dcterms:abstract>Part 1 in the BBMRI-ERIC webinar on the ELSI topic: Material and Data Transfer Agreements with Dr Olga Tzortzatou from the Biomedical Research Foundation of the Academy of Athens. The webinar took place April 3, 2019. Visit bbmri-eric.eu for more.</dcterms:abstract>
+        <dcterms:date>2019-06-28</dcterms:date>
+        <bibo:uri>https://www.youtube.com/watch?v=Tu2mYZA8xfs&amp;list=PLIu6KJ19npXyOx3Hjcb-wt5Y6yBTNBO1E</bibo:uri>
+        <z:extra>Directors: _:n121
+Directors: _:n566
+Directors: _:n121
+Directors: _:n120
+Directors: _:n327</z:extra>
+        <po:duration>1:41</po:duration>
+        <bibo:director rdf:nodeID="n359"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n359"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n359">
+       <foaf:name>BBMRI ERIC, What are MTAs and DTAs?</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/6CGCSH4S">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=vhp0g-SMZGY&amp;feature=youtu.be"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:39:31</z:accessDate>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n173"/>
+        <ctag:tagged rdf:nodeID="n315"/>
+        <ctag:tagged rdf:nodeID="n174"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n270"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n260"/>
+        <ctag:tagged rdf:nodeID="n218"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>7-informing participants</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=vhp0g-SMZGY&amp;feature=youtu.be">
+        <dcterms:title>Ethical handling of incidental findings in research</dcterms:title>
+        <dcterms:abstract>In this webinar, Eline Bunnik will reflect on the results of two interview studies on the impact of incidental findings, detected in the brain during research imaging, on research participants’ lives, to sketch the ethical dilemma. Also, she will present a 7-step framework for the responsible handling of incidental findings. Finally, Eline will highlight the key recommendations of our practical guide, and point out open questions for discussion.</dcterms:abstract>
+        <dcterms:date>2020-08-06</dcterms:date>
+        <bibo:uri>https://www.youtube.com/watch?v=vhp0g-SMZGY&amp;feature=youtu.be</bibo:uri>
+        <z:extra>Directors: _:n124
+Directors: _:n569
+Directors: _:n124
+Directors: _:n123
+Directors: _:n330</z:extra>
+        <po:duration>1:00:41</po:duration>
+        <bibo:director rdf:nodeID="n364"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n364"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n364">
+        <foaf:name>BBMRI ERIC, Ethical handling of incidental findings in research</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/T73RPG8J">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=IquZb6Qs32M&amp;feature=youtu.be"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:40:25</z:accessDate>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n178"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n194"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=IquZb6Qs32M&amp;feature=youtu.be">
+        <dcterms:title>Ethical, legal and societal issues in international data sharing</dcterms:title>
+        <dcterms:abstract>The CINECA webinar series continues with a presentation by Dr. Éloïse Gennet (INSERM) and Dr. Melanie Goisauf (BBMRI-ERIC) on Ethical, Legal and Societal Issues in international data sharing.
+
+The goal of this webinar will be to present the first findings of the ELSI activities in the CINECA project, ranging from questions of ethics of data sharing across continents to legal basis of secondary processing of personal data, consent requirements and vulnerable groups or public and stakeholders’ attitudes toward sharing of genomic and health related data for research.
+
+The CINECA webinar series aims to discuss ways to address common challenges and share best practices in the field of cohort data analysis, as well as distribute CINECA project results. All CINECA webinars include an audience Q&amp;amp;A session during which attendees can ask questions and make suggestions. Please note that all webinars are recorded and available for posterior viewing.</dcterms:abstract>
+        <dcterms:date>2020-01-31</dcterms:date>
+        <bibo:uri>https://www.youtube.com/watch?v=IquZb6Qs32M&amp;feature=youtu.be</bibo:uri>
+        <z:extra>Directors: _:n127
+Directors: _:n572
+Directors: _:n127
+Directors: _:n126
+Directors: _:n333</z:extra>
+        <po:duration>55:57</po:duration>
+        <bibo:director rdf:nodeID="n368"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n368"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n368">
+        <foaf:name>CINECA project, Ethical, legal and societal issues in international data sharing</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/JUF8Q6X8">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=Oc8vHbkdv1k&amp;feature=youtu.be"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:41:05</z:accessDate>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n373"/>
+        <ctag:tagged rdf:nodeID="n313"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n328"/>
+        <ctag:tagged rdf:nodeID="n210"/>
+        <ctag:tagged rdf:nodeID="n211"/>
+        <ctag:tagged rdf:nodeID="n315"/>
+        <ctag:tagged rdf:nodeID="n374"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n332"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=Oc8vHbkdv1k&amp;feature=youtu.be">
+        <dcterms:title>The BBMRI ELSI Services across the Nodes and BMS RIs</dcterms:title>
+        <dcterms:abstract>The CORBEL webinar series continues with a presentation by Michaela Mayrhofer from BBMRI-ERIC on &quot;The BBMRI ELSI Services across the Nodes &amp;amp; BMS RIs&quot;.
+
+The BBMRI-ERIC ELSI Services supports facilitating compliance with regulatory requirements and best practice standards. The service started working for the biobanking community and subsequently extend to the BMS community and includes
+
+The ELSI Knowledge Base is an open-access resource platform, containing practical knowledge and information on relevant ELSI topics.
+
+The Ethics Check is a support service for researchers who are applying for H2020 research projects or similar. We assist with the compulsory Ethics Self-Assessment section during the application phase.
+
+The ELSI Policy Monitoring follows relevant policy and regulatory developments at European level. We organise coordinated responses to relevant public consultations, as well as other interventions.
+
+CORBEL (http://www.corbel-project.eu) is an initiative of eleven new biological and medical research infrastructures (BMS RIs), which together will create a platform for harmonised user access to biological and medical technologies, biological samples and data services required by cutting-edge biomedical research. CORBEL will boost the efficiency, productivity and impact of European biomedical research. The CORBEL webinar series aims to address challenges and share best practice between biological and medical research infrastructures. The series is aimed at technical operators of RIs and is aligned with the CORBEL competency framework.
+
+CORBEL webinars include an audience Q&amp;amp;A session during which attendees can ask questions and make suggestions.
+
+This webinar took place on 21st April 2020 and is part of the CORBEL webinar series. It is best viewed in full screen mode using Google Chrome. The slides from this webinar can be downloaded from SlideShare: https://www.slideshare.net/corbel-pro... 
+
+For previous CORBEL webinars see:
+http://www.corbel-project.eu/webinars</dcterms:abstract>
+        <dcterms:date>2020-04-23</dcterms:date>
+        <bibo:uri>https://www.youtube.com/watch?v=Oc8vHbkdv1k&amp;feature=youtu.be</bibo:uri>
+        <z:extra>Directors: _:n130
+Directors: _:n575
+Directors: _:n130
+Directors: _:n129
+Directors: _:n336</z:extra>
+        <po:duration>41:52</po:duration>
+        <bibo:director rdf:nodeID="n371"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n371"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n371">
+       <foaf:name>CORBEL</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n373">
+       <ctag:label>2-general life scoiences</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n374">
+       <ctag:label>3-societal</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/ADIA8EUR">
+        <res:resource rdf:resource="https://www.youtube.com/watch?v=1HcaQMtppVs&amp;feature=youtu.be"/>
+        <z:repository>YouTube</z:repository>
+        <z:accessDate>2020-12-03 17:42:07</z:accessDate>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n340"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n332"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n271"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n357"/>
+        <ctag:tagged rdf:nodeID="n378"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:AudioVisualDocument rdf:about="https://www.youtube.com/watch?v=1HcaQMtppVs&amp;feature=youtu.be">
+        <dcterms:title>Status Update Code of Conduct: Teaming up &amp; Talking about it</dcterms:title>
+        <dcterms:abstract>Committed to the drafting of a Code of Conduct for the sector of health research according to Art. 40 GDPR, our initiative is advancing slowly but steadily. Throughout Europe, national jurisdictions differ to a great deal in their interpretations of the GDPR, especially in regard to its application in health research. This is due to some quite vague provisions (public interest, not incompatible clause) as wells as to numerous exemption/derogation clauses concerning the use of health data for research purposes, which encourage States to set up national rules – enhancing fragmentation. Notably, a Code of Conduct can help to bridge the harmonization gaps that may exist between Member States in their application of data protection law. On a practical level, a code is potentially a cost-effective method to achieve greater levels of consistency of protection as well as a mechanism to demonstrate compliance with the GDPR. By spring 2020, several hundred individuals representing around 90 organizations in the field of health research have indicated their interest and support for the Code of Conduct for Health Research. At this stage, this does not yet indicate an endorsement but means that they see a benefit in the development of such a code and are interested in partaking in the process. Additionally, several exchanges take place with national and sectoral codes in order to use synergies and finds ways for collaboration. This webinar is intended to inform you about the latest results.
+
+The CINECA webinar series aims to discuss ways to address common challenges and share best practices in the field of cohort data analysis, as well as distribute CINECA project results. All CINECA webinars include an audience Q&amp;amp;A session during which attendees can ask questions and make suggestions. Please note that all webinars are recorded and available for posterior viewing. CINECA webinars include an audience Q&amp;amp;A session during which attendees can ask questions and make suggestions.
+
+This webinar took place on 1st October 2020 and is part of the CINECA webinar series. It is best viewed in full screen mode using Google Chrome. 
+
+For previous and upcoming CINECA webinars see:
+https://www.cineca-project.eu/webinars</dcterms:abstract>
+        <dcterms:date>2020-02-10</dcterms:date>
+        <bibo:shortTitle>Status Update Code of Conduct</bibo:shortTitle>
+        <bibo:uri>https://www.youtube.com/watch?v=1HcaQMtppVs&amp;feature=youtu.be</bibo:uri>
+        <z:extra>Directors: _:n133
+Directors: _:n578
+Directors: _:n133
+Directors: _:n132
+Directors: _:n339</z:extra>
+        <po:duration>41:58</po:duration>
+        <bibo:director rdf:nodeID="n376"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n376"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:AudioVisualDocument>
+    <foaf:Organization rdf:nodeID="n376">
+       <foaf:name>CINECA project, Status Update Code of Conduct</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n378">
+       <ctag:label>8-policy maker</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/ND7RJQ5N">
+        <res:resource rdf:resource="https://www.bbmri-eric.eu/elsi/helpdesk/"/>
+        <ctag:tagged rdf:nodeID="n339"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n373"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n173"/>
+        <ctag:tagged rdf:nodeID="n374"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n175"/>
+        <ctag:tagged rdf:nodeID="n177"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n331"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n341"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.bbmri-eric.eu/elsi/helpdesk/">
+        <dcterms:title>BBMRI ELSI Helpdesk</dcterms:title>
+        <dcterms:abstract>f you have a question that concerns transnational research, contact us.
+
+If your question concerns pharmaceutical regulatory affairs, please contact EATRIS, they will provide you with specific regulatory expertise.
+
+If your question concerns a specific country, please contact one of our national contact points located in BBMRI Member Countries as listed below. They will provide you with country-specific expertise.</dcterms:abstract>
+        <bibo:uri>https://www.bbmri-eric.eu/elsi/helpdesk/</bibo:uri>
+        <dcterms:creator rdf:nodeID="n382"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n382"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n382">
+       <foaf:name>BBMRI-ERIC ELSI Services and Research</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/L79V8AV8">
+        <res:resource rdf:resource="https://www.bbmri-eric.eu/wp-content/uploads/2016/08/BBMRI-ERIC-Rec20064-PubCons-Integrated-Final.pdf"/>
+        <ctag:tagged rdf:nodeID="n387"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n192"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-not applicable</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n341"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>8-ethics committees</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://www.bbmri-eric.eu/wp-content/uploads/2016/08/BBMRI-ERIC-Rec20064-PubCons-Integrated-Final.pdf">
+        <dcterms:title>Comments to the public consultation on the Council of Europe Recpmmendation (2006)</dcterms:title>
+        <bibo:uri>https://www.bbmri-eric.eu/wp-content/uploads/2016/08/BBMRI-ERIC-Rec20064-PubCons-Integrated-Final.pdf</bibo:uri>
+        <dcterms:creator rdf:nodeID="n385"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n385"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n385">
+       <foaf:name>BBMRI-ERIC: Comments on the public consultation</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n387">
+       <ctag:label>1-public consultation</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/NSEB9BXY">
+        <res:resource rdf:resource="https://www.bbmri-eric.eu/wp-content/uploads/BBMRI-ERIC-reply-to-EC-public-consultation-1.pdf"/>
+        <ctag:tagged rdf:nodeID="n387"/>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n170"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n340"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n179"/>
+        <ctag:tagged rdf:nodeID="n180"/>
+        <ctag:tagged rdf:nodeID="n181"/>
+        <ctag:tagged rdf:nodeID="n182"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>8-cannot be specified</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://www.bbmri-eric.eu/wp-content/uploads/BBMRI-ERIC-reply-to-EC-public-consultation-1.pdf">
+        <dcterms:title>Public consultation: Transformation Health and Care Digital Single Market</dcterms:title>
+        <bibo:uri>https://www.bbmri-eric.eu/wp-content/uploads/BBMRI-ERIC-reply-to-EC-public-consultation-1.pdf</bibo:uri>
+        <dcterms:creator rdf:nodeID="n391"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n391"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n391">
+       <foaf:name>BBMRI-ERIC: Public consultation</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/IEVL6XPB">
+        <res:resource rdf:resource="https://www.bbmri-eric.eu/wp-content/uploads/WP29_consent-joint-comments_BBMRI-ERIC_as-submitted.pdf"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>1-comments</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n169"/>
+        <ctag:tagged rdf:nodeID="n171"/>
+        <ctag:tagged rdf:nodeID="n172"/>
+        <ctag:tagged rdf:nodeID="n315"/>
+        <ctag:tagged rdf:nodeID="n213"/>
+        <ctag:tagged rdf:nodeID="n348"/>
+        <ctag:tagged rdf:nodeID="n214"/>
+        <ctag:tagged rdf:nodeID="n340"/>
+        <ctag:tagged rdf:nodeID="n229"/>
+        <ctag:tagged rdf:nodeID="n217"/>
+        <ctag:tagged rdf:nodeID="n316"/>
+        <ctag:tagged rdf:nodeID="n196"/>
+        <ctag:tagged rdf:nodeID="n197"/>
+        <ctag:tagged rdf:nodeID="n378"/>
+        <ctag:tagged rdf:nodeID="n183"/>
+    </z:UserItem>
+    <bibo:Report rdf:about="https://www.bbmri-eric.eu/wp-content/uploads/WP29_consent-joint-comments_BBMRI-ERIC_as-submitted.pdf">
+        <dcterms:title>BBMRI-ERIC joint comments to the Article 29 Working Party Guidelines</dcterms:title>
+        <bibo:uri>https://www.bbmri-eric.eu/wp-content/uploads/WP29_consent-joint-comments_BBMRI-ERIC_as-submitted.pdf</bibo:uri>
+        <dcterms:creator rdf:nodeID="n395"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n395"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Report>
+    <foaf:Organization rdf:nodeID="n395">
+       <foaf:name>BBMRI-ERIC: Joint comments- Article 29 WP</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>

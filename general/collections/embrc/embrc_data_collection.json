@@ -1,0 +1,169 @@
+[{
+    "title": "OBIS also has tools that allow for data quality checks",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "programmer",
+        "name": "OBIS data quality check"
+    }],
+    "year": "",
+    "doi": null,
+    "language": null,
+    "type_of_resource": "computerProgram",
+    "url": "https://www.obis.org/manual/processing/",
+    "file": ""
+}, {
+    "title": "Within EMODnet Biology there is a quality check tool for data providers to use before they submit their data . This runs on public IPT resources",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "programmer",
+        "name": "EMODnet Biology quality check"
+    }],
+    "year": "",
+    "doi": null,
+    "language": null,
+    "type_of_resource": "computerProgram",
+    "url": "https://github.com/EMODnet/EMODnetBiocheck",
+    "file": ""
+}, {
+    "title": "version 2020 : Current Best Practices for Generalizing Sensitive Species Occurrence Data",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Current best practices (2020)"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://docs.gbif.org/sensitive-species-best-practices/master/en/",
+    "file": ""
+}, {
+    "title": "Chapman AD, Wieczorek J (2006) Guide to best practices for georeferencing (eds. Arthur D. Chapman & John Wieczorek). Contributors: Wieczorek J, Guralnick R, Chapman A, Frazier C, Rios N, Beaman R, Guo Q. Global Biodiversity Information Facility. Copenhagen, Denmark. Pp. 1-80.",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Chapman AD, Wieczorek J (2006)"
+    }],
+    "year": "2006",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "book",
+    "url": "https://www.gbif.org/document/80536/georeferencing-best-practices",
+    "file": ""
+}, {
+    "title": "Chapman AD (2005) Principles and methods of data cleaning - primary species and species-occurrence data. Report for the Global Biodiversity Information Facility. GBIF, Copenhagen",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Chapman AD (2005)"
+    }],
+    "year": "2005",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data",
+    "file": ""
+}, {
+    "title": "EMBRC ABS handbook",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "ABS; Genetic resources database fields required for internal ABD management"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "book",
+    "url": "",
+    "file": ""
+}, {
+    "title": "EMBRC ABS handbook",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "ABS: Model for material accession form"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "book",
+    "url": "",
+    "file": ""
+}, {
+    "title": "EMBRC ABS handbook",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "ABS: Model for sample terms and conditions for academic use"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "book",
+    "url": "",
+    "file": ""
+}, {
+    "title": "Chapman, 2004: APPENDIX: I Environmental Data Quality - b. Data Cleaning Tools",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "Chapman AD (2004)"
+    }],
+    "year": "2003",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "report",
+    "url": "https://www.researchgate.net/publication/333185367_APPENDIX_I_Environmental_Data_Quality_-_b_Data_Cleaning_Tools",
+    "file": ""
+}, {
+    "title": "EMBRC ABS handbook",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "ABS: Model for material transfer agreement"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "book",
+    "url": "",
+    "file": ""
+}, {
+    "title": "EMBRC ABS handbook",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "ABS best practice for institutions"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "book",
+    "url": "",
+    "file": ""
+}, {
+    "title": "EMBRC ABS handbook",
+    "shortTitle": "",
+    "abstract": "",
+    "authors": [{
+        "creatorType": "author",
+        "name": "ABS best practices for users"
+    }],
+    "year": "",
+    "doi": null,
+    "language": "",
+    "type_of_resource": "book",
+    "url": "",
+    "file": ""
+}]

@@ -1,0 +1,1854 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:res="http://purl.org/vocab/resourcelist/schema#"
+ xmlns:ctag="http://commontag.org/ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bibo="http://purl.org/ontology/bibo/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:sioct="http://rdfs.org/sioc/types#">
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/NLD3TCI4">
+        <res:resource rdf:resource="https://ukanon.net/"/>
+        <ctag:tagged rdf:nodeID="n281"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n283"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n288"/>
+        <ctag:tagged rdf:nodeID="n289"/>
+        <ctag:tagged rdf:nodeID="n290"/>
+        <ctag:tagged rdf:nodeID="n291"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n293"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="https://ukanon.net/">
+        <dcterms:title>UK anonymisation network (UKAN)</dcterms:title>
+        <dcterms:abstract>The UK Anonymisation Network (UKAN) has been set up as a means of establishing best practice in anonymisation and offers practical advice and information to anyone who handles personal data and needs to share it.</dcterms:abstract>
+        <dcterms:language>English</dcterms:language>
+        <bibo:shortTitle>UKAN</bibo:shortTitle>
+        <bibo:uri>https://ukanon.net/</bibo:uri>
+        <z:extra>Code: UK anonymisation network (UKAN)
+Journal Abbreviation: UKAN
+Publication Title: UK anonymisation network (UKAN)
+Reporter: UK anonymisation network (UKAN)</z:extra>
+        <dcterms:creator rdf:nodeID="n279"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n279"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n279">
+       <foaf:name>University of Manchester - UK anonymisation network</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n281">
+       <ctag:label>1-best practice</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n282">
+       <ctag:label>2-health research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n283">
+       <ctag:label>3-all research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n284">
+       <ctag:label>4A1-real wolrd/routine health data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n285">
+       <ctag:label>4A2-clinical research data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n286">
+       <ctag:label>4A3-biobank/registry data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n287">
+       <ctag:label>4A5-data including images of humans</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n288">
+       <ctag:label>4A6-genetic and molecular biology data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n289">
+       <ctag:label>5-planning for DS</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n290">
+       <ctag:label>5-preparation for DS</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n291">
+       <ctag:label>6-national (UK)</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n292">
+       <ctag:label>7-anonymisation</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n293">
+       <ctag:label>7-technical &amp; organisational measures</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n294">
+       <ctag:label>8-data provider</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/36JEJFIV">
+        <res:resource rdf:resource="https://www.nhsresearchscotland.org.uk/research-in-scotland/data/safe-havens"/>
+        <ctag:tagged rdf:nodeID="n298"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n300"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n301"/>
+        <ctag:tagged rdf:nodeID="n302"/>
+        <ctag:tagged rdf:nodeID="n303"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n305"/>
+        <ctag:tagged rdf:nodeID="n293"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="https://www.nhsresearchscotland.org.uk/research-in-scotland/data/safe-havens">
+        <dcterms:title>Data safe haven</dcterms:title>
+        <dcterms:abstract>Safe Havens provide a platform for the use of NHS electronic data in research feasibility, delivery and pharmacovigilance offering:
+- A secure environment, with trained staff operating to agreed principles and standards
+- A federated network across Scotland working collaboratively to deliver and develop health informatics capability
+- Access to a wide range of anonymised datasets  (including national datasets through to specialised local datasets)
+- Robust governance procedures to protect the confidentiality of the data
+- Single costing and contracting
+- Updated daily. 
+Working to agreed principles and standards these Safe Havens provide access to health data and services to enable research while protecting the confidentiality of the data. Data remains under the control of the NHS and complies with legislative and NHS policies.
+
+Local Safe Havens operate in havens operate in the regional hubs of Aberdeen, Dundee, Edinburgh and Glasgow; with a national Safe Haven at National Services Scotland.</dcterms:abstract>
+        <bibo:uri>https://www.nhsresearchscotland.org.uk/research-in-scotland/data/safe-havens</bibo:uri>
+        <z:extra>Code: Data safe haven
+Publication Title: Data safe haven
+Reporter: Data safe haven</z:extra>
+        <dcterms:creator rdf:nodeID="n296"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n296"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n296">
+       <foaf:name>NHS Scotland - Data safe haven</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n298">
+       <ctag:label>1-repositories/other</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n299">
+       <ctag:label>1-systems/tools/services</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n300">
+       <ctag:label>3-secondary research</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n301">
+       <ctag:label>5-access to data re-use</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n302">
+       <ctag:label>5-managing data access</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n303">
+       <ctag:label>6-national (Scotland)</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n304">
+       <ctag:label>7-de-identification</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n305">
+       <ctag:label>7-managing data access</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n306">
+       <ctag:label>8-research community</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/4AFY3MSH">
+        <res:resource rdf:resource="https://amnesia.openaire.eu/"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n283"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n310"/>
+        <ctag:tagged rdf:nodeID="n288"/>
+        <ctag:tagged rdf:nodeID="n290"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n312"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="https://amnesia.openaire.eu/">
+        <dcterms:title>Amnesia</dcterms:title>
+        <dcterms:abstract>Amnesia is an application written in java and JavaScript and should be used locally for anonymizing a dataset. The basic idea behind anonymization is that a file containing personal data is loaded to Amnesia, we refer to this as the original dataset, and Amnesia transforms it to an anonymous dataset, which can then be stored locally. The transformation is guided by user choices and provides an anonymization guaranty for the result. The guaranties currently supported by Amnesia are k-anonymity and km-anonymity.</dcterms:abstract>
+        <bibo:uri>https://amnesia.openaire.eu/</bibo:uri>
+        <z:extra>Code: Amnesia
+Publication Title: Amnesia
+Reporter: Amnesia</z:extra>
+        <dcterms:creator rdf:nodeID="n308"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n308"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n308">
+       <foaf:name>OpenAIRE-Anamnesia</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n310">
+       <ctag:label>4A5-data including images</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n311">
+       <ctag:label>6-global</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n312"><ctag:label>7-GDPR</ctag:label></ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/DSQ78UVV">
+        <res:resource rdf:resource="http://www.myhealthmydata.eu/"/>
+        <ctag:tagged rdf:nodeID="n316"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n283"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n318"/>
+        <ctag:tagged rdf:nodeID="n319"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n312"/>
+        <ctag:tagged rdf:nodeID="n320"/>
+        <ctag:tagged rdf:nodeID="n321"/>
+        <ctag:tagged rdf:nodeID="n322"/>
+        <ctag:tagged rdf:nodeID="n293"/>
+        <ctag:tagged rdf:nodeID="n323"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n324"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="http://www.myhealthmydata.eu/">
+        <dcterms:title>MyHealthMyData (MHMD)</dcterms:title>
+        <dcterms:abstract>MyHealthMyData (MHMD) is a Horizon 2020 Research and Innovation Action which aims at fundamentally changing the way sensitive data are shared. MHMD is poised to be the first open biomedical information network centred on the connection between organisations and individuals, encouraging hospitals to start making anonymised data available for open research, while prompting citizens to become the ultimate owners and controllers of their health data. MHMD is intended to become a true information marketplace, based on new mechanisms of trust and direct, value-based relationships between EU citizens, hospitals, research centres and businesses.</dcterms:abstract>
+        <bibo:uri>http://www.myhealthmydata.eu/</bibo:uri>
+        <z:extra>Code: MyHealthMyData (MHMD)
+Publication Title: MyHealthMyData (MHMD)
+Reporter: MyHealthMyData (MHMD)</z:extra>
+        <dcterms:creator rdf:nodeID="n314"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n314"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n314">
+       <foaf:name>MyHealthMyData (MHMD)</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n316">
+       <ctag:label>1-other resource type</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n317"><ctag:label>5-any</ctag:label></ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n318">
+       <ctag:label>6-continental</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n319">
+       <ctag:label>7-alternatives to consent</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n320">
+       <ctag:label>7-legal aspects</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n321">
+       <ctag:label>7-planning for data re-use</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n322">
+       <ctag:label>7-pseudonymisation</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n323">
+       <ctag:label>8-data consumer</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n324">
+       <ctag:label>8-other group</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/TBWDUECL">
+        <res:resource rdf:resource="https://eu-rd-platform.jrc.ec.europa.eu/erdri/pseudonymisation-tool_en"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n328"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n329"/>
+        <ctag:tagged rdf:nodeID="n310"/>
+        <ctag:tagged rdf:nodeID="n330"/>
+        <ctag:tagged rdf:nodeID="n289"/>
+        <ctag:tagged rdf:nodeID="n290"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n322"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="https://eu-rd-platform.jrc.ec.europa.eu/erdri/pseudonymisation-tool_en">
+        <dcterms:abstract>EUPID was developed by the Austrian Institute of Technology and is designed to facilitate secondary use of datasets in biomedical research and healthcare by addressing the following major requirements:
+- prevent duplicate registration of patients
+- avoid creating a transparent universal patient ID but
+- provide distinct pseudonyms for patients in different contexts
+- preserve the possibility for re-identification by a trusted third party
+- keep a protected link between the different pseudonyms in the background, which supports creating merged datasets for secondary use</dcterms:abstract>
+        <bibo:uri>https://eu-rd-platform.jrc.ec.europa.eu/erdri/pseudonymisation-tool_en</bibo:uri>
+        <dcterms:creator rdf:nodeID="n326"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n326"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n326">
+       <foaf:name>EUPID-pseudonymisation tool</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n328">
+       <ctag:label>3-not specified</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n329">
+        <ctag:label>4A4-human populational level hrealth/socio-economic data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n330">
+       <ctag:label>4A6-genetic or other molecular biology data</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/XTPLH6XE">
+        <res:resource rdf:resource="https://academic.oup.com/jamia/article/15/5/627/732733"/>
+        <z:repository>PubMed</z:repository>
+        <ctag:tagged rdf:nodeID="n339"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n328"/>
+        <ctag:tagged rdf:nodeID="n340"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n329"/>
+        <ctag:tagged rdf:nodeID="n310"/>
+        <ctag:tagged rdf:nodeID="n330"/>
+        <ctag:tagged rdf:nodeID="n290"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n341"/>
+        <ctag:tagged rdf:nodeID="n342"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://academic.oup.com/jamia/article/15/5/627/732733">
+        <dcterms:title>Protecting privacy using k-anonymity</dcterms:title>
+        <dcterms:abstract>OBJECTIVE: There is increasing pressure to share health information and even make it publicly available. However, such disclosures of personal health information raise serious privacy concerns. To alleviate such concerns, it is possible to anonymize the data before disclosure. One popular anonymization approach is k-anonymity. There have been no evaluations of the actual re-identification probability of k-anonymized data sets.
+DESIGN: Through a simulation, we evaluated the re-identification risk of k-anonymization and three different improvements on three large data sets.
+MEASUREMENT: Re-identification probability is measured under two different re-identification scenarios. Information loss is measured by the commonly used discernability metric.
+RESULTS: For one of the re-identification scenarios, k-Anonymity consistently over-anonymizes data sets, with this over-anonymization being most pronounced with small sampling fractions. Over-anonymization results in excessive distortions to the data (i.e., high information loss), making the data less useful for subsequent analysis. We found that a hypothesis testing approach provided the best control over re-identification risk and reduces the extent of information loss compared to baseline k-anonymity.
+CONCLUSION: Guidelines are provided on when to use the hypothesis testing approach instead of baseline k-anonymity.</dcterms:abstract>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:uri>https://academic.oup.com/jamia/article/15/5/627/732733</bibo:uri>
+        <z:extra>Code: Journal of the American Medical Informatics Association: JAMIA
+Number: 5
+PMID: 18579830
+PMCID: PMC2528029</z:extra>
+        <bibo:pages>627-637</bibo:pages>
+        <bibo:doi>10.1197/jamia.M2716</bibo:doi>
+        <dcterms:creator rdf:nodeID="n336"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n336"/><rdf:li rdf:nodeID="n338"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n338"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2008 Sep-Oct</dcterms:date>
+                <bibo:volume>15</bibo:volume>
+                <bibo:issue>5</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Journal of the American Medical Informatics Association: JAMIA</dcterms:title>
+                        <bibo:shortTitle>J Am Med Inform Assoc</bibo:shortTitle>
+                        <bibo:issn>1527-974X</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n336">
+       <foaf:givenName>Khaled</foaf:givenName><foaf:surname>El Emam</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n338">
+        <foaf:givenName>Fida Kamal</foaf:givenName>
+        <foaf:surname>Dankar</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n339">
+       <ctag:label>1-guidance/recommendation</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n340">
+       <ctag:label>4A1-real world/routine health data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n341">
+       <ctag:label>8-data service provider</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n342">
+       <ctag:label>8-data steward</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/YMBTI4VD">
+        <res:resource rdf:resource="https://www.epcc.ed.ac.uk/research/data/eidf"/>
+        <ctag:tagged rdf:nodeID="n298"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n346"/>
+        <ctag:tagged rdf:nodeID="n283"/>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n348"/>
+        <ctag:tagged rdf:nodeID="n301"/>
+        <ctag:tagged rdf:nodeID="n349"/>
+        <ctag:tagged rdf:nodeID="n302"/>
+        <ctag:tagged rdf:nodeID="n290"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>5-transfer of data to repository</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n303"/>
+        <ctag:tagged rdf:nodeID="n305"/>
+        <ctag:tagged rdf:nodeID="n351"/>
+        <ctag:tagged rdf:nodeID="n352"/>
+        <ctag:tagged rdf:nodeID="n321"/>
+        <ctag:tagged rdf:nodeID="n293"/>
+        <ctag:tagged rdf:nodeID="n323"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n324"/>
+        <ctag:tagged rdf:nodeID="n353"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="https://www.epcc.ed.ac.uk/research/data/eidf">
+        <dcterms:title>Edinburgh International Data Facility</dcterms:title>
+        <dcterms:abstract>EIDF can be thought of as a layer of storage and computing services presented as a private cloud and hosting a rich and growing collection of data. EIDF supports the long-term storage and curation of data assets, and their cataloguing, preparation and presentation as analytic-ready datasets for research and innovation. It offers a range of computing services, from web-based notebooks to rich desktop environments and seamless access to high-performance computing.
+EIDF supports learners, researchers and innovators across the spectrum, with services from basic data download through simple learn-as-you-play-with-data notebooks to GPU-enabled machine-learning platforms for driving AI application development.
+
+EIDF also provides safe haven services to health and government users, following best practice in independent governance and supporting the linkage of complex personal data for public benefit research and policy-making under national and regional safeguards.</dcterms:abstract>
+        <bibo:uri>https://www.epcc.ed.ac.uk/research/data/eidf</bibo:uri>
+        <z:extra>Code: Edinburgh International Data Facility
+Publication Title: Edinburgh International Data Facility
+Reporter: Edinburgh International Data Facility</z:extra>
+        <dcterms:creator rdf:nodeID="n344"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n344"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n344">
+       <foaf:name>Edinburgh International Data Facility</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n346">
+       <ctag:label>2-not specified/not clear</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n347">
+       <ctag:label>3-not specified/not clear</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n348">
+       <ctag:label>4-All types of research data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n349">
+       <ctag:label>5-discovering the data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n351">
+       <ctag:label>7-metadata for DS</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n352">
+       <ctag:label>7-other topics</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n353">
+       <ctag:label>8-policy maker</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/CUSPQIK8">
+        <res:resource rdf:resource="https://wiki.xnat.org/documentation/how-to-use-xnat/image-session-upload-methods-in-xnat/where-anonymization-happens-in-xnat"/>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n328"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n288"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n305"/>
+        <ctag:tagged rdf:nodeID="n352"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n341"/>
+        <ctag:tagged rdf:nodeID="n342"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="https://wiki.xnat.org/documentation/how-to-use-xnat/image-session-upload-methods-in-xnat/where-anonymization-happens-in-xnat">
+        <dcterms:title>Where Anonymization Happens in XNAT</dcterms:title>
+        <dcterms:abstract>XNAT needs to examine and alter the contents of image objects. Uses include:
+
+- Remove Protected Health Information (PHI)
+- Re-identify with experiment-required identifiers
+- Enable automatic mapping of Image objects into XNAT's Project/Subject/Session data model.-</dcterms:abstract>
+        <bibo:uri>https://wiki.xnat.org/documentation/how-to-use-xnat/image-session-upload-methods-in-xnat/where-anonymization-happens-in-xnat</bibo:uri>
+        <z:extra>Code: Where Anonymization Happens in XNAT
+Publication Title: Where Anonymization Happens in XNAT
+Reporter: Where Anonymization Happens in XNAT</z:extra>
+        <dcterms:creator rdf:nodeID="n355"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n355"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n355">
+       <foaf:name>XNAT - Anonymisation</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/TTPAV67E">
+        <res:resource rdf:resource="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0905-x"/>
+        <z:repository>PubMed</z:repository>
+        <ctag:tagged rdf:nodeID="n339"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n328"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n366"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n330"/>
+        <ctag:tagged rdf:nodeID="n367"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n322"/>
+        <ctag:tagged rdf:nodeID="n293"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0905-x">
+        <dcterms:title>Pseudonymization for research data collection: is the juice worth the squeeze?</dcterms:title>
+        <dcterms:abstract>BACKGROUND: The collection of data and biospecimens which characterize patients and probands in-depth is a core element of modern biomedical research. Relevant data must be considered highly sensitive and it needs to be protected from unauthorized use and re-identification. In this context, laws, regulations, guidelines and best-practices often recommend or mandate pseudonymization, which means that directly identifying data of subjects (e.g. names and addresses) is stored separately from data which is primarily needed for scientific analyses.
+DISCUSSION: When (authorized) re-identification of subjects is not an exceptional but a common procedure, e.g. due to longitudinal data collection, implementing pseudonymization can significantly increase the complexity of software solutions. For example, data stored in distributed databases, need to be dynamically combined with each other, which requires additional interfaces for communicating between the various subsystems. This increased complexity may lead to new attack vectors for intruders. Obviously, this is in contrast to the objective of improving data protection. What is lacking is a standardized process of evaluating and reporting risks, threats and countermeasures, which can be used to test whether integrating pseudonymization methods into data collection systems actually improves upon the degree of protection provided by system designs that simply follow common IT security best practices and implement fine-grained role-based access control models. To demonstrate that the methods used to describe systems employing pseudonymized data management are currently heterogeneous and ad-hoc, we examined the extent to which twelve recent studies address each of the six basic security properties defined by the International Organization for Standardization (ISO) standard 27,000. We show inconsistencies across the studies, with most of them failing to mention one or more security properties.
+CONCLUSION: We discuss the degree of privacy protection provided by implementing pseudonymization into research data collection processes. We conclude that (1) more research is needed on the interplay of pseudonymity, information security and data protection, (2) problem-specific guidelines for evaluating and reporting risks, threats and countermeasures should be developed and that (3) future work on pseudonymized research data collection should include the results of such structured and integrated analyses.</dcterms:abstract>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:shortTitle>Pseudonymization for research data collection</bibo:shortTitle>
+        <bibo:uri>https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0905-x</bibo:uri>
+        <z:extra>Code: BMC medical informatics and decision making
+Number: 1
+PMID: 31484555
+PMCID: PMC6727563</z:extra>
+        <bibo:pages>178</bibo:pages>
+        <bibo:doi>10.1186/s12911-019-0905-x</bibo:doi>
+        <dcterms:creator rdf:nodeID="n362"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n362"/>
+                <rdf:li rdf:nodeID="n364"/>
+                <rdf:li rdf:nodeID="n365"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n364"/>
+        <dcterms:creator rdf:nodeID="n365"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>09 04, 2019</dcterms:date>
+                <bibo:volume>19</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>BMC medical informatics and decision making</dcterms:title>
+                        <bibo:shortTitle>BMC Med Inform Decis Mak</bibo:shortTitle>
+                        <bibo:issn>1472-6947</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n362">
+        <foaf:givenName>Florian</foaf:givenName>
+        <foaf:surname>Kohlmayer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n364">
+        <foaf:givenName>Ronald</foaf:givenName>
+        <foaf:surname>Lautenschläger</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n365">
+       <foaf:givenName>Fabian</foaf:givenName><foaf:surname>Prasser</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n366">
+        <ctag:label>4A4-human populational level health/socio-economic data</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n367">
+       <ctag:label>5-not applicable</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/ZFVXNN2B">
+        <res:resource rdf:resource="https://www.thieme-connect.com/products/ejournals/abstract/10.3414/ME16-01-0012"/>
+        <z:repository>PubMed</z:repository>
+        <ctag:tagged rdf:nodeID="n281"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n328"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n366"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n330"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n322"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n341"/>
+        <ctag:tagged rdf:nodeID="n342"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.thieme-connect.com/products/ejournals/abstract/10.3414/ME16-01-0012">
+        <dcterms:title>The Importance of Context: Risk-based De-identification of Biomedical Data</dcterms:title>
+        <dcterms:abstract>BACKGROUND: Data sharing is a central aspect of modern biomedical research. It is accompanied by significant privacy concerns and often data needs to be protected from re-identification. With methods of de-identification datasets can be transformed in such a way that it becomes extremely difficult to link their records to identified individuals. The most important challenge in this process is to find an adequate balance between an increase in privacy and a decrease in data quality.
+OBJECTIVES: Accurately measuring the risk of re-identification in a specific data sharing scenario is an important aspect of data de-identification. Overestimation of risks will significantly deteriorate data quality, while underestimation will leave data prone to attacks on privacy. Several models have been proposed for measuring risks, but there is a lack of generic methods for risk-based data de-identification. The aim of the work described in this article was to bridge this gap and to show how the quality of de-identified datasets can be improved by using risk models to tailor the process of de-identification to a concrete context.
+METHODS: We implemented a generic de-identification process and several models for measuring re-identification risks into the ARX de-identification tool for biomedical data. By integrating the methods into an existing framework, we were able to automatically transform datasets in such a way that information loss is minimized while it is ensured that re-identification risks meet a user-defined threshold. We performed an extensive experimental evaluation to analyze the impact of using different risk models and assumptions about the goals and the background knowledge of an attacker on the quality of de-identified data.
+RESULTS: The results of our experiments show that data quality can be improved significantly by using risk models for data de-identification. On a scale where 100 % represents the original input dataset and 0 % represents a dataset from which all information has been removed, the loss of information content could be reduced by up to 10 % when protecting datasets against strong adversaries and by up to 24 % when protecting datasets against weaker adversaries.
+CONCLUSIONS: The methods studied in this article are well suited for protecting sensitive biomedical data and our implementation is available as open-source software. Our results can be used by data custodians to increase the information content of de-identified data by tailoring the process to a specific data sharing scenario. Improving data quality is important for fostering the adoption of de-identification methods in biomedical research.</dcterms:abstract>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:shortTitle>The Importance of Context</bibo:shortTitle>
+        <bibo:uri>https://www.thieme-connect.com/products/ejournals/abstract/10.3414/ME16-01-0012</bibo:uri>
+        <z:extra>Code: Methods of Information in Medicine
+Number: 4
+PMID: 27322502</z:extra>
+        <bibo:pages>347-355</bibo:pages>
+        <bibo:doi>10.3414/ME16-01-0012</bibo:doi>
+        <dcterms:creator rdf:nodeID="n373"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n373"/>
+                <rdf:li rdf:nodeID="n375"/>
+                <rdf:li rdf:nodeID="n376"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n375"/>
+        <dcterms:creator rdf:nodeID="n376"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>Aug 05, 2016</dcterms:date>
+                <bibo:volume>55</bibo:volume>
+                <bibo:issue>4</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Methods of Information in Medicine</dcterms:title>
+                        <bibo:shortTitle>Methods Inf Med</bibo:shortTitle>
+                        <bibo:issn>2511-705X</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n373">
+       <foaf:givenName>Fabian</foaf:givenName><foaf:surname>Prasser</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n375">
+        <foaf:givenName>Florian</foaf:givenName>
+        <foaf:surname>Kohlmayer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n376">
+       <foaf:givenName>Klaus A.</foaf:givenName><foaf:surname>Kuhn</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/N8IAJ2PH">
+        <res:resource rdf:resource="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01138-6"/>
+        <z:repository>PubMed</z:repository>
+        <ctag:tagged rdf:nodeID="n298"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n300"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n366"/>
+        <ctag:tagged rdf:nodeID="n310"/>
+        <ctag:tagged rdf:nodeID="n330"/>
+        <ctag:tagged rdf:nodeID="n289"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>6-national (Germany)</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n319"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-broad consent</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n397"/>
+        <ctag:tagged rdf:nodeID="n398"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01138-6">
+        <dcterms:title>Towards a comprehensive and interoperable representation of consent-based data usage permissions in the German medical informatics initiative</dcterms:title>
+        <dcterms:abstract>BACKGROUND: The aim of the German Medical Informatics Initiative is to establish a national infrastructure for integrating and sharing health data. To this, Data Integration Centers are set up at university medical centers, which address data harmonization, information security and data protection. To capture patient consent, a common informed consent template has been developed. It consists of different modules addressing permissions for using data and biosamples. On the technical level, a common digital representation of information from signed consent templates is needed. As the partners in the initiative are free to adopt different solutions for managing consent information (e.g. IHE BPPC or HL7 FHIR Consent Resources), we had to develop an interoperability layer.
+METHODS: First, we compiled an overview of data items required to reflect the information from the MII consent template as well as patient preferences and derived permissions. Next, we created entity-relationship diagrams to formally describe the conceptual data model underlying relevant items. We then compared this data model to conceptual models describing representations of consent information using different interoperability standards. We used the result of this comparison to derive an interoperable representation that can be mapped to common standards.
+RESULTS: The digital representation needs to capture the following information: (1) version of the consent, (2) consent status for each module, and (3) period of validity of the status. We found that there is no generally accepted solution to represent status information in a manner interoperable with all relevant standards. Hence, we developed a pragmatic solution, comprising codes which describe combinations of modules with a basic set of status labels. We propose to maintain these codes in a public registry called ART-DECOR. We present concrete technical implementations of our approach using HL7 FHIR and IHE BPPC which are also compatible with the open-source consent management software gICS.
+CONCLUSIONS: The proposed digital representation is (1) generic enough to capture relevant information from a wide range of consent documents and data use regulations and (2) interoperable with common technical standards. We plan to extend our model to include more fine-grained status codes and rules for automated access control.</dcterms:abstract>
+        <dcterms:language>eng</dcterms:language>
+        <bibo:uri>https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01138-6</bibo:uri>
+        <z:extra>Code: BMC medical informatics and decision making
+Number: 1
+PMID: 32503529
+PMCID: PMC7275462</z:extra>
+        <bibo:pages>103</bibo:pages>
+        <bibo:doi>10.1186/s12911-020-01138-6</bibo:doi>
+        <dcterms:creator rdf:nodeID="n382"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n382"/>
+                <rdf:li rdf:nodeID="n384"/>
+                <rdf:li rdf:nodeID="n385"/>
+                <rdf:li rdf:nodeID="n386"/>
+                <rdf:li rdf:nodeID="n387"/>
+                <rdf:li rdf:nodeID="n388"/>
+                <rdf:li rdf:nodeID="n389"/>
+                <rdf:li rdf:nodeID="n390"/>
+                <rdf:li rdf:nodeID="n391"/>
+                <rdf:li rdf:nodeID="n392"/>
+                <rdf:li rdf:nodeID="n393"/>
+                <rdf:li rdf:nodeID="n394"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n384"/>
+        <dcterms:creator rdf:nodeID="n385"/>
+        <dcterms:creator rdf:nodeID="n386"/>
+        <dcterms:creator rdf:nodeID="n387"/>
+        <dcterms:creator rdf:nodeID="n388"/>
+        <dcterms:creator rdf:nodeID="n389"/>
+        <dcterms:creator rdf:nodeID="n390"/>
+        <dcterms:creator rdf:nodeID="n391"/>
+        <dcterms:creator rdf:nodeID="n392"/>
+        <dcterms:creator rdf:nodeID="n393"/>
+        <dcterms:creator rdf:nodeID="n394"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>06 05, 2020</dcterms:date>
+                <bibo:volume>20</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>BMC medical informatics and decision making</dcterms:title>
+                        <bibo:shortTitle>BMC Med Inform Decis Mak</bibo:shortTitle>
+                        <bibo:issn>1472-6947</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n382">
+       <foaf:givenName>Raffael</foaf:givenName><foaf:surname>Bild</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n384">
+       <foaf:givenName>Martin</foaf:givenName><foaf:surname>Bialke</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n385">
+        <foaf:givenName>Karoline</foaf:givenName>
+        <foaf:surname>Buckow</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n386">
+        <foaf:givenName>Thomas</foaf:givenName>
+        <foaf:surname>Ganslandt</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n387">
+       <foaf:givenName>Kristina</foaf:givenName><foaf:surname>Ihrig</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n388">
+       <foaf:givenName>Roland</foaf:givenName><foaf:surname>Jahns</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n389">
+        <foaf:givenName>Angela</foaf:givenName>
+        <foaf:surname>Merzweiler</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n390">
+        <foaf:givenName>Sybille</foaf:givenName>
+        <foaf:surname>Roschka</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n391">
+        <foaf:givenName>Björn</foaf:givenName>
+        <foaf:surname>Schreiweis</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n392">
+        <foaf:givenName>Sebastian</foaf:givenName>
+        <foaf:surname>Stäubert</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n393">
+       <foaf:givenName>Sven</foaf:givenName><foaf:surname>Zenker</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n394">
+       <foaf:givenName>Fabian</foaf:givenName><foaf:surname>Prasser</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n397">
+       <ctag:label>7-informed consent</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n398">
+       <ctag:label>8-cannot be specified</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/C88VUCKF">
+        <res:resource rdf:resource="https://www.who.int/ihr/procedures/SPG_data_sharing.pdf"/>
+        <z:accessDate>2020-11-09 10:20:16</z:accessDate>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n406"/>
+        <ctag:tagged rdf:nodeID="n300"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n366"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n330"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>4B1-omics data generated by basic research</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>4B2-pre-clinical research data</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n398"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.who.int/ihr/procedures/SPG_data_sharing.pdf">
+        <dcterms:title>Policy Statement on Data Sharing by the World Health Organization in the Context of Public Health Emergencies</dcterms:title>
+        <bibo:uri>https://www.who.int/ihr/procedures/SPG_data_sharing.pdf</bibo:uri>
+        <dcterms:creator rdf:nodeID="n402"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n402"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+           <bibo:Website><dcterms:date>2016</dcterms:date></bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n402">
+       <foaf:name>WHO</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n404">
+       <ctag:label>1-postion paper/policies/principles</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n405">
+       <ctag:label>3-experimental/interventional</ctag:label>
+    </ctag:UserTag>
+    <ctag:UserTag rdf:nodeID="n406">
+       <ctag:label>3-observational research</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/THTX63MT">
+        <res:resource rdf:resource="http://jre.sagepub.com/content/10/3/225.abstract"/>
+        <ctag:tagged rdf:nodeID="n281"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n406"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>3-other research desings</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n329"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n419"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://jre.sagepub.com/content/10/3/225.abstract">
+        <dcterms:title>Views of Ethical Best Practices in Sharing Individual-Level Data From Medical and Public Health Research: A Systematic Scoping Review</dcterms:title>
+        <dcterms:abstract>There is increasing support for sharing individual-level data generated by medical and public health research. This scoping review of empirical research and conceptual literature examined stakeholders� perspectives of ethical best practices in data sharing, particularly in low- and middle-income settings. Sixty-nine empirical and conceptual articles were reviewed, of which, only five were empirical studies and eight were conceptual articles focusing on low- and middle-income settings. We conclude that support for sharing individual-level data is contingent on the development and implementation of international and local policies and processes to support ethical best practices. Further conceptual and empirical research is needed to ensure data sharing policies and processes in low- and middle-income settings are appropriately informed by stakeholders� perspectives.</dcterms:abstract>
+        <bibo:uri>http://jre.sagepub.com/content/10/3/225.abstract</bibo:uri>
+        <z:extra>Code: Journal of Empirical Research on Human Research Ethics
+Number: 3
+_eprint: http://jre.sagepub.com/content/10/3/225.full.pdf+html</z:extra>
+        <bibo:pages>225-238</bibo:pages>
+        <bibo:doi>10.1177/1556264615594767</bibo:doi>
+        <dcterms:creator rdf:nodeID="n414"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n414"/>
+                <rdf:li rdf:nodeID="n416"/>
+                <rdf:li rdf:nodeID="n417"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n416"/>
+        <dcterms:creator rdf:nodeID="n417"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2015</dcterms:date>
+                <bibo:volume>10</bibo:volume>
+                <bibo:issue>3</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Journal of Empirical Research on Human Research Ethics</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n414">
+       <foaf:givenName>Susan</foaf:givenName><foaf:surname>Bull</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n416">
+       <foaf:givenName>Nia</foaf:givenName><foaf:surname>Roberts</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n417">
+       <foaf:givenName>Michael</foaf:givenName><foaf:surname>Parker</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n419">
+       <ctag:label>7-ethics of DS</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/7FFRM9WH">
+        <res:resource rdf:resource="https://www.force11.org/datacitationprinciples"/>
+        <z:accessDate>2020-11-09 10:25:14</z:accessDate>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged rdf:nodeID="n346"/>
+        <ctag:tagged rdf:nodeID="n283"/>
+        <ctag:tagged rdf:nodeID="n348"/>
+        <ctag:tagged rdf:nodeID="n367"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n425"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:Webpage rdf:about="https://www.force11.org/datacitationprinciples">
+        <dcterms:title>Joint Declaration of Data Citation Principles - FINAL</dcterms:title>
+        <dcterms:abstract>When citing please use: Data Citation Synthesis Group: Joint Declaration of Data Citation Principles. Martone M. (ed.) San Diego CA: FORCE11; 2014 https://doi.org/10.25490/a97f-egyk Translations Japanese – https://doi.org/10.11502/rduf_rdc_jddcp_ja (added 31.01.2020). &gt;&gt;&gt; Endorsement List Preamble Sound, reproducible scholarship rests upon a foundation of robust, accessible data. For this to be so in practice as well as theory, data must be accorded due importance in the practice of scholarship and in the enduring scholarly record.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://www.force11.org/datacitationprinciples</bibo:uri>
+        <z:extra>Code: FORCE11</z:extra>
+        <dcterms:creator rdf:nodeID="n423"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n423"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Website>
+                <dcterms:date>2013-10-30T11:20:51-07:00</dcterms:date>
+                <dcterms:title>FORCE11</dcterms:title>
+            </bibo:Website>
+        </dcterms:isPartOf>
+    </bibo:Webpage>
+    <foaf:Organization rdf:nodeID="n423">
+       <foaf:name>FORCE 11</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n425">
+       <ctag:label>7-attribution/credit fo DS</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/G9PY2E9G">
+        <res:resource rdf:resource="https://www.wma.net/what-we-do/medical-ethics/declaration-of-taipei/"/>
+        <z:accessDate>2020-11-09 10:21:59</z:accessDate>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n283"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n329"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n288"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n419"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <sioct:BlogPost rdf:about="https://www.wma.net/what-we-do/medical-ethics/declaration-of-taipei/">
+        <dcterms:title>WMA - The World Medical Association-Declaration of Taipei</dcterms:title>
+        <dcterms:language>en-US</dcterms:language>
+        <bibo:uri>https://www.wma.net/what-we-do/medical-ethics/declaration-of-taipei/</bibo:uri>
+        <dcterms:creator rdf:nodeID="n429"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n429"/></rdf:Seq>
+        </bibo:authorList>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <dcterms:isPartOf>
+            <sioct:Weblog>
+                <dcterms:date>2020</dcterms:date>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Website"/>
+            </sioct:Weblog>
+        </dcterms:isPartOf>
+    </sioct:BlogPost>
+    <foaf:Organization rdf:nodeID="n429">
+       <foaf:name>WMA</foaf:name>
+    </foaf:Organization>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/F48GRQEC">
+        <res:resource rdf:resource="http://www.nature.com/articles/ejhg201652"/>
+        <z:repository>DOI.org (Crossref)</z:repository>
+        <z:accessDate>2020-09-30 17:23:30</z:accessDate>
+        <ctag:tagged rdf:nodeID="n339"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n347"/>
+        <ctag:tagged rdf:nodeID="n284"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n366"/>
+        <ctag:tagged rdf:nodeID="n287"/>
+        <ctag:tagged rdf:nodeID="n367"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n419"/>
+        <ctag:tagged rdf:nodeID="n322"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://www.nature.com/articles/ejhg201652">
+        <dcterms:title>The risk of re-identification versus the need to identify individuals in rare disease research</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>http://www.nature.com/articles/ejhg201652</bibo:uri>
+        <z:extra>Code: European Journal of Human Genetics
+Number: 11</z:extra>
+        <bibo:pages>1553-1558</bibo:pages>
+        <bibo:doi>10.1038/ejhg.2016.52</bibo:doi>
+        <dcterms:creator rdf:nodeID="n436"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n436"/>
+                <rdf:li rdf:nodeID="n438"/>
+                <rdf:li rdf:nodeID="n439"/>
+                <rdf:li rdf:nodeID="n440"/>
+                <rdf:li rdf:nodeID="n441"/>
+                <rdf:li rdf:nodeID="n442"/>
+                <rdf:li rdf:nodeID="n443"/>
+                <rdf:li rdf:nodeID="n444"/>
+                <rdf:li rdf:nodeID="n445"/>
+                <rdf:li rdf:nodeID="n446"/>
+                <rdf:li rdf:nodeID="n447"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n438"/>
+        <dcterms:creator rdf:nodeID="n439"/>
+        <dcterms:creator rdf:nodeID="n440"/>
+        <dcterms:creator rdf:nodeID="n441"/>
+        <dcterms:creator rdf:nodeID="n442"/>
+        <dcterms:creator rdf:nodeID="n443"/>
+        <dcterms:creator rdf:nodeID="n444"/>
+        <dcterms:creator rdf:nodeID="n445"/>
+        <dcterms:creator rdf:nodeID="n446"/>
+        <dcterms:creator rdf:nodeID="n447"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>11/2016</dcterms:date>
+                <bibo:volume>24</bibo:volume>
+                <bibo:issue>11</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>European Journal of Human Genetics</dcterms:title>
+                        <bibo:shortTitle>Eur J Hum Genet</bibo:shortTitle>
+                        <bibo:issn>1018-4813, 1476-5438</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n436">
+       <foaf:givenName>Mats G</foaf:givenName><foaf:surname>Hansson</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n438">
+        <foaf:givenName>Hanns</foaf:givenName>
+        <foaf:surname>Lochmüller</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n439">
+       <foaf:givenName>Olaf</foaf:givenName><foaf:surname>Riess</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n440">
+       <foaf:givenName>Franz</foaf:givenName><foaf:surname>Schaefer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n441">
+       <foaf:givenName>Michael</foaf:givenName><foaf:surname>Orth</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n442">
+        <foaf:givenName>Yaffa</foaf:givenName>
+        <foaf:surname>Rubinstein</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n443">
+       <foaf:givenName>Caron</foaf:givenName><foaf:surname>Molster</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n444">
+       <foaf:givenName>Hugh</foaf:givenName><foaf:surname>Dawkins</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n445">
+        <foaf:givenName>Domenica</foaf:givenName>
+        <foaf:surname>Taruscio</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n446">
+       <foaf:givenName>Manuel</foaf:givenName><foaf:surname>Posada</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n447">
+       <foaf:givenName>Simon</foaf:givenName><foaf:surname>Woods</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/F52E4APF">
+        <res:resource rdf:resource="https://bmcmedethics.biomedcentral.com/articles/10.1186/s12910-020-0448-9"/>
+        <z:repository>DOI.org (Crossref)</z:repository>
+        <z:accessDate>2020-09-30 17:23:18</z:accessDate>
+        <ctag:tagged rdf:nodeID="n316"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n300"/>
+        <ctag:tagged rdf:nodeID="n340"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n329"/>
+        <ctag:tagged rdf:nodeID="n310"/>
+        <ctag:tagged rdf:nodeID="n330"/>
+        <ctag:tagged rdf:nodeID="n367"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n419"/>
+        <ctag:tagged rdf:nodeID="n312"/>
+        <ctag:tagged rdf:nodeID="n397"/>
+        <ctag:tagged rdf:nodeID="n320"/>
+        <ctag:tagged rdf:nodeID="n322"/>
+        <ctag:tagged rdf:nodeID="n398"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://bmcmedethics.biomedcentral.com/articles/10.1186/s12910-020-0448-9">
+        <dcterms:title>Legal and ethical framework for global health information and biospecimen exchange - an international perspective</dcterms:title>
+        <dcterms:abstract>Background: The progress of electronic health technologies and biobanks holds enormous promise for efficient research. Evidence shows that studies based on sharing and secondary use of data/samples have the potential to significantly advance medical knowledge. However, sharing of such resources for international collaboration is hampered by the lack of clarity about ethical and legal requirements for transfer of data and samples across international borders. Main text: Here, the International Clinical Trial Center Network (ICN) reports the legal and ethical requirements governing data and sample exchange (DSE) across four continents. The most recurring requirement is ethical approval, whereas only in specific conditions approval of national health authorities is required. Informed consent is not required in all sharing situations. However, waiver of informed consent is only allowed in certain countries/ regions and under certain circumstances. The current legal and ethical landscape appears to be very complex and under constant evolution. Regulations differ between countries/regions and are often incomplete, leading to uncertainty. Conclusion: With this work, ICN illuminates the unmet need for a single international collaborative framework to facilitate DSE. Harmonising requirements for global DSE will reduce inefficiency and waste in research. There are many challenges to realising this ambitious vision, including inconsistent terminology and definitions, and heterogeneous and dynamic legal constraints. Here, we identify areas of agreement and significant difference as a necessary first step towards facilitating international collaboration. We propose the establishment of a working group to continue the comparison across jurisdictions, create a standardised glossary and define a set of basic principles and fundamental requirements for DSE.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://bmcmedethics.biomedcentral.com/articles/10.1186/s12910-020-0448-9</bibo:uri>
+        <z:extra>Code: BMC Medical Ethics
+Number: 1</z:extra>
+        <bibo:pages>8</bibo:pages>
+        <bibo:doi>10.1186/s12910-020-0448-9</bibo:doi>
+        <dcterms:creator rdf:nodeID="n453"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n453"/>
+                <rdf:li rdf:nodeID="n455"/>
+                <rdf:li rdf:nodeID="n456"/>
+                <rdf:li rdf:nodeID="n457"/>
+                <rdf:li rdf:nodeID="n458"/>
+                <rdf:li rdf:nodeID="n459"/>
+                <rdf:li rdf:nodeID="n460"/>
+                <rdf:li rdf:nodeID="n461"/>
+                <rdf:li rdf:nodeID="n462"/>
+                <rdf:li rdf:nodeID="n463"/>
+                <rdf:li rdf:nodeID="n464"/>
+                <rdf:li rdf:nodeID="n465"/>
+                <rdf:li rdf:nodeID="n466"/>
+                <rdf:li rdf:nodeID="n467"/>
+                <rdf:li rdf:nodeID="n468"/>
+                <rdf:li rdf:nodeID="n469"/>
+                <rdf:li rdf:nodeID="n470"/>
+                <rdf:li rdf:nodeID="n471"/>
+                <rdf:li rdf:nodeID="n472"/>
+                <rdf:li rdf:nodeID="n473"/>
+                <rdf:li rdf:nodeID="n474"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n455"/>
+        <dcterms:creator rdf:nodeID="n456"/>
+        <dcterms:creator rdf:nodeID="n457"/>
+        <dcterms:creator rdf:nodeID="n458"/>
+        <dcterms:creator rdf:nodeID="n459"/>
+        <dcterms:creator rdf:nodeID="n460"/>
+        <dcterms:creator rdf:nodeID="n461"/>
+        <dcterms:creator rdf:nodeID="n462"/>
+        <dcterms:creator rdf:nodeID="n463"/>
+        <dcterms:creator rdf:nodeID="n464"/>
+        <dcterms:creator rdf:nodeID="n465"/>
+        <dcterms:creator rdf:nodeID="n466"/>
+        <dcterms:creator rdf:nodeID="n467"/>
+        <dcterms:creator rdf:nodeID="n468"/>
+        <dcterms:creator rdf:nodeID="n469"/>
+        <dcterms:creator rdf:nodeID="n470"/>
+        <dcterms:creator rdf:nodeID="n471"/>
+        <dcterms:creator rdf:nodeID="n472"/>
+        <dcterms:creator rdf:nodeID="n473"/>
+        <dcterms:creator rdf:nodeID="n474"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>12/2020</dcterms:date>
+                <bibo:volume>21</bibo:volume>
+                <bibo:issue>1</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>BMC Medical Ethics</dcterms:title>
+                        <bibo:shortTitle>BMC Med Ethics</bibo:shortTitle>
+                        <bibo:issn>1472-6939</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n453">
+        <foaf:givenName>Lara</foaf:givenName>
+        <foaf:surname>Bernasconi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n455">
+       <foaf:givenName>Selçuk</foaf:givenName><foaf:surname>Şen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n456">
+       <foaf:givenName>Luca</foaf:givenName><foaf:surname>Angerame</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n457">
+        <foaf:givenName>Apolo P.</foaf:givenName>
+        <foaf:surname>Balyegisawa</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n458">
+        <foaf:givenName>Damien</foaf:givenName>
+        <foaf:surname>Hong Yew Hui</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n459">
+        <foaf:givenName>Maximilian</foaf:givenName>
+        <foaf:surname>Hotter</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n460">
+       <foaf:givenName>Chung Y.</foaf:givenName><foaf:surname>Hsu</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n461">
+       <foaf:givenName>Tatsuya</foaf:givenName><foaf:surname>Ito</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n462">
+        <foaf:givenName>Francisca</foaf:givenName>
+        <foaf:surname>Jörger</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n463">
+        <foaf:givenName>Wolfgang</foaf:givenName>
+        <foaf:surname>Krassnitzer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n464">
+        <foaf:givenName>Adam T.</foaf:givenName>
+        <foaf:surname>Phillips</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n465">
+       <foaf:givenName>Rui</foaf:givenName><foaf:surname>Li</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n466">
+        <foaf:givenName>Louise</foaf:givenName>
+        <foaf:surname>Stockley</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n467">
+       <foaf:givenName>Fabian</foaf:givenName><foaf:surname>Tay</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n468">
+        <foaf:givenName>Charlotte</foaf:givenName>
+        <foaf:surname>von Heijne Widlund</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n469">
+       <foaf:givenName>Ming</foaf:givenName><foaf:surname>Wan</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n470">
+       <foaf:givenName>Creany</foaf:givenName><foaf:surname>Wong</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n471">
+       <foaf:givenName>Henry</foaf:givenName><foaf:surname>Yau</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n472">
+        <foaf:givenName>Thomas F.</foaf:givenName>
+        <foaf:surname>Hiemstra</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n473">
+       <foaf:givenName>Yagiz</foaf:givenName><foaf:surname>Uresin</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n474">
+       <foaf:givenName>Gabriela</foaf:givenName><foaf:surname>Senti</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/IMRURX4J">
+        <res:resource rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMsb1616595"/>
+        <z:repository>Zotero</z:repository>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>2-general life scoiences</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>2-other</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n283"/>
+        <ctag:tagged rdf:nodeID="n348"/>
+        <ctag:tagged rdf:nodeID="n301"/>
+        <ctag:tagged rdf:nodeID="n484"/>
+        <ctag:tagged rdf:nodeID="n349"/>
+        <ctag:tagged rdf:nodeID="n485"/>
+        <ctag:tagged rdf:nodeID="n289"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>5-publicstion of re-use</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n425"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n342"/>
+        <ctag:tagged rdf:nodeID="n353"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMsb1616595">
+        <dcterms:title>Data Authorship as an Incentive to Data Sharing</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://www.nejm.org/doi/full/10.1056/NEJMsb1616595</bibo:uri>
+        <z:extra>Code: The new england journal of medicine</z:extra>
+        <bibo:pages>4</bibo:pages>
+        <dcterms:creator rdf:nodeID="n480"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n480"/></rdf:Seq>
+        </bibo:authorList>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2017</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>The new england journal of medicine</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n480">
+        <foaf:givenName>Barbara E</foaf:givenName>
+        <foaf:surname>Bierer</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n484">
+       <ctag:label>5-data preparation at the end of study</ctag:label>
+    </ctag:UserTag>
+   <ctag:UserTag rdf:nodeID="n485"><ctag:label>5-other</ctag:label></ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/T5KWF5K3">
+        <res:resource rdf:resource="https://pubmed.ncbi.nlm.nih.gov/27139382/"/>
+        <z:repository>DOI.org (Crossref)</z:repository>
+        <z:accessDate>2020-11-06 16:29:52</z:accessDate>
+        <ctag:tagged rdf:nodeID="n281"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n300"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n286"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n318"/>
+        <ctag:tagged rdf:nodeID="n292"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n322"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://pubmed.ncbi.nlm.nih.gov/27139382/">
+        <dcterms:title>Piloting the European Unified Patient Identity Management (EUPID) Concept to Facilitate Secondary Use of Neuroblastoma Data from Clinical Trials and Biobanking</dcterms:title>
+        <dcterms:abstract>Data from two contexts, i.e. the European Unresectable Neuroblastoma (EUNB) clinical trial and results from comparative genomic hybridisation (CGH) analyses from corresponding tumour samples shall be provided to existing repositories for secondary use. Utilizing the European Unified Patient IDentity Management (EUPID) as developed in the course of the ENCCA project, the following processes were applied to the data: standardization (providing interoperability), pseudonymization (generating distinct but linkable pseudonyms for both contexts), and linking both data sources. The applied procedures resulted in a joined dataset that did not contain any identifiers that would allow to backtrack the records to either data sources. This provided a high degree of privacy to the involved patients as required by data protection regulations, without preventing proper analysis.</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://pubmed.ncbi.nlm.nih.gov/27139382/</bibo:uri>
+        <z:extra>Code: Health Informatics Meets eHealth</z:extra>
+        <bibo:pages>31-38</bibo:pages>
+        <dcterms:creator rdf:nodeID="n492"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n492"/>
+                <rdf:li rdf:nodeID="n494"/>
+                <rdf:li rdf:nodeID="n495"/>
+                <rdf:li rdf:nodeID="n496"/>
+                <rdf:li rdf:nodeID="n497"/>
+                <rdf:li rdf:nodeID="n498"/>
+                <rdf:li rdf:nodeID="n499"/>
+                <rdf:li rdf:nodeID="n500"/>
+                <rdf:li rdf:nodeID="n501"/>
+                <rdf:li rdf:nodeID="n502"/>
+                <rdf:li rdf:nodeID="n503"/>
+                <rdf:li rdf:nodeID="n504"/>
+                <rdf:li rdf:nodeID="n505"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n494"/>
+        <dcterms:creator rdf:nodeID="n495"/>
+        <dcterms:creator rdf:nodeID="n496"/>
+        <dcterms:creator rdf:nodeID="n497"/>
+        <dcterms:creator rdf:nodeID="n498"/>
+        <dcterms:creator rdf:nodeID="n499"/>
+        <dcterms:creator rdf:nodeID="n500"/>
+        <dcterms:creator rdf:nodeID="n501"/>
+        <dcterms:creator rdf:nodeID="n502"/>
+        <dcterms:creator rdf:nodeID="n503"/>
+        <dcterms:creator rdf:nodeID="n504"/>
+        <dcterms:creator rdf:nodeID="n505"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2010</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Health Informatics Meets eHealth</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n492">
+       <foaf:givenName>Hubert</foaf:givenName><foaf:surname>Ebner</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n494">
+       <foaf:givenName>Dieter</foaf:givenName><foaf:surname>Hayn</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n495">
+        <foaf:givenName>Markus</foaf:givenName>
+        <foaf:surname>Falgenhauer</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n496">
+        <foaf:givenName>Michael</foaf:givenName>
+        <foaf:surname>Nitzlnader</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n497">
+        <foaf:givenName>Gudrun</foaf:givenName>
+        <foaf:surname>Schleiermacher</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n498">
+       <foaf:givenName>Riccardo</foaf:givenName><foaf:surname>Haupt</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n499">
+        <foaf:givenName>Giovanni</foaf:givenName>
+        <foaf:surname>Erminio</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n500">
+        <foaf:givenName>Raffaella</foaf:givenName>
+        <foaf:surname>Defferrari</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n501">
+       <foaf:givenName>Katia</foaf:givenName><foaf:surname>Mazzocco</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n502">
+       <foaf:givenName>Jan</foaf:givenName><foaf:surname>Kohler</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n503">
+       <foaf:givenName>Paolo</foaf:givenName><foaf:surname>Tonini</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n504">
+        <foaf:givenName>Ruth</foaf:givenName>
+        <foaf:surname>Ladenstein</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n505">
+        <foaf:givenName>Guenter</foaf:givenName>
+        <foaf:surname>Schreier</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/YRD9VWE2">
+        <res:resource rdf:resource="https://pubmed.ncbi.nlm.nih.gov/25392895/"/>
+        <ctag:tagged rdf:nodeID="n339"/>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n317"/>
+        <ctag:tagged rdf:nodeID="n509"/>
+        <ctag:tagged rdf:nodeID="n419"/>
+        <ctag:tagged rdf:nodeID="n352"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:Document rdf:about="https://pubmed.ncbi.nlm.nih.gov/25392895/">
+        <dcterms:title>Discussion framework for clinical trial data Sharing: Guiding Principles, Elements, and Activities</dcterms:title>
+        <dcterms:date>2014</dcterms:date>
+        <bibo:uri>https://pubmed.ncbi.nlm.nih.gov/25392895/</bibo:uri>
+        <z:extra>Code: Discussion framework for clinical trial data Sharing: Guiding Principles, Elements, and Activities
+Publication Title: Discussion framework for clinical trial data Sharing: Guiding Principles, Elements, and Activities
+Reporter: Discussion framework for clinical trial data Sharing: Guiding Principles, Elements, and Activities</z:extra>
+        <dcterms:creator rdf:nodeID="n507"/>
+        <bibo:authorList>
+           <rdf:Seq><rdf:li rdf:nodeID="n507"/></rdf:Seq>
+        </bibo:authorList>
+    </bibo:Document>
+    <foaf:Organization rdf:nodeID="n507">
+       <foaf:name>IOM</foaf:name>
+    </foaf:Organization>
+    <ctag:UserTag rdf:nodeID="n509">
+       <ctag:label>6-national (USA)</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/JDGCGKMR">
+        <res:resource rdf:resource="https://doi.org/10.1056/NEJMsb1708278"/>
+        <z:repository>Taylor and Francis+NEJM</z:repository>
+        <z:accessDate>2020-11-09 11:34:19</z:accessDate>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n301"/>
+        <ctag:tagged rdf:nodeID="n484"/>
+        <ctag:tagged rdf:nodeID="n485"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n425"/>
+        <ctag:tagged rdf:nodeID="n352"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+        <ctag:tagged rdf:nodeID="n520"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://doi.org/10.1056/NEJMsb1708278">
+        <dcterms:title>Data Sharing from Clinical Trials — A Research Funder’s Perspective</dcterms:title>
+        <dcterms:abstract>Representatives of the Wellcome Trust, the Medical Research Council, Cancer Research UK, and the Bill and Melinda Gates Foundation describe the importance of sharing clinical-trial data for reasons of transparency, good practice, and accelerated dissemination of results.</dcterms:abstract>
+        <bibo:uri>https://doi.org/10.1056/NEJMsb1708278</bibo:uri>
+        <z:extra>Code: New England Journal of Medicine
+Number: 20
+Publisher: Massachusetts Medical Society
+_eprint: https://doi.org/10.1056/NEJMsb1708278
+PMID: 29141170</z:extra>
+        <bibo:pages>1990-1992</bibo:pages>
+        <bibo:doi>10.1056/NEJMsb1708278</bibo:doi>
+        <dcterms:creator rdf:nodeID="n515"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n515"/>
+                <rdf:li rdf:nodeID="n517"/>
+                <rdf:li rdf:nodeID="n518"/>
+                <rdf:li rdf:nodeID="n519"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n517"/>
+        <dcterms:creator rdf:nodeID="n518"/>
+        <dcterms:creator rdf:nodeID="n519"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>November 16, 2017</dcterms:date>
+                <bibo:volume>377</bibo:volume>
+                <bibo:issue>20</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>New England Journal of Medicine</dcterms:title>
+                        <bibo:issn>0028-4793</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n515">
+       <foaf:givenName>Robert</foaf:givenName><foaf:surname>Kiley</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n517">
+       <foaf:givenName>Tony</foaf:givenName><foaf:surname>Peatfield</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n518">
+        <foaf:givenName>Jennifer</foaf:givenName>
+        <foaf:surname>Hansen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n519">
+        <foaf:givenName>Fiona</foaf:givenName>
+        <foaf:surname>Reddington</foaf:surname>
+    </foaf:Person>
+    <ctag:UserTag rdf:nodeID="n520">
+       <ctag:label>8-resource funder</ctag:label>
+    </ctag:UserTag>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/CZRKBAVX">
+        <res:resource rdf:resource="http://dx.doi.org/10.1056/NEJMp1607342"/>
+        <ctag:tagged rdf:nodeID="n298"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n301"/>
+        <ctag:tagged rdf:nodeID="n484"/>
+        <ctag:tagged rdf:nodeID="n349"/>
+        <ctag:tagged rdf:nodeID="n302"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>5-monitoring DS</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n305"/>
+        <ctag:tagged rdf:nodeID="n351"/>
+        <ctag:tagged rdf:nodeID="n321"/>
+        <ctag:tagged rdf:nodeID="n293"/>
+        <ctag:tagged rdf:nodeID="n323"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+        <ctag:tagged rdf:nodeID="n520"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://dx.doi.org/10.1056/NEJMp1607342">
+        <dcterms:title>The Yale Open Data Access (YODA) Project - A Mechanism for Data Sharing</dcterms:title>
+        <bibo:uri>http://dx.doi.org/10.1056/NEJMp1607342</bibo:uri>
+        <z:extra>Code: New England Journal of Medicine
+Number: 5
+_eprint: http://dx.doi.org/10.1056/NEJMp1607342
+PMID: 27518657</z:extra>
+        <bibo:pages>403-405</bibo:pages>
+        <bibo:doi>10.1056/NEJMp1607342</bibo:doi>
+        <dcterms:creator rdf:nodeID="n526"/>
+        <bibo:authorList>
+            <rdf:Seq>
+               <rdf:li rdf:nodeID="n526"/><rdf:li rdf:nodeID="n528"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n528"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016</dcterms:date>
+                <bibo:volume>375</bibo:volume>
+                <bibo:issue>5</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>New England Journal of Medicine</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n526">
+        <foaf:givenName>Harlan</foaf:givenName>
+        <foaf:surname>Krumholz</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n528">
+        <foaf:givenName>Joanne</foaf:givenName>
+        <foaf:surname>Waldstreicher</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/CTC2DFV6">
+        <res:resource rdf:resource="http://journals.sagepub.com/doi/10.1177/1740774513503522"/>
+        <z:repository>DOI.org (Crossref)</z:repository>
+        <z:accessDate>2020-10-13 14:56:54</z:accessDate>
+        <ctag:tagged rdf:nodeID="n299"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n301"/>
+        <ctag:tagged rdf:nodeID="n484"/>
+        <ctag:tagged rdf:nodeID="n302"/>
+        <ctag:tagged rdf:nodeID="n509"/>
+        <ctag:tagged rdf:nodeID="n304"/>
+        <ctag:tagged rdf:nodeID="n305"/>
+        <ctag:tagged rdf:nodeID="n351"/>
+        <ctag:tagged rdf:nodeID="n321"/>
+        <ctag:tagged rdf:nodeID="n293"/>
+        <ctag:tagged rdf:nodeID="n323"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="http://journals.sagepub.com/doi/10.1177/1740774513503522">
+        <dcterms:title>The National Drug Abuse Treatment Clinical Trials Network Data Share project: Website design, usage, challenges, and future directions</dcterms:title>
+        <dcterms:abstract>Background—The are many benefits of data sharing, including the promotion of new research from effective use of existing data, replication of findings through re-analysis of pooled data files, meta-analysis using individual patient data, and reinforcement of open scientific inquiry. A randomized controlled trial is considered as the “gold standard” for establishing treatment effectiveness, but clinical trial research is very costly and sharing data is an opportunity to expand the investment of the clinical trial beyond its original goals at minimal costs.
+Purpose—We describe the goals, developments, and usage of the Data Share website (www.ctndatashare.org) for the National Drug Abuse Treatment Clinical Trials Network (CTN) in the US, including lessons learned, limitations and major revisions and considerations for future directions to improve data sharing.
+Methods—Data management and programming procedures were conducted to produce uniform and Health Insurance Portability and Accountability Act (HIPAA)-compliant de-identified research data files from the completed trials of the CTN for archiving, managing, and sharing on the Data Share website.
+Results—Since its inception in 2006 and through October 2012, nearly 1700 downloads from 27 clinical trials have been accessed from the Data Share website, with the use increasing over the years. Individuals from 31 countries have downloaded data from the website, and there have been at least 13 publications derived from analyzing data through the public Data Share website. Limitations—Minimal control over data requests and usage has resulted in little information and lack of control regarding how the data from the website are used. Lack of uniformity in data elements collected across CTN trials has limited cross-study analyses.
+Conclusions—The Data Share website offers researchers easy access to deidentified data files with the goal to promote additional research and identify new findings from completed CTN studies. To maximize the utility of the website, on-going collaborative efforts are needed to</dcterms:abstract>
+        <dcterms:language>en</dcterms:language>
+        <bibo:shortTitle>The National Drug Abuse Treatment Clinical Trials Network Data Share project</bibo:shortTitle>
+        <bibo:uri>http://journals.sagepub.com/doi/10.1177/1740774513503522</bibo:uri>
+        <z:extra>Code: Clinical Trials: Journal of the Society for Clinical Trials
+Number: 6</z:extra>
+        <bibo:pages>977-986</bibo:pages>
+        <bibo:doi>10.1177/1740774513503522</bibo:doi>
+        <dcterms:creator rdf:nodeID="n535"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n535"/>
+                <rdf:li rdf:nodeID="n537"/>
+                <rdf:li rdf:nodeID="n538"/>
+                <rdf:li rdf:nodeID="n539"/>
+                <rdf:li rdf:nodeID="n540"/>
+                <rdf:li rdf:nodeID="n541"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n537"/>
+        <dcterms:creator rdf:nodeID="n538"/>
+        <dcterms:creator rdf:nodeID="n539"/>
+        <dcterms:creator rdf:nodeID="n540"/>
+        <dcterms:creator rdf:nodeID="n541"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>12/2013</dcterms:date>
+                <bibo:volume>10</bibo:volume>
+                <bibo:issue>6</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Clinical Trials: Journal of the Society for Clinical Trials</dcterms:title>
+                        <bibo:shortTitle>Clinical Trials</bibo:shortTitle>
+                        <bibo:issn>1740-7745, 1740-7753</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n535">
+        <foaf:givenName>Dikla</foaf:givenName>
+        <foaf:surname>Shmueli-Blumberg</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n537">
+       <foaf:givenName>Lian</foaf:givenName><foaf:surname>Hu</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n538">
+       <foaf:givenName>Colleen</foaf:givenName><foaf:surname>Allen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n539">
+        <foaf:givenName>Michael</foaf:givenName>
+        <foaf:surname>Frasketi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n540">
+       <foaf:givenName>Li-Tzy</foaf:givenName><foaf:surname>Wu</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n541">
+        <foaf:givenName>Paul</foaf:givenName>
+        <foaf:surname>VanVeldhuisen</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/ZNEQ3I2E">
+        <res:resource rdf:resource="https://pubmed.ncbi.nlm.nih.gov/26786954/"/>
+        <z:repository>Zotero</z:repository>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n300"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n367"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n425"/>
+        <ctag:tagged rdf:nodeID="n352"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+        <ctag:tagged rdf:nodeID="n520"/>
+        <ctag:tagged>
+            <ctag:UserTag>
+               <ctag:label>8-resource provider</ctag:label>
+            </ctag:UserTag>
+        </ctag:tagged>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://pubmed.ncbi.nlm.nih.gov/26786954/">
+        <dcterms:title>Sharing Clinical Trial Data — A Proposal from the International Committee of Medical Journal Editors</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://pubmed.ncbi.nlm.nih.gov/26786954/</bibo:uri>
+        <z:extra>Code: The new england journal of medicine</z:extra>
+        <bibo:pages>3</bibo:pages>
+        <dcterms:creator rdf:nodeID="n547"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n547"/>
+                <rdf:li rdf:nodeID="n549"/>
+                <rdf:li rdf:nodeID="n550"/>
+                <rdf:li rdf:nodeID="n551"/>
+                <rdf:li rdf:nodeID="n552"/>
+                <rdf:li rdf:nodeID="n553"/>
+                <rdf:li rdf:nodeID="n554"/>
+                <rdf:li rdf:nodeID="n555"/>
+                <rdf:li rdf:nodeID="n556"/>
+                <rdf:li rdf:nodeID="n557"/>
+                <rdf:li rdf:nodeID="n558"/>
+                <rdf:li rdf:nodeID="n559"/>
+                <rdf:li rdf:nodeID="n560"/>
+                <rdf:li rdf:nodeID="n561"/>
+                <rdf:li rdf:nodeID="n562"/>
+                <rdf:li rdf:nodeID="n563"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n549"/>
+        <dcterms:creator rdf:nodeID="n550"/>
+        <dcterms:creator rdf:nodeID="n551"/>
+        <dcterms:creator rdf:nodeID="n552"/>
+        <dcterms:creator rdf:nodeID="n553"/>
+        <dcterms:creator rdf:nodeID="n554"/>
+        <dcterms:creator rdf:nodeID="n555"/>
+        <dcterms:creator rdf:nodeID="n556"/>
+        <dcterms:creator rdf:nodeID="n557"/>
+        <dcterms:creator rdf:nodeID="n558"/>
+        <dcterms:creator rdf:nodeID="n559"/>
+        <dcterms:creator rdf:nodeID="n560"/>
+        <dcterms:creator rdf:nodeID="n561"/>
+        <dcterms:creator rdf:nodeID="n562"/>
+        <dcterms:creator rdf:nodeID="n563"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>2016</dcterms:date>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>The new england journal of medicine</dcterms:title>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n547">
+        <foaf:givenName>Darren</foaf:givenName>
+        <foaf:surname>Taichman</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n549">
+       <foaf:givenName>Joyce</foaf:givenName><foaf:surname>Backus</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n550">
+        <foaf:givenName>Christopher</foaf:givenName>
+        <foaf:surname>Baethge</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n551">
+        <foaf:givenName>Howard</foaf:givenName>
+        <foaf:surname>Bauchner</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n552">
+       <foaf:givenName>Peter</foaf:givenName><foaf:surname>de Leeuw</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n553">
+       <foaf:givenName>Jeffrey</foaf:givenName><foaf:surname>Drazen</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n554">
+       <foaf:givenName>John</foaf:givenName><foaf:surname>Fletcher</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n555">
+       <foaf:givenName>Frank</foaf:givenName><foaf:surname>Frizelle</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n556">
+       <foaf:givenName>Trish</foaf:givenName><foaf:surname>Groves</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n557">
+        <foaf:givenName>Abraham</foaf:givenName>
+        <foaf:surname>Haileamlak</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n558">
+       <foaf:givenName>Astrid</foaf:givenName><foaf:surname>James</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n559">
+        <foaf:givenName>Christopher</foaf:givenName>
+        <foaf:surname>Laine</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n560">
+       <foaf:givenName>Larry</foaf:givenName><foaf:surname>Peiperi</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n561">
+       <foaf:givenName>Anja</foaf:givenName><foaf:surname>Pinborg</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n562">
+       <foaf:givenName>Peush</foaf:givenName><foaf:surname>Sahni</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n563">
+       <foaf:givenName>Sinan</foaf:givenName><foaf:surname>Wu</foaf:surname>
+    </foaf:Person>
+    <z:UserItem rdf:about="http://zotero.org/users/5281015/items/S2UBJ8IX">
+        <res:resource rdf:resource="https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-16-S2-O1"/>
+        <z:repository>DOI.org (Crossref)</z:repository>
+        <z:accessDate>2020-10-13 14:37:54</z:accessDate>
+        <ctag:tagged rdf:nodeID="n281"/>
+        <ctag:tagged rdf:nodeID="n339"/>
+        <ctag:tagged rdf:nodeID="n404"/>
+        <ctag:tagged rdf:nodeID="n282"/>
+        <ctag:tagged rdf:nodeID="n405"/>
+        <ctag:tagged rdf:nodeID="n285"/>
+        <ctag:tagged rdf:nodeID="n301"/>
+        <ctag:tagged rdf:nodeID="n484"/>
+        <ctag:tagged rdf:nodeID="n302"/>
+        <ctag:tagged rdf:nodeID="n485"/>
+        <ctag:tagged rdf:nodeID="n311"/>
+        <ctag:tagged rdf:nodeID="n291"/>
+        <ctag:tagged>
+           <ctag:UserTag><ctag:label>7-data governance</ctag:label></ctag:UserTag>
+        </ctag:tagged>
+        <ctag:tagged rdf:nodeID="n419"/>
+        <ctag:tagged rdf:nodeID="n352"/>
+        <ctag:tagged rdf:nodeID="n321"/>
+        <ctag:tagged rdf:nodeID="n294"/>
+        <ctag:tagged rdf:nodeID="n306"/>
+        <ctag:tagged rdf:nodeID="n520"/>
+    </z:UserItem>
+    <bibo:AcademicArticle rdf:about="https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-16-S2-O1">
+        <dcterms:title>Good practice principles for sharing individual participant data from publicly funded clinical trials</dcterms:title>
+        <dcterms:language>en</dcterms:language>
+        <bibo:uri>https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-16-S2-O1</bibo:uri>
+        <z:extra>Code: Trials
+Number: S2</z:extra>
+        <bibo:pages>O1</bibo:pages>
+        <bibo:doi>10.1186/1745-6215-16-S2-O1</bibo:doi>
+        <dcterms:creator rdf:nodeID="n570"/>
+        <bibo:authorList>
+            <rdf:Seq>
+                <rdf:li rdf:nodeID="n570"/>
+                <rdf:li rdf:nodeID="n572"/>
+                <rdf:li rdf:nodeID="n573"/>
+                <rdf:li rdf:nodeID="n574"/>
+                <rdf:li rdf:nodeID="n575"/>
+                <rdf:li rdf:nodeID="n576"/>
+                <rdf:li rdf:nodeID="n577"/>
+            </rdf:Seq>
+        </bibo:authorList>
+        <dcterms:creator rdf:nodeID="n572"/>
+        <dcterms:creator rdf:nodeID="n573"/>
+        <dcterms:creator rdf:nodeID="n574"/>
+        <dcterms:creator rdf:nodeID="n575"/>
+        <dcterms:creator rdf:nodeID="n576"/>
+        <dcterms:creator rdf:nodeID="n577"/>
+        <dcterms:isPartOf>
+            <bibo:Issue>
+                <dcterms:date>12/2015</dcterms:date>
+                <bibo:volume>16</bibo:volume>
+                <bibo:issue>S2</bibo:issue>
+                <dcterms:isPartOf>
+                    <bibo:Journal>
+                        <dcterms:title>Trials</dcterms:title>
+                        <bibo:shortTitle>Trials</bibo:shortTitle>
+                        <bibo:issn>1745-6215</bibo:issn>
+                    </bibo:Journal>
+                </dcterms:isPartOf>
+            </bibo:Issue>
+        </dcterms:isPartOf>
+    </bibo:AcademicArticle>
+    <foaf:Person rdf:nodeID="n570">
+        <foaf:givenName>Catrin</foaf:givenName>
+        <foaf:surname>Tudur Smith</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n572">
+        <foaf:givenName>Carolyn</foaf:givenName>
+        <foaf:surname>Hopkins</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n573">
+       <foaf:givenName>Matt</foaf:givenName><foaf:surname>Sydes</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n574">
+       <foaf:givenName>Kerry</foaf:givenName><foaf:surname>Woolfall</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n575">
+       <foaf:givenName>Mike</foaf:givenName><foaf:surname>Clarke</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n576">
+       <foaf:givenName>Gordon</foaf:givenName><foaf:surname>Murray</foaf:surname>
+    </foaf:Person>
+    <foaf:Person rdf:nodeID="n577">
+        <foaf:givenName>Paula</foaf:givenName>
+        <foaf:surname>Williamson</foaf:surname>
+    </foaf:Person>
+</rdf:RDF>

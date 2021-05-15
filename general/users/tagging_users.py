@@ -20,59 +20,167 @@ if __name__ == '__main__':
 
     group = Group.objects.get(name='Tagging group')
 
-    id_1 = 4
-    username_1 = 'tagging_user_1'
-    password_1 = 'ECRIN_Watt13!!'
-    first_name_1 = ''
-    last_name_1 = ''
-    email_1 = ''
+    # USERS DATA
+    # ECRIN
+    id_ecrin = 8
+    username_ecrin = 'ECRIN_Tagger'
+    password_ecrin = 'ECRIN_T_1!'
+    first_name_ecrin = 'Steve'
+    last_name_ecrin = 'Canham'
+    email_ecrin = ''
 
-    user_1 = TaggingUser(
-        id=id_1,
-        username=username_1, 
-        first_name=first_name_1, 
-        last_name=last_name_1,
-        email=email_1
+    user_ecrin = TaggingUser(
+        id=id_ecrin,
+        username=username_ecrin,
+        first_name=first_name_ecrin,
+        last_name=last_name_ecrin,
+        email=email_ecrin
     )
+    user_ecrin.is_staff = True
+    user_ecrin.is_superuser = True
+    user_ecrin.is_active = True
+    user_ecrin.set_password(password_ecrin)
+    user_ecrin.save()
 
-    user_1.is_staff = True
-    user_1.is_active = True
-    user_1.is_superuser = True
+    selected_user_ecrin = TaggingUser.objects.get(id=id_ecrin)
+    group.user_set.add(selected_user_ecrin)
 
-    user_1.set_password(password_1)
-
-    user_1.save()
-
-    selected_user_1 = TaggingUser.objects.get(id=id_1)
-    
-    group.user_set.add(selected_user_1)
+    print('ECRIN tagger has been created!')
 
 
-    id_2 = 5
-    username_2 = 'tagging_user_2'
-    password_2 = 'ECRIN_Watt13!!'
-    first_name_2 = ''
-    last_name_2 = ''
-    email_2 = ''
+    # EATRIS
+    id_eatris = 9
+    username_eatris = 'EATRIS_Tagger'
+    password_eatris = 'EATRIS_T_1!!'
+    first_name_eatris = ''
+    last_name_eatris = ''
+    email_eatris = ''
 
-    user_2 = TaggingUser(
-        id=id_2,
-        username=username_2, 
-        first_name=first_name_2, 
-        last_name=last_name_2,
-        email=email_2
+    user_eatris = TaggingUser(
+        id=id_eatris,
+        username=username_eatris,
+        first_name=first_name_eatris,
+        last_name=last_name_eatris,
+        email=email_eatris
     )
+    user_eatris.is_staff = True
+    user_eatris.is_superuser = True
+    user_eatris.is_active = True
+    user_eatris.set_password(password_eatris)
+    user_eatris.save()
 
-    user_2.is_staff = True
-    user_2.is_active = True
-    user_2.is_superuser = True
+    selected_user_eatris = TaggingUser.objects.get(id=id_eatris)
+    group.user_set.add(selected_user_eatris)
 
-    user_2.set_password(password_2)
+    print('EATRIS tagger has been created!')
 
-    user_2.save()
 
-    selected_user_2 = TaggingUser.objects.get(id=id_2)
-    
-    group.user_set.add(selected_user_2)
+    # BBMRI
+    id_bbmri = 10
+    username_bbmri = 'BBMRI_Tagger'
+    password_bbmri = 'BBMRI_T_12!'
+    first_name_bbmri = ''
+    last_name_bbmri = ''
+    email_bbmri = ''
 
-    print('Tagging users has been created!')
+    user_bbmri = TaggingUser(
+        id=id_bbmri,
+        username=username_bbmri,
+        first_name=first_name_bbmri,
+        last_name=last_name_bbmri,
+        email=email_bbmri
+    )
+    user_bbmri.is_staff = True
+    user_bbmri.is_superuser = True
+    user_bbmri.is_active = True
+    user_bbmri.set_password(password_bbmri)
+    user_bbmri.save()
+
+    selected_user_bbmri = TaggingUser.objects.get(id=id_bbmri)
+    group.user_set.add(selected_user_bbmri)
+
+    print('BBMRI tagger has been created!')
+
+
+    # EMBRC
+    id_embrc = 11
+    username_embrc = 'EMBRC_Tagger'
+    password_embrc = 'EMBRC_T_!12'
+    first_name_embrc = ''
+    last_name_embrc = ''
+    email_embrc = ''
+
+    user_embrc = TaggingUser(
+        id=id_embrc,
+        username=username_embrc,
+        first_name=first_name_embrc,
+        last_name=last_name_embrc,
+        email=email_embrc
+    )
+    user_embrc.is_staff = True
+    user_embrc.is_superuser = True
+    user_embrc.is_active = True
+    user_embrc.set_password(password_embrc)
+    user_embrc.save()
+
+    selected_user_embrc = TaggingUser.objects.get(id=id_embrc)
+    group.user_set.add(selected_user_embrc)
+
+    print('EMBRC tagger has been created!')
+
+
+    # ERINHA
+    id_erinha = 12
+    username_erinha = 'ERINHA_Tagger'
+    password_erinha = 'ERINHA_T_121!@'
+    first_name_erinha = ''
+    last_name_erinha = ''
+    email_erinha = ''
+
+    user_erinha = TaggingUser(
+        id=id_erinha,
+        username=username_erinha,
+        first_name=first_name_erinha,
+        last_name=last_name_erinha,
+        email=email_erinha
+    )
+    user_erinha.is_staff = True
+    user_erinha.is_superuser = True
+    user_erinha.is_active = True
+    user_erinha.set_password(password_erinha)
+    user_erinha.save()
+
+    selected_user_erinha = TaggingUser.objects.get(id=id_erinha)
+    group.user_set.add(selected_user_erinha)
+
+    print('ERINHA tagger has been created!')
+
+
+    # BIO IMAGING
+    id_bio_imaging = 13
+    username_bio_imaging = 'EURO_BI_Tagger'
+    password_bio_imaging = 'EURO_BI_T_!@!1'
+    first_name_bio_imaging = ''
+    last_name_bio_imaging = ''
+    email_bio_imaging = ''
+
+    user_bio_imaging = TaggingUser(
+        id=id_bio_imaging,
+        username=username_bio_imaging,
+        first_name=first_name_bio_imaging,
+        last_name=last_name_bio_imaging,
+        email=email_bio_imaging
+    )
+    user_bio_imaging.is_staff = True
+    user_bio_imaging.is_superuser = True
+    user_bio_imaging.is_active = True
+    user_bio_imaging.set_password(password_bio_imaging)
+    user_bio_imaging.save()
+
+    selected_user_bio_imaging = TaggingUser.objects.get(id=id_bio_imaging)
+    group.user_set.add(selected_user_bio_imaging)
+
+    print('EURO BIO IMAGING tagger has been created!')
+
+
+    print('Taggers have been created!')
