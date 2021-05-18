@@ -112,7 +112,8 @@ class TaggingResourceAdmin(admin.ModelAdmin):
             'show_save_and_continue': False,
             'show_save_and_add_another': False
         })
-        context['adminform'].form.fields['specific_topics'].queryset = SpecificTopic.objects.all().order_by('id')
+        if request.user.groups.name == 'Project coordinator' or request.user.groups.name == 'Tagging group':
+            context['adminform'].form.fields['specific_topics'].queryset = SpecificTopic.objects.all().order_by('id')
         return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
 
 
