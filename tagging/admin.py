@@ -236,7 +236,8 @@ class TaggingResourceAdmin(admin.ModelAdmin):
     def has_change_permission(self, request, obj=None):
         if obj:
             perms = request.user.groups.permissions.filter(codename='assign_categories')
-            user_check = Resource.objects.filter(id=obj.id, tagging_persons__id=request.user.id)
+            tagging_resource = TaggingResource.objects.get(id=obj.id)
+            user_check = Resource.objects.filter(id=tagging_resource.resource.id, tagging_persons__id=request.user.id)
             status_check = ResourceStatus.objects.get(resource__id=obj.resource.id)
             if (perms.exists() and user_check.exists() and status_check.is_tagged == False and status_check.waiting_for_tagging == True) or (request.user.groups.name == 'Project coordinators'):
                 return True
