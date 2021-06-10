@@ -94,5 +94,13 @@
             "name": "Template Q & A",
             "description": "Template Q & A"
         }
+    },
+    {
+        "model": "resources.ResourceType",
+        "pk": 13,
+        "fields": {
+            "name": "Repository",
+            "description": "Repository"
+        }
     }
 ]
