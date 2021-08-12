@@ -1,6 +1,5 @@
 from django.db import models
-from django.conf import settings
-from smart_selects.db_fields import ChainedManyToManyField, ChainedForeignKey
+from smart_selects.db_fields import ChainedManyToManyField
 
 from categories.models import ResourceType, ResearchField, SpecificTopic, \
     GeographicalScope, CountryGrouping, DataType, DataTypeSub, StageInDS
@@ -31,7 +30,6 @@ class TaggingResource(models.Model):
         verbose_name="Data type subgroups"
     )
     stage_in_ds = models.ForeignKey(StageInDS, unique=False, verbose_name='Stage in data sharing life cycle', on_delete=models.SET_NULL, null=True)
-
 
     def __str__(self):
         return self.resource.title

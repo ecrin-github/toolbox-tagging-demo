@@ -9,7 +9,6 @@ class ResourceType(models.Model):
     name = models.CharField(max_length=100, null=False, blank=False)
     description = models.TextField(null=True, blank=True)
 
-
     def __str__(self):
         return self.name
 
@@ -17,15 +16,12 @@ class ResourceType(models.Model):
         verbose_name_plural = 'Resource types'
 
 
-
 class Language(models.Model):
     name = models.CharField(max_length=100, null=False, blank=False)
     code = models.CharField(max_length=10, null=False, blank=False)
 
-
     def __str__(self):
         return self.name
-
 
     class Meta:
         verbose_name_plural = 'Languages'
@@ -42,19 +38,16 @@ class Resource(models.Model):
     type_of_resource = models.ForeignKey(ResourceType, unique=False, on_delete=models.CASCADE, null=True, blank=True)
     url = models.URLField(max_length=1000, null=False, blank=False, verbose_name='URL')
     resource_file = models.FileField(upload_to='uploads/', max_length=450, null=True, blank=True)
-
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     tagging_persons = models.ManyToManyField(TaggingUser, unique=False, blank=True, related_name='tagging_persons')
     added_by = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL, unique=False, related_name='added_by')
-
 
     def __str__(self):
         return self.title
 
     class Meta:
         verbose_name_plural = "Resources"
-
 
 
 class ResourceStatus(models.Model):
