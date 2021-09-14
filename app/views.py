@@ -349,12 +349,28 @@ def search_api(request):
             query_lookup = '{0}__contains'.format(request_body_json['searchType']['propertyName'])
             query_value = request_body_json['searchValue']
 
-            query.add(Q(**{query_lookup: query_value}), Q.OR)
+            if request_body_json['searchType']['propertyName'] == 'resource__title':
 
-            query_value_split = query_value.split(" ")
+                if '"' in query_value:
 
-            for word in query_value_split:
-                query.add(Q(**{query_lookup: word}), Q.OR)
+                    query_value_formatted = query_value.replace('"', '')
+                    query.add(Q(**{query_lookup: query_value_formatted}), Q.AND)
+
+                else:
+                    query.add(Q(**{query_lookup: query_value}), Q.OR)
+
+                    query_value_split = query_value.split(" ")
+
+                    for word in query_value_split:
+                        query.add(Q(**{query_lookup: word}), Q.OR)
+
+            else:
+                query.add(Q(**{query_lookup: query_value}), Q.OR)
+
+                query_value_split = query_value.split(" ")
+
+                for word in query_value_split:
+                    query.add(Q(**{query_lookup: word}), Q.OR)
 
             filters = request_body_json['filters']
 
@@ -395,7 +411,8 @@ def search_api(request):
                 objects = paginator.get_page(page)
 
                 for resource in objects:
-                    data.append(resource_mapper(resource.resource_id))
+                    if not any(x['id'] == resource.resource_id for x in data):
+                        data.append(resource_mapper(resource.resource_id))
 
                 response = {
                     'total': get_resources.count(),
