@@ -23,6 +23,7 @@ from django.contrib.auth.models import Group
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^chaining/', include('smart_selects.urls')),
+    path('api/v1/', include('app.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 # Media files URL

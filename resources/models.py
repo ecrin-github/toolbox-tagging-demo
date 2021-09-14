@@ -5,7 +5,7 @@ from users_management.models import TaggingUser
 
 
 # Create your models here.
-class ResourceType(models.Model):
+class TypeOfResource(models.Model):
     name = models.CharField(max_length=100, null=False, blank=False)
     description = models.TextField(null=True, blank=True)
 
@@ -35,7 +35,7 @@ class Resource(models.Model):
     year_of_publication = models.IntegerField(null=False, blank=False, default=1950)
     doi = models.CharField(max_length=175, null=True, blank=True, verbose_name='DOI')
     language = models.ForeignKey(Language, unique=False, on_delete=models.CASCADE, null=True, blank=True)
-    type_of_resource = models.ForeignKey(ResourceType, unique=False, on_delete=models.CASCADE, null=True, blank=True)
+    type_of_resource = models.ForeignKey(TypeOfResource, unique=False, on_delete=models.CASCADE, null=True, blank=True)
     url = models.URLField(max_length=1000, null=False, blank=False, verbose_name='URL')
     resource_file = models.FileField(upload_to='uploads/', max_length=450, null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True)
