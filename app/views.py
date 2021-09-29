@@ -389,17 +389,22 @@ def search_api(request):
                 size = None
 
         filters_to_apply = {}
+        filters_query = Q()
+
         for key in filters:
             if isinstance(filters[key], list) and len(filters[key]) > 0:
-                filters_to_apply[key] = filters[key]
+                # filters_to_apply[key] = filters[key]
+                filters_query.add(Q(**{key: filters[key]}), Q.AND)
             else:
                 if not isinstance(filters[key], list):
                     if filters[key] > 0:
-                        filters_to_apply[key] = filters[key]
+                        filters_query.add(Q(**{key: filters[key]}), Q.AND)
+                        # filters_to_apply[key] = filters[key]
 
+        # .filter(**filters_to_apply)\
         get_resources = TaggingResource.objects\
             .filter(query)\
-            .filter(**filters_to_apply)\
+            .filter(filters_query)\
             .order_by('id')
 
         if get_resources.exists():
