@@ -3,13 +3,21 @@
       "model": "categories.ResearchField",
       "pk": 1,
       "fields": {
+         "name": "Any research field",
+         "description": "Any research field"
+      }
+  },
+  {
+      "model": "categories.ResearchField",
+      "pk": 2,
+      "fields": {
          "name": "Clinical research",
          "description": "Interventional or observational studies of living humans with the explicit intention of answering questions about health, ill-health and its care and treatment. Includes clinical trials, the use of observational studies including epidemiological and population level research, using disease registry and biobank data, using data extracted from routine health care records, and associated imaging, genetic, histological, and biochemical analyses. Includes later stages of translational research."
       }
   },
   {
       "model": "categories.ResearchField",
-      "pk": 2,
+      "pk": 3,
       "fields": {
          "name": "Biomedical research",
          "description": "Research in anatomy, developmental biology, endocrinology, immunology, neurology, nutrition, parasitology, pathology, pharmacology, physiology, and related disciplines, intended to improve understanding of normal and abnormal functioning in animals, and in particular in humans. May or may not use material taken from living humans. Not intended to directly impact medical or health practice though may suggest (or have been suggested by) related clinical research. May include work on model organisms such as mice. Includes early stages of translational research."
@@ -17,7 +25,7 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 3,
+      "pk": 4,
       "fields": {
          "name": "Cell biology, molecular biology, and biochemistry",
          "description": "The study of inter- and intra-cellular processes, structural biology, molecular biology, biochemical, genetic, genomic, and other -omic research that is not focused on biomedical research (see tag above). May include studies using model organisms."
@@ -25,7 +33,7 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 4,
+      "pk": 5,
       "fields": {
          "name": "Plant and mycological sciences",
          "description": "Studies of the classification, form, behaviour, evolution, physiology, genetics, biochemistry, molecular biology, etc., of specific multicellular plants and fungi, including close symbioses such as lichens but excluding marine species and interactions between species. Excludes studies on model organisms intended to explore processes more generally at the intra-cellular level."
@@ -33,18 +41,10 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 5,
+      "pk": 6,
       "fields": {
          "name": "Zoology",
          "description": "Studies of the classification, form, behaviour, evolution, physiology, genetics, biochemistry, molecular biology, etc., of specific multicellular animals, excluding marine species and interactions between species. Excludes studies on model organisms intended to explore processes more generally at the intra-cellular level."
-      }
-  },
-  {
-      "model": "categories.ResearchField",
-      "pk": 6,
-      "fields": {
-         "name": "Marine/water biology",
-         "description": "Studies of the ecosystems, interactions between species at individual and population level, interactions with environmental factors, and the impact of humans (including fishing), in or on the edges of the sea and freshwater."
       }
   },
   {
@@ -59,13 +59,29 @@
       "model": "categories.ResearchField",
       "pk": 8,
       "fields": {
-         "name": "Ecology and environmental sciencies",
-         "description": "Research into ecosystems, interactions between species at individual and population level, interactions of life with environmental factors, and the impact of humans including agriculture and climate change. Excludes sea or freshwater water-based ecosystems."
+         "name": "Marine/water biology",
+         "description": "Studies of the ecosystems, interactions between species at individual and population level, interactions with environmental factors, and the impact of humans (including fishing), in or on the edges of the sea and freshwater."
+      }
+  },
+  {
+      "model": "categories.ResearchField",
+      "pk": 8,
+      "fields": {
+         "name": "Ecology",
+         "description": "Research into ecosystems, interactions between species at individual and population level."
       }
   },
   {
       "model": "categories.ResearchField",
       "pk": 9,
+      "fields": {
+         "name": "Environmental sciences",
+         "description": "Interactions of life with environmental factors, and the impact of humans including agriculture and climate change. Excludes sea or freshwater water-based ecosystems."
+      }
+  },
+  {
+      "model": "categories.ResearchField",
+      "pk": 10,
       "fields": {
          "name": "Life science - other topics",
          "description": "Topics within the life sciences that do not fit within any of the categories above."
@@ -73,7 +89,7 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 10,
+      "pk": 11,
       "fields": {
          "name": "Social sciences, legal or ethical research",
          "description": "Research in anthropology, archaeology, bioethics, communication studies, economics, education, ethics and bioethics, geography, history, law, linguistics, political science, psychology, sociology, and related sub-disciplines."

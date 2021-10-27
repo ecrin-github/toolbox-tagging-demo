@@ -3,24 +3,16 @@
         "model": "categories.DataType",
         "pk": 1,
         "fields": {
-            "name": "Any type of data",
-            "description": "A resource that describes or discusses the sharing of data obtained from or about humans, in general. It may or may not include a detailed treatment of particular data types (if it does that should also be tagged). An example would be a resource about general data protection legislation. If possible, “any type of data about living humans” should be differentiated according to “sensitive data” and/or “personal data”."
+            "name": "Data about or from living humans",
+            "description": "Data about or from living humans"
         }
     },
     {
         "model": "categories.DataType",
         "pk": 2,
         "fields": {
-            "name": "Specific data type",
-            "description": "If the more generic tag does not apply, one or more of the following tags referring to specific data types should be used."
-        }
-    },
-    {
-        "model": "categories.DataType",
-        "pk": 3,
-        "fields": {
             "name": "Data not derived from living humans",
-            "description": "Just for structuring, has not to be documented."
+            "description": "Data not derived from living humans"
         }
     }
 ]

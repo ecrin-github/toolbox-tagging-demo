@@ -11,7 +11,7 @@
       "model": "categories.ResourceType",
       "pk": 2,
       "fields": {
-         "name": "Guidelines, recommend-dations and policies",
+         "name": "Guidelines, recommendations and policies",
          "description": "Includes any statements from organisations (e.g. from research funders, publishers, individual companies, institutions, academic collaborations, and research infrastructures) or from individual researchers / groups of researchers, that propose policies, behaviours, standards, or codes of conduct to be followed on any aspect of data sharing. The policies and principles may be expressed as guidance or in some contexts (e.g. within a particular institution) may be mandated as necessary practice. They may cover all or just specific aspects of data sharing activity. In the majority of cases, the resource’s title or sub-title should include one or other of the terms guideline, recommendations, policy or code of conduct."
       }
    },

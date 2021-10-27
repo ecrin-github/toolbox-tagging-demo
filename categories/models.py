@@ -2,6 +2,17 @@ from django.db import models
 
 
 # Create your models here.
+class SensitiveData(models.Model):
+    name = models.CharField(max_length=250, null=False, blank=False)
+    description = models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name_plural = "1. Sensitive data"
+
+
 class ResourceType(models.Model):
     name = models.CharField(max_length=250, null=False, blank=False)
     description = models.TextField(null=True, blank=True)
@@ -10,7 +21,7 @@ class ResourceType(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "1. Resource types"
+        verbose_name_plural = "2. Resource types"
 
 
 class ResearchField(models.Model):
@@ -21,7 +32,7 @@ class ResearchField(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "2. Research fields"
+        verbose_name_plural = "3. Research fields"
 
 
 class SpecificTopic(models.Model):
@@ -32,7 +43,7 @@ class SpecificTopic(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "6. Specific topics"
+        verbose_name_plural = "7. Specific topics"
 
 
 class GeographicalScope(models.Model):
@@ -43,7 +54,7 @@ class GeographicalScope(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "5. Geographical scope"
+        verbose_name_plural = "6. Geographical scope"
 
 
 class CountryGrouping(models.Model):
@@ -65,7 +76,7 @@ class DataType(models.Model):
         return self.name
     
     class Meta:
-        verbose_name_plural = "3. Data types"
+        verbose_name_plural = "4. Data types"
 
 
 class DataTypeSub(models.Model):
@@ -88,4 +99,4 @@ class StageInDS(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = "4. Stage in data sharing life cycle"
+        verbose_name_plural = "5. Stage in data sharing life cycle"

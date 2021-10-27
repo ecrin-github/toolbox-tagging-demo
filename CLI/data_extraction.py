@@ -88,6 +88,8 @@ if __name__ == '__main__':
                 resources.append({
                     "id": res.id - 1,
                     "title": res.title,
+                    "year_of_publication": res.year_of_publication,
+                    "authors": res.authors,
                     "added_by": res.added_by.username,
                     "resource_type": resource_types_string,
                     "research_field": research_field_string,
@@ -112,6 +114,8 @@ if __name__ == '__main__':
             fields = [
                 "id",
                 "title",
+                "year_of_publication",
+                "authors",
                 "added_by",
                 "resource_type",
                 "research_field",

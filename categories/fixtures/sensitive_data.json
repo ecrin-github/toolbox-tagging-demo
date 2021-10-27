@@ -1,0 +1,50 @@
+[
+   {
+      "model": "categories.SensitiveData",
+      "pk": 1,
+      "fields": {
+         "name": "Personal data",
+         "description": "Personal data include information related to racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership and data concerning the health or sex life of an individual. These data could be identifiable and potentially cause harm through their disclosure."
+      }
+   },
+   {
+      "model": "categories.SensitiveData",
+      "pk": 2,
+      "fields": {
+         "name": "Environmental data",
+         "description": "Environmental data cover environmental risks (nuclear or other sensitive installations, for example) or environmental preservation (habitats, protected fauna or flora, in particular)."
+      }
+   },
+   {
+      "model": "categories.SensitiveData",
+      "pk": 3,
+      "fields": {
+         "name": "Proprietary  data",
+         "description": "Proprietary data is generated data or documents that can contain technical or other types of information that is controlled by a firm or public institution to safeguard its competitive edge. It could potentially be protected by copyright, patent or trade secret laws. Under this term intellectual property and licences are also covered as well as embargo."
+      }
+   },
+   {
+      "model": "categories.SensitiveData",
+      "pk": 4,
+      "fields": {
+         "name": "DURC data",
+         "description": "Dual Use Research of Concern (DURC) is life sciences research that, based on current understanding, can be reasonably anticipated to provide knowledge, information, products, or technologies that could be directly misapplied to pose a significant threat with broad potential consequences to public health and safety, agricultural crops and other plants, animals, the environment, materiel, or national security (6). In case of environmental data, the term DURC should only be used, if there is an explicit reference to this type of life science research (e.g. in the title, abstract or keywords)."
+      }
+   },
+   {
+      "model": "categories.SensitiveData",
+      "pk": 5,
+      "fields": {
+         "name": "Classified information",
+         "description": "Classified Information is material that a government body deems to be sensitive information that must be protected. Access is restricted by law or regulation to particular groups of people with the necessary security clearance and need to know, and mishandling of the material can incur criminal penalties (7). The term classified information has been specified, for example, in EU (8) and US regulations (9)."
+      }
+   },
+   {
+      "model": "categories.SensitiveData",
+      "pk": 6,
+      "fields": {
+         "name": "Other sensitive data",
+         "description": "Under “other sensitive data” all resources that do not fall under one of the above categories are allocated."
+      }
+   }
+]

@@ -24,16 +24,17 @@ class TaggingResourceInline(admin.StackedInline):
     extra = 1
     max_num = 1
 
-
     def get_readonly_fields(self, request, obj=None):
         if obj:
             check_resource_status = ResourceStatus.objects.filter(resource=obj)
             if check_resource_status.exists():
                 resource_status = ResourceStatus.objects.get(resource=obj)
-                if (resource_status.is_tagged == True and obj.added_by == request.user) or request.user.groups.name == 'Project coordinators':
+                if (resource_status.is_tagged is True and obj.added_by == request.user) or \
+                        request.user.groups.name == 'Project coordinators':
                     return []
                 else:
                     return [
+                        "sensitive_data",
                         "resource_type",
                         "research_field",
                         "geographical_scope",
@@ -45,17 +46,19 @@ class TaggingResourceInline(admin.StackedInline):
                     ]
             else:
                 return [
-                "resource_type",
-                "research_field",
-                "geographical_scope",
-                "countries_grouping",
-                "specific_topics",
-                "data_type",
-                "data_type_subs",
-                "stage_in_ds",
-            ]
+                    "sensitive_data",
+                    "resource_type",
+                    "research_field",
+                    "geographical_scope",
+                    "countries_grouping",
+                    "specific_topics",
+                    "data_type",
+                    "data_type_subs",
+                    "stage_in_ds",
+                ]
         else:
             return [
+                "sensitive_data",
                 "resource_type",
                 "research_field",
                 "geographical_scope",
@@ -110,13 +113,11 @@ class ResourceAdmin(admin.ModelAdmin):
 
     actions = ["export_as_csv"]
 
-
     def add_view(self, request, form_url='', extra_context=None):
         extra_context = extra_context or {}
         extra_context['is_disabled'] = True
         extra_context['is_author'] = True
         return super().add_view(request, form_url=form_url, extra_context=extra_context)
-
 
     def change_view(self, request, object_id, form_url='', extra_context=None):
         extra_context = extra_context or {}
@@ -131,7 +132,6 @@ class ResourceAdmin(admin.ModelAdmin):
         else:
             extra_context['is_author'] = False
         return super().change_view(request, object_id, form_url=form_url, extra_context=extra_context)
-
 
     def render_change_form(self, request, context, add=False, change=False, form_url='', obj=None):
         context.update({
@@ -151,9 +151,7 @@ class ResourceAdmin(admin.ModelAdmin):
         context['adminform'].form.fields['language'].queryset = Language.objects.all().order_by('name')
         return super().render_change_form(request, context, add=add, change=change, form_url=form_url, obj=obj)
 
-
     def response_change(self, request, obj):
-        
         if "_save" in request.POST:
             if obj.added_by is None or obj.added_by == '':
                 obj.added_by = request.user
@@ -165,9 +163,9 @@ class ResourceAdmin(admin.ModelAdmin):
 
             check_resource_status = ResourceStatus.objects.filter(resource=resource)
             if not check_resource_status.exists():
-                ResourceStatus(resource=resource, 
-                waiting_for_tagging=True, 
-                status_description='Waiting for tagging').save()   
+                ResourceStatus(resource=resource,
+                               waiting_for_tagging=True,
+                               status_description='Waiting for tagging').save()
 
         if "_approve" in request.POST:
             resource = Resource.objects.get(id=obj.pk)
@@ -179,8 +177,8 @@ class ResourceAdmin(admin.ModelAdmin):
             check_resource_status = ResourceStatus.objects.filter(resource=resource)
             if not check_resource_status.exists():
                 ResourceStatus(resource=resource, 
-                waiting_for_tagging=True, 
-                status_description='Waiting for tagging').save()
+                               waiting_for_tagging=True,
+                               status_description='Waiting for tagging').save()
             else:
                 resource_status = ResourceStatus.objects.get(resource=resource)   
                 resource_status.waiting_for_tagging = False
@@ -191,7 +189,6 @@ class ResourceAdmin(admin.ModelAdmin):
                 resource_status.save()
         return super().response_change(request, obj)
 
-
     def current_status(self, obj):
         check_resource_status = ResourceStatus.objects.filter(resource=obj)
         if check_resource_status.exists():
@@ -199,7 +196,6 @@ class ResourceAdmin(admin.ModelAdmin):
             return resource_status.status_description
         else:
             return 'Creating the resource'
-
 
     @csrf_protected_method
     def has_module_permission(self, request):
@@ -210,7 +206,6 @@ class ResourceAdmin(admin.ModelAdmin):
             return False
         except:
             pass
-    
 
     @csrf_protected_method
     def has_add_permission(self, request):
@@ -219,14 +214,12 @@ class ResourceAdmin(admin.ModelAdmin):
             return True
         return False
 
-
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='view_resources')
         if perms.exists():
             return True
         return False
-
 
     @csrf_protected_method
     def has_change_permission(self, request, obj=None):
@@ -242,7 +235,6 @@ class ResourceAdmin(admin.ModelAdmin):
                 return False
         return False
 
-
     @csrf_protected_method
     def has_delete_permission(self, request, obj=None):
         if obj is not None:
@@ -257,7 +249,6 @@ class ResourceAdmin(admin.ModelAdmin):
                 return False
         return False
 
-    
     def save_model(self, request, obj, form, change):
         if obj.added_by is None or obj.added_by == '':
             obj.added_by = request.user
@@ -269,6 +260,5 @@ class ResourceAdmin(admin.ModelAdmin):
         check_resource_status = ResourceStatus.objects.filter(resource=resource)
         if not check_resource_status.exists():
             ResourceStatus(resource=resource, 
-            waiting_for_tagging=True, 
-            status_description='Waiting for tagging').save()   
-    
+                           waiting_for_tagging=True,
+                           status_description='Waiting for tagging').save()

@@ -3,13 +3,21 @@
     "model": "categories.SpecificTopic",
     "pk": 1,
     "fields": {
+       "name": "No specific topic",
+       "description": "No specific topic"
+    }
+  },
+  {
+    "model": "categories.SpecificTopic",
+    "pk": 2,
+    "fields": {
        "name": "Agreements",
        "description": "Includes as matching search terms Data Use (or Access) Agreements, Data (or Material) Transfer Agreement, Data Storage Agreements and their abbreviations."
     }
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 2,
+    "pk": 3,
     "fields": {
        "name": "Attribution and credit",
        "description": "Includes as matching search terms Attribution, Citations, Data authorship, Incentives, Credit, (all for data sharing)."
@@ -17,7 +25,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 3,
+    "pk": 4,
     "fields": {
        "name": "COVID-19",
        "description": "Includes as matching terms COVID, SARS-2, Coronavirus."
@@ -25,7 +33,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 4,
+    "pk": 5,
     "fields": {
        "name": "Data Repositories",
        "description": "Includes as matching terms Repository, Repositories, Long-term Data Storage."
@@ -33,7 +41,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 5,
+    "pk": 6,
     "fields": {
        "name": "Data sharing committees",
        "description": "Includes as matching terms Data Access Committee."
@@ -41,23 +49,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 6,
-    "fields": {
-       "name": "Dual Use Research of Concern (DURC)",
-       "description": "Dual Use Research of Concern (DURC) is life sciences research that, based on current understanding, can be reasonably anticipated to provide knowledge, information, products, or technologies that could be directly misapplied to pose a significant threat with broad potential consequences to public health and safety, agricultural crops and other plants, animals, the environment, materiel, or national security."
-    }
-  },
-  {
-    "model": "categories.SpecificTopic",
     "pk": 7,
-    "fields": {
-       "name": "ELSI (Ethical, legal and social aspects)",
-       "description": "Overlaps with a resource type category but included here to allow any resource type with an ELSI aspect to be tagged. Matching search terms include Ethical aspects, Legal aspects, Social Impact, Societal aspects."
-    }
-  },
-  {
-    "model": "categories.SpecificTopic",
-    "pk": 8,
     "fields": {
        "name": "FAIR and FAIRification",
        "description": "FAIR and FAIRification"
@@ -65,7 +57,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 9,
+    "pk": 8,
     "fields": {
        "name": "GDPR",
        "description": "GDPR"
@@ -73,7 +65,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 10,
+    "pk": 9,
     "fields": {
        "name": "IP-aspects/licences",
        "description": "Include as matching terms IP, Licences, Creative Commons."
@@ -81,7 +73,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 11,
+    "pk": 10,
     "fields": {
        "name": "Legal basis for data sharing",
        "description": "Legal basis for data sharing"
@@ -89,15 +81,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 12,
-    "fields": {
-       "name": "Interventional studies (including clinical trials)",
-       "description": "Includes as matching terms Clinical Trials, Interventional. This is important because the category “research design” was deleted."
-    }
-  },
-  {
-    "model": "categories.SpecificTopic",
-    "pk": 13,
+    "pk": 11,
     "fields": {
        "name": "Metadata supporting data sharing",
        "description": "Includes as matching terms Metadata, Metadata standards, Descriptive metadata."
@@ -105,15 +89,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 14,
-    "fields": {
-       "name": "Access and Benefit-Sharing and the Nagoya protocol",
-       "description": "Access and Benefit-Sharing and the Nagoya protocol"
-    }
-  },
-  {
-    "model": "categories.SpecificTopic",
-    "pk": 15,
+    "pk": 12,
     "fields": {
        "name": "Privacy protection",
        "description": "Includes as matching terms Anonymisation, Pseudonymisation, De-identification."
@@ -121,7 +97,7 @@
   },
   {
     "model": "categories.SpecificTopic",
-    "pk": 16,
+    "pk": 13,
     "fields": {
        "name": "Research participants involvement",
        "description": "Includes as matching terms Participants, Patient Group, Community involvement."

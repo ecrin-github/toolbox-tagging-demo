@@ -1,7 +1,7 @@
 from django.db import models
 from smart_selects.db_fields import ChainedManyToManyField
 
-from categories.models import ResourceType, ResearchField, SpecificTopic, \
+from categories.models import SensitiveData, ResourceType, ResearchField, SpecificTopic, \
     GeographicalScope, CountryGrouping, DataType, DataTypeSub, StageInDS
 from users_management.models import User
 from resources.models import Resource
@@ -10,6 +10,7 @@ from resources.models import Resource
 # Create your models here.
 class TaggingResource(models.Model):
     resource = models.OneToOneField(Resource, unique=False, null=True, on_delete=models.CASCADE)
+    sensitive_data = models.ManyToManyField(SensitiveData, unique=False)
     resource_type = models.ManyToManyField(ResourceType, unique=False)
     research_field = models.ManyToManyField(ResearchField, unique=False)
     geographical_scope = models.ForeignKey(GeographicalScope, on_delete=models.SET_NULL, null=True)

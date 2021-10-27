@@ -17,6 +17,15 @@ def tags_mapper(res_id: int):
         if tags.exists():
             tags = TaggingResource.objects.get(resource__id=res_id)
 
+            sensitive_data = []
+            if tags.sensitive_data is not None:
+                for sd in tags.sensitive_data.all():
+                    sd_record = {
+                        'name': sd.name,
+                        'description': sd.description
+                    }
+                    sensitive_data.append(sd_record)
+
             resource_types = []
             if tags.resource_type is not None:
                 for rt in tags.resource_type.all():
@@ -59,6 +68,7 @@ def tags_mapper(res_id: int):
                     countries_grouping.append(country.name)
 
             return {
+                'sensitive_data': sensitive_data,
                 'resource_type': resource_types,
                 'research_field': research_fields,
                 'specific_topics': specific_topics,
@@ -115,6 +125,7 @@ def resource_mapper(resource_id: int):
 
 # Create your views here.
 def get_categories(request):
+    all_sensitive_data = SensitiveData.objects.all()
     all_resource_types = ResourceType.objects.all()
     all_research_fields = ResearchField.objects.all()
     all_specific_topics = SpecificTopic.objects.all()
@@ -122,6 +133,17 @@ def get_categories(request):
     all_data_types = DataType.objects.all()
     all_stages_in_ds = StageInDS.objects.all()
     all_types_of_resource = TypeOfResource.objects.all()
+
+    sensitive_data_filters = []
+    for sdf in all_sensitive_data:
+        sdf_record = {
+            'id': sdf.id,
+            'modelPropertyName': 'id',
+            'resourcePropertyName': 'sensitive_data',
+            'name': sdf.name,
+            'isSelected': False
+        }
+        sensitive_data_filters.append(sdf_record)
 
     resource_types_filters = []
     for rtf in all_resource_types:
@@ -245,13 +267,22 @@ def get_categories(request):
             'id': 2,
             'isSelected': False,
             'appName': 'tagging',
+            'modelName': 'SensitiveData',
+            'name': 'Sensitive data type',
+            'hasChildren': False,
+            'filters': sensitive_data_filters
+        },
+        {
+            'id': 3,
+            'isSelected': False,
+            'appName': 'tagging',
             'modelName': 'ResourceType',
             'name': 'Resource types',
             'hasChildren': False,
             'filters': resource_types_filters
         },
         {
-            'id': 3,
+            'id': 4,
             'isSelected': False,
             'appName': 'tagging',
             'modelName': 'ResearchField',
@@ -260,7 +291,7 @@ def get_categories(request):
             'filters': research_fields_filters
         },
         {
-            'id': 4,
+            'id': 5,
             'isSelected': False,
             'appName': 'tagging',
             'modelName': 'SpecificTopic',
@@ -269,7 +300,7 @@ def get_categories(request):
             'filters': specific_topics_filters
         },
         {
-            'id': 5,
+            'id': 6,
             'isSelected': False,
             'appName': 'tagging',
             'modelName': 'GeographicalScope',
@@ -278,7 +309,7 @@ def get_categories(request):
             'filters': geo_scope_filters
         },
         {
-            'id': 6,
+            'id': 7,
             'isSelected': False,
             'appName': 'tagging',
             'modelName': 'DataType',
@@ -287,7 +318,7 @@ def get_categories(request):
             'filters': data_types_filters
         },
         {
-            'id': 7,
+            'id': 8,
             'isSelected': False,
             'appName': 'tagging',
             'modelName': 'StageInDs',

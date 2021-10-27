@@ -19,13 +19,21 @@
         "model": "categories.StageInDS",
         "pk": 3,
         "fields": {
+            "name": "Primary data registration",
+            "description": "Primary data registration"
+        }
+    },
+    {
+        "model": "categories.StageInDS",
+        "pk": 4,
+        "fields": {
             "name": "Preparation and planning for data sharing",
             "description": "For resources that consider part or all of the preparations required to share data, either in general or at the beginning of a specific research project. This can include training of staff, specifying relevant SOPs, specifying the data sharing plans in a DMP, including the likely data and documents to be shared and when, creating public statements about data sharing (e.g. in a trial registry), designing appropriate consent forms, using standards for data structures, and estimating resources required and costs."
         }
     },
     {
         "model": "categories.StageInDS",
-        "pk": 4,
+        "pk": 5,
         "fields": {
             "name": "Actions at the end of a study",
             "description": "For resources that consider part or all of the preparations required to put data sharing into action at the end of a study, including preparation of data by de-identification, preparing appropriate metadata, obtaining advice on the legal basis for data sharing, transfer of data objects to a repository and the use of data transfer agreements, specifying access conditions etc."
@@ -33,18 +41,10 @@
     },
     {
         "model": "categories.StageInDS",
-        "pk": 5,
+        "pk": 6,
         "fields": {
             "name": "Managing data access and requests for data re-use",
             "description": "Resources that consider all or part of the processes involved in managing data access once data is ready for sharing, including promoting discovery of materials, and negotiating and using Data Use Agreements (Data Access Agreements), using Data Access Committees, etc. This tag also covers organisation of data sharing."
-        }
-    },
-    {
-        "model": "categories.StageInDS",
-        "pk": 6,
-        "fields": {
-            "name": "Usage, scientific output and impact of DS",
-            "description": "For resources considering the usage, scientific output and benefit of sharing data, such as monitoring of data sharing activities of repositories, tracking outcomes and scientific impact from secondary use, monitoring attitudinal changes, etc."
         }
     }
 ]

@@ -32,14 +32,12 @@ class ProjectCoordinatorAdmin(admin.ModelAdmin):
             return True
         return False
 
-
     @csrf_protected_method
     def has_change_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='edit_users')
         if perms.exists():
             return True
         return False
-
 
     @csrf_protected_method
     def has_delete_permission(self, request, obj=None):
@@ -48,14 +46,12 @@ class ProjectCoordinatorAdmin(admin.ModelAdmin):
             return True
         return False
 
-
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='view_users')
         if perms.exists():
             return True
         return False
-
 
     @csrf_protected_method
     def has_module_permission(self, request):
@@ -66,7 +62,6 @@ class ProjectCoordinatorAdmin(admin.ModelAdmin):
             return False
         except:
             pass
-    
 
     def save_model(self, request, obj, form, change):
         group = Group.objects.get(name='Project coordinators')
@@ -87,7 +82,6 @@ class ProjectCoordinatorAdmin(admin.ModelAdmin):
         
         if not users_in_group.filter(id=user.groups_id).exists():
             group.user_set.add(user)
-
 
 
 # Content managers admin model
@@ -112,14 +106,12 @@ class ContentManagerAdmin(admin.ModelAdmin):
             return True
         return False
 
-
     @csrf_protected_method
     def has_change_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='edit_users')
         if perms.exists():
             return True
         return False
-
 
     @csrf_protected_method
     def has_delete_permission(self, request, obj=None):
@@ -128,14 +120,12 @@ class ContentManagerAdmin(admin.ModelAdmin):
             return True
         return False
 
-
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='view_users')
         if perms.exists():
             return True
         return False
-
 
     @csrf_protected_method
     def has_module_permission(self, request):
@@ -146,7 +136,6 @@ class ContentManagerAdmin(admin.ModelAdmin):
             return False
         except:
             pass
-    
 
     def save_model(self, request, obj, form, change):
         group = Group.objects.get(name='Content managers')
@@ -167,7 +156,6 @@ class ContentManagerAdmin(admin.ModelAdmin):
         
         if not users_in_group.filter(id=user.groups_id).exists():
             group.user_set.add(user)
-
 
 
 # Tagging users admin model
@@ -192,14 +180,12 @@ class TaggingUserAdmin(admin.ModelAdmin):
             return True
         return False
 
-
     @csrf_protected_method
     def has_change_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='edit_users')
         if perms.exists():
             return True
         return False
-
 
     @csrf_protected_method
     def has_delete_permission(self, request, obj=None):
@@ -208,14 +194,12 @@ class TaggingUserAdmin(admin.ModelAdmin):
             return True
         return False
 
-
     @csrf_protected_method
     def has_view_permission(self, request, obj=None):
         perms = request.user.groups.permissions.filter(codename='view_users')
         if perms.exists():
             return True
         return False
-
 
     @csrf_protected_method
     def has_module_permission(self, request):
@@ -226,7 +210,6 @@ class TaggingUserAdmin(admin.ModelAdmin):
             return False
         except:
             pass
-    
 
     def save_model(self, request, obj, form, change):
         group = Group.objects.get(name='Tagging group')

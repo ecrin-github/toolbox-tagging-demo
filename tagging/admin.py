@@ -42,6 +42,7 @@ class TaggingResourceAdmin(admin.ModelAdmin):
         }),
         ('Tagging data', {
             "fields": (
+                'sensitive_data',
                 'resource_type',
                 'research_field',
                 'data_type',
