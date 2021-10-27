@@ -65,7 +65,7 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 8,
+      "pk": 9,
       "fields": {
          "name": "Ecology",
          "description": "Research into ecosystems, interactions between species at individual and population level."
@@ -73,7 +73,7 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 9,
+      "pk": 10,
       "fields": {
          "name": "Environmental sciences",
          "description": "Interactions of life with environmental factors, and the impact of humans including agriculture and climate change. Excludes sea or freshwater water-based ecosystems."
@@ -81,7 +81,7 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 10,
+      "pk": 11,
       "fields": {
          "name": "Life science - other topics",
          "description": "Topics within the life sciences that do not fit within any of the categories above."
@@ -89,7 +89,7 @@
   },
   {
       "model": "categories.ResearchField",
-      "pk": 11,
+      "pk": 12,
       "fields": {
          "name": "Social sciences, legal or ethical research",
          "description": "Research in anthropology, archaeology, bioethics, communication studies, economics, education, ethics and bioethics, geography, history, law, linguistics, political science, psychology, sociology, and related sub-disciplines."
