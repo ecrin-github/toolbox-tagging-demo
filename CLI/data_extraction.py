@@ -28,6 +28,14 @@ if __name__ == '__main__':
             if assigned_tags_check.exists():
                 assigned_tags = TaggingResource.objects.filter(resource=res).first()
 
+                sensitive_data_string = ''
+                sensitive_data = assigned_tags.sensitive_data.all()
+                if sensitive_data is not None:
+                    for sen_data in sensitive_data:
+                        sensitive_data_string += sen_data.name + '; '
+                else:
+                    resource_types_string = 'NaN'
+
                 resource_types_string = ''
                 resource_types = assigned_tags.resource_type.all()
                 if resource_types is not None:
@@ -91,6 +99,7 @@ if __name__ == '__main__':
                     "year_of_publication": res.year_of_publication,
                     "authors": res.authors,
                     "added_by": res.added_by.username,
+                    "sensitive_data": sensitive_data_string,
                     "resource_type": resource_types_string,
                     "research_field": research_field_string,
                     "geographical_scope": geographical_scope_string,
@@ -117,6 +126,7 @@ if __name__ == '__main__':
                 "year_of_publication",
                 "authors",
                 "added_by",
+                "sensitive_data",
                 "resource_type",
                 "research_field",
                 "geographical_scope",
