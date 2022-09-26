@@ -442,8 +442,14 @@ def search_api(request):
 
             data = []
 
+            clean_dataset = []
+
+            for resource in get_resources:
+                if resource not in clean_dataset:
+                    clean_dataset.append(resource)
+
             if page is not None and size is not None:
-                paginator = Paginator(get_resources, size)
+                paginator = Paginator(clean_dataset, size)
                 objects = paginator.get_page(page)
 
                 for resource in objects:
@@ -451,16 +457,16 @@ def search_api(request):
                         data.append(resource_mapper(resource.resource_id))
 
                 response = {
-                    'total': get_resources.count(),
+                    'total': len(clean_dataset),
                     'data': data
                 }
 
             else:
-                for resource in get_resources:
+                for resource in clean_dataset:
                     data.append(resource_mapper(resource.resource_id))
 
                 response = {
-                    'total': get_resources.count(),
+                    'total': len(clean_dataset),
                     'data': data
                 }
         else:
